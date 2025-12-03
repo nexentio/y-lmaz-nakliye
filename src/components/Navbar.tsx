@@ -1,0 +1,147 @@
+"use client";
+
+import React, { useState } from 'react';
+
+import Link from 'next/link';
+
+import { ArrowRight, Menu, X } from 'lucide-react';
+
+const NavLink = ({ text, href, variant = 'dark' }: { text: string; href: string; variant?: 'dark' | 'light' }) => {
+
+  const textColor = variant === 'light' 
+    ? 'text-[#1C1817]/80 hover:text-[#1C1817]' 
+    : 'text-white/80 hover:text-white';
+
+  return (
+    <Link 
+      href={href}
+      className={`text-[13px] font-medium tracking-wide ${textColor} transition-colors uppercase`}
+    >
+      {text}
+    </Link>
+  );
+};
+
+interface NavbarProps {
+  variant?: 'dark' | 'light';
+}
+
+export default function Navbar({ variant = 'dark' }: NavbarProps) {
+
+  const [isOpen, setIsOpen] = useState(false);
+
+  const isLight = variant === 'light';
+  
+  const logoColor = isLight ? 'text-[#1C1817]' : 'text-white';
+  const menuBg = isLight ? 'bg-white/50 backdrop-blur-sm border border-[#1C1817]/10' : 'bg-black/10 backdrop-blur-sm border border-white/5';
+  const menuToggleColor = isLight ? 'text-[#1C1817]' : 'text-white';
+  const mobileMenuBg = isLight ? 'bg-white/95 backdrop-blur-xl border-b border-[#1C1817]/10' : 'bg-[#1C1817]/95 backdrop-blur-xl border-b border-white/10';
+
+  return (
+
+    <nav className="w-full px-6 py-6 flex items-center justify-between">
+
+      {/* Logo */}
+
+      <Link href="/" className="flex items-center gap-1 group cursor-pointer">
+
+        <span className={`text-2xl font-semibold tracking-tight ${logoColor}`}>LogiNord</span>
+
+        <div className="mb-3 ml-0.5">
+
+           <svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="4" strokeLinecap="round" strokeLinejoin="round" className={logoColor}>
+
+             <path d="M7 17L17 7" />
+
+             <path d="M7 7h10v10" />
+
+           </svg>
+
+        </div>
+
+      </Link>
+
+      {/* Desktop Links */}
+
+      <div className={`hidden lg:flex items-center gap-8 ${menuBg} px-8 py-3 rounded-full`}>
+
+        <NavLink text="Home" href="/" variant={variant} />
+
+        <NavLink text="About Us" href="/about" variant={variant} />
+
+        <NavLink text="Services" href="/services" variant={variant} />
+
+        <NavLink text="Fleet" href="#fleet" variant={variant} />
+
+        <NavLink text="Industries" href="#industries" variant={variant} />
+
+        <NavLink text="Contact Us" href="#contact" variant={variant} />
+
+      </div>
+
+      {/* CTA Button */}
+
+      <div className="hidden lg:block">
+
+        <button className="flex items-center gap-3 bg-[#F94006] hover:bg-[#d63604] text-white px-6 py-3 rounded-full transition-all duration-300 shadow-lg shadow-orange-900/20 group">
+
+          <span className="text-sm font-medium">Get a Quote</span>
+
+          <div className="bg-white/20 rounded-full p-1 transition-transform group-hover:translate-x-1">
+
+            <ArrowRight size={14} className="text-white" />
+
+          </div>
+
+        </button>
+
+      </div>
+
+      {/* Mobile Menu Toggle */}
+
+      <div className="lg:hidden">
+
+        <button onClick={() => setIsOpen(!isOpen)} className={`${menuToggleColor} p-2`}>
+
+          {isOpen ? <X /> : <Menu />}
+
+        </button>
+
+      </div>
+
+      {/* Mobile Menu */}
+
+      {isOpen && (
+
+        <div className={`absolute top-20 left-0 w-full ${mobileMenuBg} p-6 flex flex-col gap-6 lg:hidden z-50`}>
+
+           <NavLink text="Home" href="/" variant={variant} />
+
+           <NavLink text="About Us" href="/about" variant={variant} />
+
+           <NavLink text="Services" href="/services" variant={variant} />
+
+           <NavLink text="Fleet" href="#fleet" variant={variant} />
+
+           <NavLink text="Industries" href="#industries" variant={variant} />
+
+           <NavLink text="Contact Us" href="#contact" variant={variant} />
+
+           <button className="flex items-center justify-center gap-3 bg-[#F94006] text-white px-6 py-3 rounded-full w-full">
+
+            <span className="text-sm font-medium">Get a Quote</span>
+
+            <ArrowRight size={16} />
+
+          </button>
+
+        </div>
+
+      )}
+
+    </nav>
+
+  );
+
+}
+
