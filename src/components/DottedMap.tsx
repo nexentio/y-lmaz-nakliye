@@ -8,10 +8,8 @@ export const DottedMap: React.FC = () => {
 
       <img
 
-        src="https://framerusercontent.com/images/XfMPwYShQVcUs6Oyv76Tmkgw.svg"
-
+        src="/66460305762.png"
         alt="World Map"
-
         className="w-full h-full object-contain opacity-90 select-none pointer-events-none"
 
         draggable={false}

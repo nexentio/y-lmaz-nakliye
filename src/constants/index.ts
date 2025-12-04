@@ -1,4 +1,4 @@
-import { Testimonial, NavLink, HistoryEvent, LocationData, TeamMember, StandardItem, ServiceData, FeatureItem, ProcessStep } from '../types';
+import { Testimonial, NavLink, HistoryEvent, LocationData, TeamMember, StandardItem, ServiceData, FeatureItem, ProcessStep, FAQItem } from '../types';
 
 export interface LogoData {
 
@@ -332,67 +332,15 @@ export const LOCATIONS: LocationData[] = [
 
     coordinates: {
 
-      top: 26,
+      top: 72.5,
 
-      left: 49.5,
+      left: 58.5,
 
     },
 
     image: 'https://images.unsplash.com/photo-1473876637954-4b493d59fd09?q=80&w=2000&auto=format&fit=crop', 
 
     active: true,
-
-  },
-
-  {
-
-    id: 'istanbul-hub',
-
-    city: 'Istanbul',
-
-    country: 'Turkey',
-
-    title: 'Eurasia Headquarters & Port',
-
-    description: 'Located at the crossroads of continents, our Istanbul HQ oversees international freight, sea cargo, and B2B partnerships across Europe, Asia, and the Middle East.',
-
-    coordinates: {
-
-      top: 32,
-
-      left: 55, 
-
-    },
-
-    image: 'https://images.unsplash.com/photo-1527838832700-5059252407fa?q=80&w=1996&auto=format&fit=crop',
-
-    active: false,
-
-  },
-
-  {
-
-    id: 'new-york-hub',
-
-    city: 'New Jersey',
-
-    country: 'USA',
-
-    title: 'North American Distribution Center',
-
-    description: 'Serving as our primary gateway to the Americas, this facility manages transatlantic cargo flows and nationwide logistics coordination.',
-
-    coordinates: {
-
-      top: 31,
-
-      left: 28,
-
-    },
-
-    image: 'https://images.unsplash.com/photo-1580674285054-bed31e140f19?q=80&w=2070&auto=format&fit=crop',
-
-    active: false,
 
   }
 
@@ -753,5 +701,79 @@ export const PROCESS_STEPS: ProcessStep[] = [
     description: 'We meet monthly to improve.',
 
   },
+
+];
+
+export const FAQ_DATA: FAQItem[] = [
+
+  {
+
+    id: 1,
+
+    question: "Do you handle temperature-controlled shipments internationally?",
+
+    answer: "Yes, we specialize in end-to-end cold chain logistics. Our fleet is equipped with advanced temperature monitoring systems to ensure your sensitive cargo remains within the required temperature range throughout the entire journey, whether by air, sea, or road."
+
+  },
+
+  {
+
+    id: 2,
+
+    question: "What's the average quote response time?",
+
+    answer: "We understand that speed is critical in logistics. Our team is committed to providing detailed quotes within 2 hours for standard requests and within 24 hours for complex, multi-modal project logistics."
+
+  },
+
+  {
+
+    id: 3,
+
+    question: "Can I request dedicated capacity for seasonal peaks?",
+
+    answer: "Absolutely. We offer flexible contracts that allow you to secure dedicated capacity during your high-volume periods. We recommend discussing your seasonal forecasting with us at least 3 months in advance to guarantee availability."
+
+  },
+
+  {
+
+    id: 4,
+
+    question: "Can I request a quote for a single shipment?",
+
+    answer: "Yes, we handle both recurring contracts and one-off spot shipments. You can easily request a quote through our portal or by contacting our support team directly, regardless of shipment volume."
+
+  },
+
+  {
+
+    id: 5,
+
+    question: "Can you manage logistics during seasonal peaks?",
+
+    answer: "Yes, our scalable infrastructure is designed to absorb demand surges. We utilize predictive analytics to allocate resources efficiently during peak seasons, ensuring your supply chain remains uninterrupted."
+
+  },
+
+  {
+
+    id: 6,
+
+    question: "Are your services available for small and mid-sized businesses?",
+
+    answer: "We serve businesses of all sizes. Our solutions are scalable, meaning we provide the same level of tracking, reliability, and support to SMEs as we do to enterprise clients, often with tailored pricing models."
+
+  },
+
+  {
+
+    id: 7,
+
+    question: "What certifications does Loginord hold?",
+
+    answer: "We maintain the highest industry standards. Loginord is ISO 9001 certified for quality management, GDP certified for pharmaceutical transport, and we are an Authorized Economic Operator (AEO)."
+
+  }
 
 ];

@@ -157,3 +157,13 @@ export interface ProcessStep {
   description: string;
 
 }
+
+export interface FAQItem {
+
+  id: number;
+
+  question: string;
+
+  answer: string;
+
+}

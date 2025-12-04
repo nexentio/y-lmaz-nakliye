@@ -16,7 +16,7 @@ export const InfoCard: React.FC<InfoCardProps> = ({ location }) => {
 
     <div 
 
-      className="absolute z-20 w-[340px] md:w-[420px] bg-white rounded-xl shadow-[0_0_25px_-5px_rgba(0,0,0,0.15)] p-4 animate-in fade-in slide-in-from-bottom-2 duration-500"
+      className="absolute z-20 w-[280px] md:w-[320px] bg-white rounded-xl shadow-[0_0_25px_-5px_rgba(0,0,0,0.15)] p-3 animate-in fade-in slide-in-from-bottom-2 duration-500"
 
       style={{
 
@@ -34,11 +34,11 @@ export const InfoCard: React.FC<InfoCardProps> = ({ location }) => {
 
       {/* <div className="absolute -top-2 left-[15%] w-4 h-4 bg-white transform rotate-45" /> */}
 
-      <div className="flex flex-col gap-4">
+      <div className="flex flex-col gap-3">
 
         {/* Image */}
 
-        <div className="w-full h-40 rounded-lg overflow-hidden relative bg-stone-100">
+        <div className="w-full h-32 rounded-lg overflow-hidden relative bg-stone-100">
 
            {location.image ? (
 

@@ -24,7 +24,7 @@ export default function LocationsSection() {
 
   return (
 
-    <div className="relative w-full min-h-screen bg-customGray overflow-hidden font-sans flex flex-col items-center justify-center">
+    <div className="relative w-full h-[120vh] bg-customGray overflow-hidden font-sans flex flex-col items-center justify-center">
 
       
 
@@ -54,7 +54,7 @@ export default function LocationsSection() {
 
         {/* Header Section */}
 
-        <div className="flex flex-col items-center text-center mb-16 space-y-4">
+        <div className="flex flex-col items-center text-center space-y-4">
 
           <span className="text-[10px] md:text-xs font-bold tracking-[0.2em] text-stone-800 uppercase">
 

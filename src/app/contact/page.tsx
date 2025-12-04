@@ -12,6 +12,10 @@ import ContactFormSection from '../../components/ContactFormSection';
 
 import KeyContactsSection from '../../components/KeyContactsSection';
 
+import LocationsSection from '../../components/LocationsSection';
+
+import { FAQSection } from '../../components/FAQSection';
+
 import { ArrowUpRight, ArrowRight, Menu, X } from 'lucide-react';
 
 import { ContactButton } from '../../components/ContactButton';
@@ -172,7 +176,7 @@ export default function ContactPage() {
 
       {/* Contact Form and Key Contacts Section */}
 
-      <section className="w-full bg-[#f3f2f2] py-16 px-4 sm:px-6 lg:px-8">
+      <section className="w-full py-38 px-4 sm:px-6 lg:px-8" style={{ background: 'linear-gradient(to bottom, #f3f2f2 0%, #f3f2f2 70%, #e7e7e6 100%)' }}>
 
         <div className="max-w-4xl mx-auto space-y-16">
 
@@ -203,6 +207,14 @@ export default function ContactPage() {
         </div>
 
       </section>
+
+      {/* Locations Section */}
+
+      <LocationsSection />
+
+      {/* FAQ Section */}
+
+      <FAQSection />
 
       
 
