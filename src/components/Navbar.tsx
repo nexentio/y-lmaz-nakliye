@@ -75,7 +75,7 @@ export default function Navbar({ variant = 'dark' }: NavbarProps) {
 
         <NavLink text="Industries" href="#industries" variant={variant} />
 
-        <NavLink text="Contact Us" href="#contact" variant={variant} />
+        <NavLink text="Contact Us" href="/contact" variant={variant} />
 
       </div>
 
@@ -125,7 +125,7 @@ export default function Navbar({ variant = 'dark' }: NavbarProps) {
 
            <NavLink text="Industries" href="#industries" variant={variant} />
 
-           <NavLink text="Contact Us" href="#contact" variant={variant} />
+           <NavLink text="Contact Us" href="/contact" variant={variant} />
 
            <button className="flex items-center justify-center gap-3 bg-[#F94006] text-white px-6 py-3 rounded-full w-full">
 
