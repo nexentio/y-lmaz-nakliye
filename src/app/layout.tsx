@@ -1,5 +1,6 @@
 import type { Metadata } from 'next';
 import './globals.css';
+import NavbarWrapper from '../components/NavbarWrapper';
 
 export const metadata: Metadata = {
   title: 'Yılmaz Nakliyat',
@@ -13,7 +14,10 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="tr">
-      <body>{children}</body>
+      <body>
+        <NavbarWrapper />
+        {children}
+      </body>
     </html>
   );
 }

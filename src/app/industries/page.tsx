@@ -1,8 +1,4 @@
-"use client";
-
-import React, { useState, useEffect } from 'react';
-
-import Navbar from '../../components/Navbar';
+import React from 'react';
 
 import Footer from '../../components/Footer';
 
@@ -20,35 +16,9 @@ import { INDUSTRIES_DATA } from '../../constants';
 
 export default function IndustriesPage() {
 
-  const [scrolled, setScrolled] = useState(false);
-
-  useEffect(() => {
-
-    const handleScroll = () => {
-
-      setScrolled(window.scrollY > 50);
-
-    };
-
-    window.addEventListener('scroll', handleScroll);
-
-    return () => window.removeEventListener('scroll', handleScroll);
-
-  }, []);
-
   return (
 
     <div className="min-h-screen w-full flex flex-col bg-white">
-
-      {/* Navbar */}
-
-      <div className="w-full h-20"></div>
-
-      <div className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${scrolled ? 'bg-white/95 backdrop-blur-md shadow-sm' : 'bg-transparent'}`}>
-
-        <Navbar variant={scrolled ? 'light' : 'dark'} />
-
-      </div>
 
       {/* Main Content */}
 

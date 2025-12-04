@@ -69,13 +69,13 @@ export default function Navbar({ variant = 'dark' }: NavbarProps) {
   const isLight = variant === 'light';
   
   const logoColor = isLight ? 'text-[#1C1817]' : 'text-white';
-  const menuBg = isLight ? 'bg-white/50 backdrop-blur-sm border border-[#1C1817]/10' : 'bg-black/10 backdrop-blur-sm border border-white/5';
+  const menuBg = isLight ? 'bg-white/50 backdrop-blur-sm border border-[#1C1817]/10' : 'bg-black/40 backdrop-blur-md border border-white/10';
   const menuToggleColor = isLight ? 'text-[#1C1817]' : 'text-white';
   const mobileMenuBg = isLight ? 'bg-white/95 backdrop-blur-xl border-b border-[#1C1817]/10' : 'bg-[#1C1817]/95 backdrop-blur-xl border-b border-white/10';
 
   return (
 
-    <nav className={`fixed top-0 left-0 right-0 z-50 w-full px-6 py-6 flex items-center justify-between transition-transform duration-300 ${
+    <nav className={`w-full px-6 py-6 flex items-center justify-between transition-transform duration-300 ${
       isVisible ? 'translate-y-0' : '-translate-y-full'
     }`}>
 
@@ -83,7 +83,7 @@ export default function Navbar({ variant = 'dark' }: NavbarProps) {
 
       <Link href="/" className="flex items-center gap-1 group cursor-pointer">
 
-        <span className={`text-2xl font-semibold tracking-tight ${logoColor}`}>LogiNord</span>
+        <span className={`text-2xl font-semibold tracking-tight ${logoColor}`} style={{ textShadow: '0 0 24px rgba(0, 0, 0, 1), 0 0 28px rgba(0, 0, 0, 0.8), 0 0 32px rgba(0, 0, 0, 0.8), 0 0 36px rgba(0, 0, 0, 0.8)' }}>LogiNord</span>
 
         <div className="mb-3 ml-0.5">
 

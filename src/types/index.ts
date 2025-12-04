@@ -205,3 +205,15 @@ export interface IndustryData {
   features: string[];
 
 }
+
+export interface TimelineItemData {
+
+  id: string;
+
+  number: string;
+
+  title: string;
+
+  description: string;
+
+}

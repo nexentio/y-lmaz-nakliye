@@ -2,15 +2,13 @@ import React from 'react';
 
 
 
-import Navbar from '../../components/Navbar';
-
 import ServicesHero from '../../components/ServicesHero';
 
 import { ServicesListSection } from '../../components/ServicesListSection';
 
 import { FeaturesSection } from '../../components/FeaturesSection';
 
-import { ProcessSection } from '../../components/ProcessSection';
+import Timeline from '../../components/Timeline';
 
 import Footer from '../../components/Footer';
 
@@ -20,15 +18,6 @@ export default function ServicesPage() {
 
     <div className="min-h-screen w-full flex flex-col bg-white">
 
-      {/* Navbar with white background */}
-
-      <div className="w-full h-20"></div>
-
-      <div className="fixed top-0 left-0 right-0 z-50 bg-white border-b border-[#1C1817]/10">
-
-        <Navbar variant="light" />
-
-      </div>
 
       {/* Hero Section */}
 
@@ -48,7 +37,11 @@ export default function ServicesPage() {
 
       {/* Process Section */}
 
-      <ProcessSection />
+      <div className="min-h-screen w-full bg-white flex items-center justify-center py-20">
+
+        <Timeline />
+
+      </div>
 
       {/* Footer */}
 

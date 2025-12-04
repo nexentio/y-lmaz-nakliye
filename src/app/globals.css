@@ -25,6 +25,20 @@
   animation: scroll 30s linear infinite;
 }
 
+/* Road Moving Animation for Timeline */
+@keyframes road-moving {
+  0% {
+    background-position: 0 0;
+  }
+  100% {
+    background-position: 0 -30px;
+  }
+}
+
+.animate-road-moving {
+  animation: road-moving 1s linear infinite;
+}
+
 /* Brand Colors */
 :root {
   --brand-orange: #F94006;

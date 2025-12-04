@@ -2,8 +2,6 @@ import React from 'react';
 
 
 
-import Navbar from '../../components/Navbar';
-
 import { HeroSection } from '../../components/HeroSection';
 
 import HistorySectionNew from '../../components/HistorySectionNew';
@@ -24,15 +22,6 @@ export default function AboutPage() {
 
     <div className="min-h-screen w-full flex flex-col bg-white">
 
-      {/* Navbar with white background */}
-
-      <div className="w-full h-20"></div>
-
-      <div className="fixed top-0 left-0 right-0 z-50 bg-white border-b border-[#1C1817]/10">
-
-        <Navbar variant="light" />
-
-      </div>
 
       {/* Hero Section */}
 

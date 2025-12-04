@@ -2,8 +2,6 @@ import React from 'react';
 
 
 
-import Navbar from '../components/Navbar';
-
 import Hero from '../components/Hero';
 
 import VideoBackground from '../components/VideoBackground';
@@ -45,10 +43,6 @@ export default function App() {
         {/* Content Layer */}
 
         <div className="relative z-20 flex flex-col min-h-screen">
-
-          <div className="h-20"></div>
-
-          <Navbar />
 
           <Hero />
 
