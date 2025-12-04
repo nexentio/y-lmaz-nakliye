@@ -1,4 +1,4 @@
-import { Testimonial, NavLink, HistoryEvent, LocationData, TeamMember, StandardItem, ServiceData, FeatureItem, ProcessStep, FAQItem } from '../types';
+import { Testimonial, NavLink, HistoryEvent, LocationData, TeamMember, StandardItem, ServiceData, FeatureItem, ProcessStep, FAQItem, IndustryImage, IndustryData } from '../types';
 
 export interface LogoData {
 
@@ -773,6 +773,192 @@ export const FAQ_DATA: FAQItem[] = [
     question: "What certifications does Loginord hold?",
 
     answer: "We maintain the highest industry standards. Loginord is ISO 9001 certified for quality management, GDP certified for pharmaceutical transport, and we are an Authorized Economic Operator (AEO)."
+
+  }
+
+];
+
+// Industry Images for Industries Page
+
+export const INDUSTRY_IMAGES: IndustryImage[] = [
+
+  {
+
+    id: 1,
+
+    alt: "Juicy raw Steak on a Table",
+
+    src: "https://picsum.photos/400/600?random=1", 
+
+  },
+
+  {
+
+    id: 2,
+
+    alt: "Table with pharmaceutical pills",
+
+    src: "https://picsum.photos/400/600?random=2",
+
+  },
+
+  {
+
+    id: 3,
+
+    alt: "Industrial Factory",
+
+    src: "https://picsum.photos/400/600?random=3",
+
+  },
+
+  {
+
+    id: 4,
+
+    alt: "3D Printer closeup",
+
+    src: "https://picsum.photos/400/600?random=4",
+
+  },
+
+  {
+
+    id: 5,
+
+    alt: "Payment terminal",
+
+    src: "https://picsum.photos/400/600?random=5",
+
+  }
+
+];
+
+// Text Content for Industries Page
+
+export const TEXT_CONTENT = {
+
+  tag: "INDUSTRIES",
+
+  titlePrefix: "Tailored to your",
+
+  titleSuffix: "Industry.",
+
+  description: "From perishable foods to high-value electronics, Loginord crafts specialized supply-chain solutions that fit your requirements and regulations."
+
+};
+
+// Industries Data for Industries Page Detailed Section
+
+export const INDUSTRIES_DATA: IndustryData[] = [
+
+  {
+
+    id: 'food-beverage',
+
+    title: 'Food & Beverage',
+
+    description: 'Temperature-controlled transport from farm to market.',
+
+    imageUrl: 'https://framerusercontent.com/images/4W2UQjgXqF2ySWbOeXH2W9G6os.jpg?width=1000',
+
+    features: [
+
+      'HACCP-certified cold chain',
+
+      'Cross-docking & warehousing',
+
+      'Last-mile refrigerated delivery'
+
+    ]
+
+  },
+
+  {
+
+    id: 'pharma',
+
+    title: 'Pharmaceutical & Medical',
+
+    description: 'Safe, traceable logistics for healthcare essentials.',
+
+    imageUrl: 'https://framerusercontent.com/images/M2Blfi2uhHuLhqgAkz4Gths8aXo.jpg?width=1000',
+
+    features: [
+
+      'GDP/GMP-compliant transport',
+
+      'Tamper-evident packaging',
+
+      'Real-time tracking'
+
+    ]
+
+  },
+
+  {
+
+    id: 'industrial',
+
+    title: 'Industrial & Manufacturing',
+
+    description: 'Just-in-time heavy transport for manufacturing logistics.',
+
+    imageUrl: 'https://framerusercontent.com/images/5UpEscfduHJTgjeKasOjUYDYps.webp?width=1000',
+
+    features: [
+
+      'Full & breakbulk FTL services',
+
+      'Real-time route optimization',
+
+      'Customs-cleared cross-border'
+
+    ]
+
+  },
+
+  {
+
+    id: 'electronics',
+
+    title: 'Electronics & Technology',
+
+    description: 'Secure logistics for high-value tech components.',
+
+    imageUrl: 'https://framerusercontent.com/images/gDJQlN4uLNxj3MMRA45Ji66530.jpg?width=1000',
+
+    features: [
+
+      'ESD-safe handling & packaging',
+
+      'Express air & ground transport',
+
+      'Customs-ready documentation support'
+
+    ]
+
+  },
+
+  {
+
+    id: 'retail',
+
+    title: 'Retail & E-Commerce',
+
+    description: 'Fast, scalable delivery for retail and online sales.',
+
+    imageUrl: 'https://framerusercontent.com/images/j4QHmpdyTicyhFFwPzYSL5E7jlU.jpg?width=1000',
+
+    features: [
+
+      'Nationwide fulfillment & distribution',
+
+      'Integrated returns management',
+
+      'Last-mile delivery optimization'
+
+    ]
 
   }
 

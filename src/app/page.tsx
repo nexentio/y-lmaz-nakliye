@@ -8,7 +8,7 @@ import Hero from '../components/Hero';
 
 import VideoBackground from '../components/VideoBackground';
 
-import { QuickFacts } from '../components/QuickFacts';
+import { StatsSection } from '../components/StatsSection';
 
 import { ClientsSection } from '../components/ClientsSection';
 
@@ -46,6 +46,8 @@ export default function App() {
 
         <div className="relative z-20 flex flex-col min-h-screen">
 
+          <div className="h-20"></div>
+
           <Navbar />
 
           <Hero />
@@ -54,9 +56,9 @@ export default function App() {
 
       </div>
 
-      {/* Quick Facts Section */}
+      {/* Stats Section */}
 
-      <QuickFacts />
+      <StatsSection />
 
       {/* Clients Section */}
 

@@ -1,56 +1,46 @@
 import React from 'react';
 
+import { TEXT_CONTENT } from '../constants';
 
-
-export const SectionHeader: React.FC = () => {
+const SectionHeader: React.FC = () => {
 
   return (
 
-    <div className="flex items-center gap-3 mb-12">
+    <div className="flex flex-col items-center justify-center text-center max-w-4xl mx-auto px-4 mb-12 lg:mb-16">
 
-      {/* 
+      {/* Badge / Tag Area */}
 
-        The Circle Icon
+      <div className="flex items-center gap-2 mb-6 opacity-90">
 
-        Based on CSS snippet:
+        <div className="w-3 h-3 rounded-full border-[3px] border-[#F94006]"></div>
 
-        border-bottom-width: 4px; 
+        <span className="text-xs font-bold tracking-widest text-gray-500 bg-gray-100/50 px-1 uppercase">
 
-        border-color: rgb(249, 64, 6);
+          {TEXT_CONTENT.tag}
 
-        border-radius: 56px; 
+        </span>
 
-        width/height isn't explicitly clear in snippet but visual suggests ~12-14px
+      </div>
 
-      */}
+      {/* Main Title */}
 
-      <div 
+      <h1 className="text-4xl md:text-5xl lg:text-7xl text-[#1C1817] leading-tight mb-6">
 
-        className="w-3 h-3 rounded-full border-[3px] border-[#F94006]"
+        <span className="font-sans font-normal tracking-tight">{TEXT_CONTENT.titlePrefix} </span>
 
-        aria-hidden="true"
+        {/* The design uses a serif font specifically for "Industry." */}
 
-      />
+        <span className="font-serif font-normal">{TEXT_CONTENT.titleSuffix}</span>
 
-      
+      </h1>
 
-      {/* 
+      {/* Subtitle / Description */}
 
-        The Text
+      <p className="text-gray-600 text-lg md:text-xl leading-relaxed max-w-2xl font-light">
 
-        Based on CSS snippet:
+        {TEXT_CONTENT.description}
 
-        color: rgb(28, 24, 23);
-
-        font-family: 'Inter', sans-serif;
-
-      */}
-
-      <h2 className="text-[12px] font-medium tracking-wide uppercase text-[#1C1817]">
-
-        Clients & Partners
-
-      </h2>
+      </p>
 
     </div>
 
@@ -58,3 +48,6 @@ export const SectionHeader: React.FC = () => {
 
 };
 
+export default SectionHeader;
+
+export { SectionHeader };

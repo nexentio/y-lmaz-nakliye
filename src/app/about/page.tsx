@@ -6,7 +6,7 @@ import Navbar from '../../components/Navbar';
 
 import { HeroSection } from '../../components/HeroSection';
 
-import HistorySection from '../../components/HistorySection';
+import HistorySectionNew from '../../components/HistorySectionNew';
 
 import ValuesSection from '../../components/ValuesSection';
 
@@ -26,7 +26,9 @@ export default function AboutPage() {
 
       {/* Navbar with white background */}
 
-      <div className="w-full bg-white border-b border-[#1C1817]/10">
+      <div className="w-full h-20"></div>
+
+      <div className="fixed top-0 left-0 right-0 z-50 bg-white border-b border-[#1C1817]/10">
 
         <Navbar variant="light" />
 
@@ -42,7 +44,11 @@ export default function AboutPage() {
 
       {/* History Section */}
 
-      <HistorySection />
+      <div className="w-full bg-[#f2f2f0]">
+
+        <HistorySectionNew />
+
+      </div>
 
       {/* Values Section */}
 

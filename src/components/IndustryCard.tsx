@@ -1,44 +1,104 @@
 import React from 'react';
 
-
-
-import { Industry } from '../types';
+import { IndustryData, Industry } from '../types';
 
 interface IndustryCardProps {
 
-  industry: Industry;
+  data?: IndustryData;
+
+  industry?: Industry;
 
 }
 
-export const IndustryCard: React.FC<IndustryCardProps> = ({ industry }) => {
+const IndustryCard: React.FC<IndustryCardProps> = ({ data, industry }) => {
+
+  // Support both IndustryData (from industries page) and Industry (from home page)
+
+  const cardData = data || (industry ? {
+
+    title: industry.title,
+
+    description: '',
+
+    imageUrl: industry.imageUrl,
+
+    features: []
+
+  } : null);
+
+  if (!cardData) return null;
 
   return (
 
-    <div className="group w-full rounded-lg bg-brand-card p-6 md:p-8 transition-transform duration-300 hover:scale-[1.01]">
+    <div className="bg-white rounded-lg p-6 flex flex-col h-full shadow-sm hover:shadow-md transition-shadow duration-300">
 
-      <div className="aspect-[3/2] w-full overflow-hidden rounded-lg bg-brand-orange/10 mb-6 relative">
+      {/* Header */}
 
-        <div className="absolute inset-0 bg-brand-orange/20 mix-blend-overlay z-10 transition-opacity duration-300 group-hover:opacity-0"></div>
+      <div className="flex items-start gap-3 mb-2">
+
+        <div className="mt-1.5 min-w-[12px] w-3 h-3 rounded-full border-[3px] border-[#F94006]" aria-hidden="true" />
+
+        <h3 className="text-xl font-semibold text-[#1C1817] leading-tight">
+
+          {cardData.title}
+
+        </h3>
+
+      </div>
+
+      
+
+      {/* Description - only show if exists */}
+
+      {cardData.description && (
+
+        <p className="text-[#1C1817] mb-6 text-base leading-relaxed">
+
+          {cardData.description}
+
+        </p>
+
+      )}
+
+      {/* Image */}
+
+      <div className="w-full aspect-[3/2] mb-6 overflow-hidden rounded-lg bg-gray-100">
 
         <img 
 
-            src={industry.imageUrl} 
+          src={cardData.imageUrl} 
 
-            alt={industry.alt}
+          alt={cardData.title} 
 
-            className="h-full w-full object-cover transition-transform duration-700 ease-out group-hover:scale-105"
+          className="w-full h-full object-cover transform hover:scale-105 transition-transform duration-500"
 
-            loading="lazy"
+          loading="lazy"
 
         />
 
       </div>
 
-      <h3 className="text-xl md:text-2xl font-semibold text-white tracking-tight">
+      {/* Feature List - only show if features exist */}
 
-        {industry.title}
+      {cardData.features && cardData.features.length > 0 && (
 
-      </h3>
+        <ul className="space-y-3 mt-auto">
+
+          {cardData.features.map((feature, index) => (
+
+          <li key={index} className="flex items-start gap-3 text-sm font-medium text-[#1C1817]">
+
+            <span className="text-[#1C1817] font-bold mt-[-4px] text-lg leading-none select-none">•</span>
+
+            <span className="leading-snug">{feature}</span>
+
+          </li>
+
+        ))}
+
+        </ul>
+
+      )}
 
     </div>
 
@@ -46,3 +106,6 @@ export const IndustryCard: React.FC<IndustryCardProps> = ({ industry }) => {
 
 };
 
+export default IndustryCard;
+
+export { IndustryCard };

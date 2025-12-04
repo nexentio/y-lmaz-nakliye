@@ -1,6 +1,6 @@
 "use client";
 
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 
 import Link from 'next/link';
 
@@ -30,6 +30,42 @@ export default function Navbar({ variant = 'dark' }: NavbarProps) {
 
   const [isOpen, setIsOpen] = useState(false);
 
+  const [isVisible, setIsVisible] = useState(true);
+
+  const [lastScrollY, setLastScrollY] = useState(0);
+
+  useEffect(() => {
+
+    const handleScroll = () => {
+
+      const currentScrollY = window.scrollY;
+
+      // Scroll down - hide navbar
+
+      if (currentScrollY > lastScrollY && currentScrollY > 100) {
+
+        setIsVisible(false);
+
+      } 
+
+      // Scroll up - show navbar
+
+      else if (currentScrollY < lastScrollY) {
+
+        setIsVisible(true);
+
+      }
+
+      setLastScrollY(currentScrollY);
+
+    };
+
+    window.addEventListener('scroll', handleScroll, { passive: true });
+
+    return () => window.removeEventListener('scroll', handleScroll);
+
+  }, [lastScrollY]);
+
   const isLight = variant === 'light';
   
   const logoColor = isLight ? 'text-[#1C1817]' : 'text-white';
@@ -39,7 +75,9 @@ export default function Navbar({ variant = 'dark' }: NavbarProps) {
 
   return (
 
-    <nav className="w-full px-6 py-6 flex items-center justify-between">
+    <nav className={`fixed top-0 left-0 right-0 z-50 w-full px-6 py-6 flex items-center justify-between transition-transform duration-300 ${
+      isVisible ? 'translate-y-0' : '-translate-y-full'
+    }`}>
 
       {/* Logo */}
 
@@ -73,7 +111,7 @@ export default function Navbar({ variant = 'dark' }: NavbarProps) {
 
         <NavLink text="Fleet" href="/fleet" variant={variant} />
 
-        <NavLink text="Industries" href="#industries" variant={variant} />
+           <NavLink text="Industries" href="/industries" variant={variant} />
 
         <NavLink text="Contact Us" href="/contact" variant={variant} />
 
@@ -123,7 +161,7 @@ export default function Navbar({ variant = 'dark' }: NavbarProps) {
 
            <NavLink text="Fleet" href="/fleet" variant={variant} />
 
-           <NavLink text="Industries" href="#industries" variant={variant} />
+           <NavLink text="Industries" href="/industries" variant={variant} />
 
            <NavLink text="Contact Us" href="/contact" variant={variant} />
 

@@ -36,19 +36,43 @@ export default function ContactPage() {
 
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
 
+  const [isVisible, setIsVisible] = useState(true);
+
+  const [lastScrollY, setLastScrollY] = useState(0);
+
   useEffect(() => {
 
     const handleScroll = () => {
 
-      setIsScrolled(window.scrollY > 20);
+      const currentScrollY = window.scrollY;
+
+      setIsScrolled(currentScrollY > 20);
+
+      // Scroll down - hide navbar
+
+      if (currentScrollY > lastScrollY && currentScrollY > 100) {
+
+        setIsVisible(false);
+
+      } 
+
+      // Scroll up - show navbar
+
+      else if (currentScrollY < lastScrollY) {
+
+        setIsVisible(true);
+
+      }
+
+      setLastScrollY(currentScrollY);
 
     };
 
-    window.addEventListener('scroll', handleScroll);
+    window.addEventListener('scroll', handleScroll, { passive: true });
 
     return () => window.removeEventListener('scroll', handleScroll);
 
-  }, []);
+  }, [lastScrollY]);
 
   return (
 
@@ -56,7 +80,11 @@ export default function ContactPage() {
 
       {/* Navbar with scroll effect */}
 
-      <nav className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${isScrolled ? 'bg-white/90 backdrop-blur-md py-4 shadow-sm' : 'bg-transparent py-6'}`}>
+      <div className="w-full h-20"></div>
+
+      <nav className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
+        isVisible ? 'translate-y-0' : '-translate-y-full'
+      } ${isScrolled ? 'bg-white/90 backdrop-blur-md py-4 shadow-sm' : 'bg-transparent py-6'}`}>
 
         <div className="max-w-[1440px] mx-auto px-6 lg:px-12 flex items-center justify-between">
 

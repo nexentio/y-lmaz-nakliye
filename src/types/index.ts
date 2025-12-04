@@ -26,7 +26,7 @@ export interface Industry {
 
 export interface Testimonial {
 
-  id: number;
+  id: number | string;
 
   quote: string;
 
@@ -34,7 +34,9 @@ export interface Testimonial {
 
   company: string;
 
-  image: string;
+  image?: string;
+
+  avatarUrl?: string;
 
 }
 
@@ -165,5 +167,41 @@ export interface FAQItem {
   question: string;
 
   answer: string;
+
+}
+
+export interface HistoryItem {
+
+  year: number;
+
+  title: string;
+
+  description: string;
+
+  image: string;
+
+}
+
+export interface IndustryImage {
+
+  id: number;
+
+  alt: string;
+
+  src: string;
+
+}
+
+export interface IndustryData {
+
+  id: string;
+
+  title: string;
+
+  description: string;
+
+  imageUrl: string;
+
+  features: string[];
 
 }

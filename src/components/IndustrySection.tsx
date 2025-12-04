@@ -6,7 +6,7 @@ import { ArrowRight } from 'lucide-react';
 
 import { Industry } from '../types';
 
-import { IndustryCard } from './IndustryCard';
+import { IndustryCardHome } from './IndustryCardHome';
 
 import { TickerBackground } from './TickerBackground';
 
@@ -150,7 +150,7 @@ export const IndustrySection: React.FC = () => {
 
             {industries.map((industry) => (
 
-              <IndustryCard key={industry.id} industry={industry} />
+              <IndustryCardHome key={industry.id} industry={industry} />
 
             ))}
 
