@@ -71,7 +71,7 @@ export default function Navbar({ variant = 'dark' }: NavbarProps) {
 
         <NavLink text="Services" href="/services" variant={variant} />
 
-        <NavLink text="Fleet" href="#fleet" variant={variant} />
+        <NavLink text="Fleet" href="/fleet" variant={variant} />
 
         <NavLink text="Industries" href="#industries" variant={variant} />
 
@@ -121,7 +121,7 @@ export default function Navbar({ variant = 'dark' }: NavbarProps) {
 
            <NavLink text="Services" href="/services" variant={variant} />
 
-           <NavLink text="Fleet" href="#fleet" variant={variant} />
+           <NavLink text="Fleet" href="/fleet" variant={variant} />
 
            <NavLink text="Industries" href="#industries" variant={variant} />
 
