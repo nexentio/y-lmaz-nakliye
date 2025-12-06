@@ -10,19 +10,19 @@ const IndustriesSectionHeader: React.FC = () => {
 
         <span className="text-[10px] uppercase tracking-widest font-bold text-white mb-4 block">
 
-          Specialized by Sector
+          Sektöre Özel Uzmanlık
 
         </span>
 
         <h2 className="text-5xl md:text-6xl font-semibold text-white tracking-tight leading-[0.95] mb-8">
 
-          Industries<br />We Serve
+          Hizmet Verdiğimiz<br />Sektörler
 
         </h2>
 
         <p className="text-lg leading-relaxed max-w-md text-white/90">
 
-          Each industry has its own logistics DNA — we tailor our services to meet yours with precision, reliability, and care.
+          Her sektörün kendine özgü lojistik ihtiyacı vardır — Yılmaz Nakliyat olarak, kurucumuz Yılmaz Arslan'ın önderliğinde hizmetlerimizi sizin ihtiyaçlarınıza göre hassasiyet, güvenilirlik ve özenle uyarlıyoruz.
 
         </p>
 

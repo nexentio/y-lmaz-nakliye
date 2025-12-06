@@ -46,7 +46,7 @@ export const HeroSection: React.FC = () => {
 
         >
 
-          Driven by Purpose.
+          Amacımızla Yönlendirilen.
 
         </h1>
 
@@ -72,7 +72,7 @@ export const HeroSection: React.FC = () => {
 
           >
 
-            About Us
+            Hakkımızda
 
           </span>
 
@@ -128,7 +128,7 @@ export const HeroSection: React.FC = () => {
 
         >
 
-          Built on Trust.
+          Güvene Dayalı.
 
         </h2>
 
@@ -144,7 +144,7 @@ export const HeroSection: React.FC = () => {
 
           >
 
-            From last-mile delivery to international freight, Loginord offers flexible and scalable logistics solutions designed for your operational success.
+            Yük taşımacılığından evden eve taşımacılığa, canlı hayvan taşımacılığından tekstil ürünleri taşımacılığına kadar Yılmaz Nakliyat, operasyonel başarınız için tasarlanmış esnek ve ölçeklenebilir taşımacılık çözümleri sunuyor. Gaziantep merkezli olarak faaliyet gösteren firmamız, İstanbul, İzmir, Ankara, Konya, Bursa, Antalya, Adana, Mersin, Kayseri, Samsun, Trabzon ve Türkiye'nin dört bir yanına düzenli olarak yük taşımacılığı yapmaktadır. Kurucumuz Yılmaz Arslan'ın önderliğinde, müşterilerimize güvenilir ve kaliteli hizmet sunmaktan gurur duyuyoruz.
 
           </p>
 

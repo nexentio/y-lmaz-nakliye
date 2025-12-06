@@ -157,7 +157,7 @@ export default function FleetPage() {
 
               src="https://framerusercontent.com/images/mwoDPtIBBxKDpcf82lXns9s41K4.webp?width=2240&height=1640" 
 
-              alt="Truck in motion on a bridge" 
+              alt="Yılmaz Nakliyat - Hareket Halindeki Tır ve Taşımacılık Filosu" 
 
               className="w-full h-auto object-cover block"
 
@@ -185,7 +185,7 @@ export default function FleetPage() {
 
             <span className="text-[11px] font-bold tracking-[0.08em] text-[#1C1817] uppercase leading-none">
 
-              Introducing
+              Tanıtım
 
             </span>
 
@@ -197,7 +197,7 @@ export default function FleetPage() {
 
           <h1 className="text-4xl sm:text-5xl md:text-[64px] leading-[1.1] font-medium tracking-[-0.02em] text-[#1C1817]">
 
-            Our Fleet in Motion.
+            Hareket Halindeki Filosumuz.
 
           </h1>
 
@@ -209,7 +209,7 @@ export default function FleetPage() {
 
             <p className="text-lg sm:text-[20px] leading-[1.6] font-normal text-[#1C1817] opacity-90">
 
-              Modern vehicles, advanced technology, total reliability — engineered to move your cargo safely and on time, every time.
+              Modern araçlar, gelişmiş teknoloji, tam güvenilirlik — kargonuzu her seferinde güvenle ve zamanında taşımak için tasarlandı.
 
             </p>
 
@@ -279,7 +279,7 @@ export default function FleetPage() {
 
                  <span className="text-[11px] font-bold tracking-[0.08em] text-[#1C1817] uppercase leading-none">
 
-                   By the Numbers
+                   Rakamlarla
 
                  </span>
 
@@ -291,7 +291,7 @@ export default function FleetPage() {
 
                <h2 className="text-4xl sm:text-5xl md:text-[56px] leading-[1.1] font-medium tracking-[-0.02em] text-[#1C1817]">
 
-                 A diverse fleet serving Europe & United States.
+                 Türkiye genelinde hizmet veren çeşitli araç filomuz.
 
                </h2>
 
@@ -315,7 +315,7 @@ export default function FleetPage() {
 
                  <p className="text-base sm:text-lg text-[#1C1817] opacity-90 leading-tight">
 
-                   Total Vehicles.
+                   Toplam Araç.
 
                  </p>
 
@@ -329,13 +329,13 @@ export default function FleetPage() {
 
                  <span className="font-semibold text-5xl sm:text-[64px] text-[#1C1817] leading-none tracking-tight">
 
-                   20+
+                   15+
 
                  </span>
 
                  <p className="text-base sm:text-lg text-[#1C1817] opacity-90 leading-tight">
 
-                   Heavy-duty Semi-Trailers.
+                   Tır ve Ağır Vasıta.
 
                  </p>
 
@@ -349,13 +349,13 @@ export default function FleetPage() {
 
                  <span className="font-semibold text-5xl sm:text-[64px] text-[#1C1817] leading-none tracking-tight">
 
-                   +10
+                   10+
 
                  </span>
 
                  <p className="text-base sm:text-lg text-[#1C1817] opacity-90 leading-tight">
 
-                   Urban Delivery Vehicles.
+                   Ford Transit ve Şehir İçi Araçlar.
 
                  </p>
 
@@ -369,13 +369,13 @@ export default function FleetPage() {
 
                  <span className="font-semibold text-5xl sm:text-[64px] text-[#1C1817] leading-none tracking-tight">
 
-                   100%
+                   5+
 
                  </span>
 
                  <p className="text-base sm:text-lg text-[#1C1817] opacity-90 leading-tight">
 
-                   ADR & HACCP–Compliant Units.
+                   2+1 ve 3+1 Ev Taşıma Araçları.
 
                  </p>
 
@@ -417,7 +417,7 @@ export default function FleetPage() {
 
                 <span className="text-[11px] font-bold tracking-[0.08em] text-white uppercase leading-none">
 
-                  Vehicle Categories
+                  Araç Kategorileri
 
                 </span>
 
@@ -429,7 +429,7 @@ export default function FleetPage() {
 
               <h2 className="text-4xl sm:text-5xl md:text-[56px] leading-[1.1] font-medium tracking-[-0.02em] text-white">
 
-                Built for Every Route and Requirement
+                Her Rota ve İhtiyaca Uygun Tasarım
 
               </h2>
 
@@ -441,13 +441,13 @@ export default function FleetPage() {
 
                 <p>
 
-                  At Loginord, versatility is key. Our fleet is strategically diversified to meet the full spectrum of transportation demands — from heavy industrial freight to time-sensitive cold chain deliveries and agile urban distribution.
+                  Yılmaz Nakliyat'ta, kurucumuz Yılmaz Arslan'ın vizyonu doğrultusunda çeşitlilik önemlidir. Filosumuz, taşımacılık ihtiyaçlarının tamamını karşılamak için stratejik olarak çeşitlendirilmiştir — ağır endüstriyel yüklerden hızlı şehir içi dağıtıma kadar. Müşterilerimize en uygun çözümü sunmak için geniş bir araç yelpazesine sahibiz.
 
                 </p>
 
                 <p>
 
-                  Whether you're moving raw materials, consumer goods, or specialized cargo, we have the right vehicle to ensure safety, compliance, and on-time performance.
+                  Ham malzemeden tüketim mallarına, özel kargolara kadar, güvenlik, uyumluluk ve zamanında performans sağlamak için doğru aracımız var.
 
                 </p>
 
@@ -457,9 +457,14 @@ export default function FleetPage() {
 
               {/* CTA Button */}
 
-              <a href="#" className="group mt-4 inline-flex items-center gap-1 rounded-full border border-accent/40 bg-gradient-to-r from-accent/0 to-accent/0 hover:from-accent/10 hover:to-accent/5 backdrop-blur-sm pl-6 pr-2 py-2 transition-all duration-300">
+              <a 
+                href={`https://wa.me/905457175150?text=${encodeURIComponent("Merhaba! Yılmaz Nakliyat araç filosu hakkında bilgi almak istiyorum. Filo ekibinizle iletişime geçmek ve taşımacılık ihtiyacım için teklif almak istiyorum. Teşekkürler! 🙏")}`}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="group mt-4 inline-flex items-center gap-1 rounded-full border border-accent/40 bg-gradient-to-r from-accent/0 to-accent/0 hover:from-accent/10 hover:to-accent/5 backdrop-blur-sm pl-6 pr-2 py-2 transition-all duration-300"
+              >
 
-                <span className="text-white font-medium text-sm sm:text-base">Talk to Our Fleet Team</span>
+                <span className="text-white font-medium text-sm sm:text-base">Filo Ekibimizle İletişime Geçin</span>
 
                 <span className="w-10 h-10 flex items-center justify-center rounded-full bg-accent/0 group-hover:bg-accent/10 transition-colors ml-2">
 
@@ -487,19 +492,19 @@ export default function FleetPage() {
 
                 number="01"
 
-                title="Heavy-duty Semi-Trailers"
+                title="Tırlar ve Ağır Vasıtalar"
 
                 imageSrc="https://framerusercontent.com/images/sqjR9log69svYrWvzRtPpLFHarc.jpg?lossless=1&width=1920&height=1080"
 
-                description="Our backbone for long-haul and full-truckload (FTL) shipments. Robust chassis and high-capacity trailers keep your freight secure across borders."
+                description="Uzun mesafe ve tam tır yükleri için temel araçlarımız. Sağlam şasi ve yüksek kapasiteli römorklar, yüklerinizi güvenle taşır."
 
                 features={[
 
-                  "Payload up to 25 tons",
+                  "25 tona kadar yük kapasitesi",
 
-                  "Available as dry van, curtain side, refrigerated",
+                  "Kuru yük, perde yanlı, soğutmalı seçenekler",
 
-                  "ADR–compliant options for hazardous goods"
+                  "Tehlikeli madde taşımacılığı için uygun araçlar"
 
                 ]}
 
@@ -511,19 +516,19 @@ export default function FleetPage() {
 
                 number="02"
 
-                title="Refrigerated Trailers"
+                title="Ford Transit Araçlar"
 
                 imageSrc="https://framerusercontent.com/images/zd6FBRCBmMTo4WjEG89IFgZbYuw.jpg?width=1920&height=1280"
 
-                description="Precision temperature control for perishables and pharmaceuticals. Our refrigerated units maintain exact setpoints from door to door."
+                description="Şehir içi dağıtım ve küçük yükler için ideal araçlar. Kompakt boyutları ve verimliliği ile dar sokaklarda rahatlıkla çalışır."
 
                 features={[
 
-                  "Temperature range –25 °C to +25 °C",
+                  "3 tona kadar yük kapasitesi",
 
-                  "Real-time temperature & humidity monitoring",
+                  "Şehir içi erişim için kompakt boyutlar",
 
-                  "HACCP–certified and GMP–aligned"
+                  "Kaldırma platformu ve kuyruk lifti seçenekleri"
 
                 ]}
 
@@ -535,19 +540,19 @@ export default function FleetPage() {
 
                 number="03"
 
-                title="Regional & Urban Vans"
+                title="Ev Taşıma Araçları"
 
                 imageSrc="https://framerusercontent.com/images/RmyDnwJBv9BORAIpIaORlKCRM.jpg?width=2400&height=1648"
 
-                description="Agile and efficient for last-mile delivery and regional distribution. Perfect for tight urban routes or smaller consignments."
+                description="2+1 ve 3+1 ev eşyalarının taşınması için özel olarak tasarlanmış araçlar. Eşyalarınızın güvenle taşınması için geniş ve korumalı taşıma alanı."
 
                 features={[
 
-                  "Payload up to 3 tons",
+                  "2+1 ve 3+1 evler için uygun araçlar",
 
-                  "Compact dimensions for city access",
+                  "Eşyaların korunması için özel paketleme",
 
-                  "Optional lift-gate and tail-lift"
+                  "Profesyonel taşıma ekibi ile güvenli teslimat"
 
                 ]}
 
@@ -571,9 +576,9 @@ export default function FleetPage() {
 
         <FleetSection
 
-          title="Connected Fleet, Connected You."
+          title="Bağlı Filo, Bağlı Siz."
 
-          description="Every vehicle is equipped with advanced telematics hardware, giving you real-time visibility and proactive alerts."
+          description="Her araç, gelişmiş telematik donanımıyla donatılmıştır, size gerçek zamanlı görünürlük ve proaktif uyarılar sağlar."
 
           variant="dark"
 
@@ -583,9 +588,9 @@ export default function FleetPage() {
 
             type="icon"
 
-            title="Live GPS Tracking"
+            title="Canlı GPS Takibi"
 
-            description="See exact location and ETA."
+            description="Kesin konum ve varış süresini görün."
 
             icon={<GPSIcon />}
 
@@ -597,9 +602,9 @@ export default function FleetPage() {
 
             type="image"
 
-            title="API Integration"
+            title="API Entegrasyonu"
 
-            description="Embed tracking into your TMS or portal."
+            description="Takibi TMS veya portalınıza entegre edin."
 
             imageSrc="https://images.unsplash.com/photo-1551288049-bebda4e38f71?q=80&w=2070&auto=format&fit=crop"
 
@@ -609,9 +614,9 @@ export default function FleetPage() {
 
             type="image"
 
-            title="Automated Alerts"
+            title="Otomatik Uyarılar"
 
-            description="Route deviations, temperature excursions."
+            description="Rota sapmaları ve sıcaklık değişimleri."
 
             imageSrc="https://images.unsplash.com/photo-1516245834210-c4c14278733f?q=80&w=2069&auto=format&fit=crop"
 
@@ -621,9 +626,9 @@ export default function FleetPage() {
 
             type="icon"
 
-            title="Telematics Dashboard"
+            title="Telematik Kontrol Paneli"
 
-            description="Speed, fuel consumption, driver behavior."
+            description="Hız, yakıt tüketimi, sürücü davranışı."
 
             icon={<DashboardIcon />}
 
@@ -641,9 +646,9 @@ export default function FleetPage() {
 
         <FleetSection
 
-          title="Rigorous Care. Maximum Uptime."
+          title="Sıkı Bakım. Maksimum Çalışma Süresi."
 
-          description="Loginord's in-house maintenance team follows strict inspection schedules and leverages predictive analytics to minimize downtime and maximize safety."
+          description="Yılmaz Nakliyat'ın iç bakım ekibi, kurucumuz Yılmaz Arslan'ın talimatları doğrultusunda kesin denetim programlarını takip eder ve duruş süresini en aza indirmek ve güvenliği en üst düzeye çıkarmak için tahmine dayalı analitiği kullanır. Araçlarımızın her zaman hazır olması için sürekli bakım yapıyoruz."
 
           variant="dark"
 
@@ -653,9 +658,9 @@ export default function FleetPage() {
 
             type="icon"
 
-            title="Preventive Maintenance"
+            title="Önleyici Bakım"
 
-            description="Regular checks on vehicles & refrigeration."
+            description="Araçlar ve soğutma sistemleri için düzenli kontroller."
 
             icon={<MaintenanceIcon />}
 
@@ -667,9 +672,9 @@ export default function FleetPage() {
 
             type="image"
 
-            title="Compliance Audits"
+            title="Uyumluluk Denetimleri"
 
-            description="ADR, HACCP and EU/US transport regulations."
+            description="ADR, HACCP ve Türk taşımacılık düzenlemeleri."
 
             imageSrc="https://images.unsplash.com/photo-1450101499163-c8848c66ca85?q=80&w=2070&auto=format&fit=crop"
 
@@ -679,9 +684,9 @@ export default function FleetPage() {
 
             type="image"
 
-            title="Driver Training"
+            title="Sürücü Eğitimi"
 
-            description="Regular safety and eco-driving courses."
+            description="Düzenli güvenlik ve eko-sürüş kursları."
 
             imageSrc="https://images.unsplash.com/photo-1449965408869-eaa3f722e40d?q=80&w=2070&auto=format&fit=crop"
 
@@ -691,9 +696,9 @@ export default function FleetPage() {
 
             type="icon"
 
-            title="24/7 Roadside Support"
+            title="7/24 Yol Yardımı"
 
-            description="Rapid response for on-route issues."
+            description="Yolda çıkan sorunlar için hızlı müdahale."
 
             icon={<RoadsideIcon />}
 
@@ -711,9 +716,9 @@ export default function FleetPage() {
 
         <FleetSection
 
-          title="Towards a Greener Fleet."
+          title="Daha Yeşil Bir Filo İçin."
 
-          description="We're investing in eco-friendly vehicles and processes to reduce carbon footprint and support your ESG goals."
+          description="Karbon ayak izini azaltmak ve ESG hedeflerinizi desteklemek için çevre dostu araçlara ve süreçlere yatırım yapıyoruz."
 
           variant="dark"
 
@@ -723,9 +728,9 @@ export default function FleetPage() {
 
             type="icon"
 
-            title="Route Optimization"
+            title="Rota Optimizasyonu"
 
-            description="For lower fuel consumption."
+            description="Daha düşük yakıt tüketimi için."
 
             icon={<RouteIcon />}
 
@@ -737,9 +742,9 @@ export default function FleetPage() {
 
             type="image"
 
-            title="Partnership"
+            title="Ortaklık"
 
-            description="With carbon offset programs."
+            description="Karbon dengeleme programları ile."
 
             imageSrc="https://images.unsplash.com/photo-1542601906990-b4d3fb778b09?q=80&w=2026&auto=format&fit=crop"
 
@@ -751,7 +756,7 @@ export default function FleetPage() {
 
             title="Pilot Program"
 
-            description="With electric urban vans."
+            description="Elektrikli şehir içi araçlarla."
 
             imageSrc="https://images.unsplash.com/photo-1617788138017-80ad40651399?q=80&w=2070&auto=format&fit=crop"
 
@@ -761,9 +766,9 @@ export default function FleetPage() {
 
             type="icon"
 
-            title="Euro VI"
+            title="Çevre Standartları"
 
-            description="Emission standards on all heavy vehicles."
+            description="Tüm ağır araçlarda emisyon standartları."
 
             icon={<EuroIcon />}
 

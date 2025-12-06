@@ -26,15 +26,15 @@ const CertifiedSection: React.FC = () => {
 
                 <span className="text-sm font-semibold tracking-wide uppercase opacity-90">
 
-                  Industry Standards
+                  Sektör Standartları
 
                 </span>
 
                 <h2 className="text-4xl md:text-5xl lg:text-[56px] leading-[1.1] font-medium -tracking-[0.02em]">
 
-                  Certified. Verified.<br />
+                  Sertifikalı. Doğrulanmış.<br />
 
-                  Compliant.
+                  Uyumlu.
 
                 </h2>
 
@@ -42,7 +42,7 @@ const CertifiedSection: React.FC = () => {
 
               <p className="text-lg md:text-[19px] leading-[1.6] opacity-80 max-w-[480px]">
 
-                Loginord operates under ISO 9001 standards and complies with HACCP and ADR regulations. All vehicles and processes are regularly audited for quality and safety.
+                Yılmaz Nakliyat, kurucumuz Yılmaz Arslan'ın önderliğinde kaliteli hizmet standartlarına uygun olarak çalışır. Tüm araçlarımız ve süreçlerimiz düzenli olarak kalite ve güvenlik açısından kontrol edilir. Müşterilerimize cana yakın ve güvenilir hizmet sunmak için sürekli kendimizi geliştiriyoruz.
 
               </p>
 

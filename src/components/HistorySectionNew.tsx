@@ -12,9 +12,9 @@ const historyData: HistoryItem[] = [
 
     year: 2010,
 
-    title: "One Truck. One Dream.",
+    title: "Bir Araç. Bir Hayal.",
 
-    description: "LogiNord was founded in a small Rotterdam warehouse with just one vehicle and a clear mission: to offer reliable transport for local businesses with the kind of service larger firms couldn't match.",
+    description: "Yılmaz Nakliyat, kurucumuz Yılmaz Arslan tarafından tek bir araç ve net bir misyonla kuruldu: Yerel işletmelere büyük firmaların sağlayamadığı kalitede, cana yakın ve güvenilir taşımacılık hizmeti sunmak.",
 
     image: "https://framerusercontent.com/images/3DZlCUTBGHadzvzLs3EvBWZH4.jpg"
 
@@ -24,9 +24,9 @@ const historyData: HistoryItem[] = [
 
     year: 2013,
 
-    title: "Expanding Horizons.",
+    title: "Ufukları Genişletiyoruz.",
 
-    description: "By 2013, our fleet had grown to ten trucks. We expanded our operations beyond Rotterdam, covering the entire Benelux region and establishing our first dedicated logistics hub.",
+    description: "2013 yılına gelindiğinde filomuz on araca ulaştı. Yılmaz Arslan'ın liderliğinde operasyonlarımızı genişleterek Türkiye genelinde hizmet vermeye başladık ve ilk lojistik merkezimizi kurduk. Bu dönemde müşteri memnuniyetini her şeyin üstünde tutarak büyümeye devam ettik.",
 
     image: "https://picsum.photos/id/106/2400/2400" 
 
@@ -36,9 +36,9 @@ const historyData: HistoryItem[] = [
 
     year: 2017,
 
-    title: "Digital Revolution.",
+    title: "Dijital Dönüşüm.",
 
-    description: "We integrated state-of-the-art tracking systems and automated warehousing, reducing delivery times by 40% and setting a new standard for transparency in the logistics sector.",
+    description: "En son teknoloji takip sistemleri entegre edildi ve teslimat sürelerimiz %40 azaltıldı. Yılmaz Nakliyat olarak taşımacılık sektöründe şeffaflık için yeni bir standart belirledik. Müşterilerimize gerçek zamanlı takip imkanı sunarak güven ve memnuniyet sağladık.",
 
     image: "https://picsum.photos/id/192/2400/2400"
 
@@ -48,9 +48,9 @@ const historyData: HistoryItem[] = [
 
     year: 2021,
 
-    title: "Going Green.",
+    title: "Büyüme ve Gelişim.",
 
-    description: "Commitment to sustainability led to the acquisition of our first electric fleet. LogiNord pledged to reduce carbon emissions by 50% within the next five years.",
+    description: "Yatırımlarımızı artırarak filomuzu genişlettik. Tırlar, Ford Transit araçlar ve ev taşıma araçları ile her türlü taşımacılık ihtiyacına hizmet vermeye başladık. Yılmaz Arslan'ın vizyonu doğrultusunda, müşterilerimize daha iyi hizmet verebilmek için sürekli kendimizi geliştiriyoruz.",
 
     image: "https://picsum.photos/id/112/2400/2400"
 
@@ -60,9 +60,9 @@ const historyData: HistoryItem[] = [
 
     year: 2025,
 
-    title: "Global Reach.",
+    title: "Güçlü Konum.",
 
-    description: "With a network spanning across Europe, LogiNord is now a key player in international logistics, connecting local businesses to global markets with the same reliability we started with.",
+    description: "15+ araçlık filomuz ve profesyonel ekibimizle Türkiye genelinde yük taşıma, evden eve taşıma, canlı hayvan taşıma ve tekstil ürünleri taşımacılığında güvenilir bir çözüm ortağıyız. Gaziantep'ten başlayarak, İstanbul, İzmir, Ankara, Konya gibi büyük şehirlere düzenli sevkiyatlarımızla müşterilerimize hizmet veriyoruz. Özellikle İstanbul'a tekstil ürünleri, İzmir'e genel yük, Ankara'ya inşaat malzemeleri, Konya'ya tarım ürünleri ve canlı hayvan taşımacılığı yapıyoruz. Yılmaz Arslan'ın önderliğinde, her müşterimize cana yakın ve samimi hizmet sunarak sektörde öncü olmaya devam ediyoruz.",
 
     image: "https://picsum.photos/id/188/2400/2400"
 
@@ -142,7 +142,7 @@ const HistorySectionNew: React.FC = () => {
 
             <h2 className="text-[56px] leading-tight font-medium text-[#1C1817] mb-24 tracking-tight">
 
-              Our History
+              Tarihimiz
 
             </h2>
 
@@ -190,7 +190,7 @@ const HistorySectionNew: React.FC = () => {
 
                               <div className="w-3 h-3 rounded-full border-[3px] border-[#F94006] bg-transparent box-border" />
 
-                              <span className="text-[11px] font-bold uppercase tracking-widest text-[#1C1817]">Year</span>
+                              <span className="text-[11px] font-bold uppercase tracking-widest text-[#1C1817]">Yıl</span>
 
                             </div>
 
@@ -286,7 +286,7 @@ const HistorySectionNew: React.FC = () => {
 
                     src={activeContent.image} 
 
-                    alt={`LogiNord history ${activeYear}`}
+                    alt={`Yılmaz Nakliyat tarihi ${activeYear}`}
 
                     className="w-full h-full object-cover grayscale sepia-[.15]"
 
@@ -298,7 +298,7 @@ const HistorySectionNew: React.FC = () => {
 
                     <div className="absolute top-[10%] right-[10%] opacity-70 pointer-events-none mix-blend-multiply">
 
-                        <span className="font-sans font-bold text-[#5c4d46] text-4xl tracking-tighter">LogiNord</span>
+                        <span className="font-sans font-bold text-[#5c4d46] text-4xl tracking-tighter">Yılmaz Nakliyat</span>
 
                         <span className="align-top text-xs ml-1">↗</span>
 

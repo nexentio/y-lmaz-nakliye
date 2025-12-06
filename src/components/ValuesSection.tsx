@@ -52,25 +52,25 @@ const ValuesSection: React.FC = () => {
 
     {
 
-      title: "Mission",
+      title: "Misyon",
 
-      description: "To deliver seamless, efficient, and honest logistics solutions for growing businesses."
-
-    },
-
-    {
-
-      title: "Vision",
-
-      description: "To become the most trusted logistics partner for companies across borders."
+      description: "Kurucumuz Yılmaz Arslan'ın vizyonu doğrultusunda, büyüyen işletmeler için kesintisiz, verimli ve dürüst taşımacılık çözümleri sunmak. Müşterilerimizin başarısı bizim başarımızdır. Her işletmeye cana yakın ve güvenilir hizmet sunarak, onların büyümesine destek oluyoruz."
 
     },
 
     {
 
-      title: "Values",
+      title: "Vizyon",
 
-      description: "Reliability. Transparency. Sustainability. Respect."
+      description: "Yılmaz Nakliyat olarak, demirci malzemelerinden müteahhit malzemelerine, ev eşyalarından canlı hayvan taşımacılığına kadar her sektörden işletmelerin en güvenilir taşımacılık ortağı olmak. Türkiye genelinde güvenilir, kaliteli ve profesyonel hizmet sunarak sektörde öncü olmayı hedefliyoruz."
+
+    },
+
+    {
+
+      title: "Değerlerimiz",
+
+      description: "Güvenilirlik, şeffaflık, özen ve saygı değerlerimizle çalışıyoruz. Yılmaz Arslan önderliğinde, her müşterimize karşı samimi ve saygılı yaklaşım sergiliyoruz. Eşyalarınızı ve yüklerinizi kendi eşyalarımız gibi özenle taşıyoruz."
 
     }
 
@@ -88,13 +88,13 @@ const ValuesSection: React.FC = () => {
 
           <span className="text-xs font-semibold tracking-wider uppercase text-customDark/70">
 
-            Our Mission, Vision & Values
+            Misyonumuz, Vizyonumuz ve Değerlerimiz
 
           </span>
 
           <h2 className="text-4xl md:text-5xl lg:text-6xl font-medium text-customDark tracking-tight">
 
-            What Drives Us.
+            Bizi Yönlendirenler.
 
           </h2>
 

@@ -62,19 +62,19 @@ export default function WhyUsSection() {
 
           <span className="text-sm font-semibold text-brand-dark tracking-wide uppercase mb-2 block">
 
-            Why Loginord
+            Neden Biz
 
           </span>
 
           <h2 className="text-4xl lg:text-5xl font-semibold text-brand-dark mb-6 leading-[1.15]">
 
-            Why Leading Businesses Rely on Us
+            Profesyonel Taşımacılık Hizmetleri
 
           </h2>
 
           <p className="text-lg text-gray-600 leading-relaxed max-w-md">
 
-            We combine smart operations with real-world reliability to move what matters — faster, safer, and smarter.
+            Eşyalarınızı ve yüklerinizi güvenle taşıyoruz. Yılmaz Nakliyat olarak, kurucumuz Yılmaz Arslan'ın önderliğinde profesyonel ekibimiz ve 30+ araçlık geniş filomuz ile her türlü taşımacılık ihtiyacınıza cana yakın ve güvenilir çözümler sunuyoruz. Müşterilerimizin memnuniyeti bizim için en önemli önceliktir.
 
           </p>
 
@@ -100,7 +100,7 @@ export default function WhyUsSection() {
 
                 visual={<MultilingualVisual />}
 
-                title="Multilingual support across Europe and the US"
+                title="Türkiye Genelinde Güvenilir Hizmet"
 
             />
 
@@ -108,7 +108,7 @@ export default function WhyUsSection() {
 
                 visual={<TruckVisual />}
 
-                title="Real-Time Shipment Visibility"
+                title="Geniş ve Modern Araç Filosu"
 
             />
 
@@ -116,7 +116,7 @@ export default function WhyUsSection() {
 
                 visual={<DeliveryVisual />}
 
-                title="Fast Delivery across 20+ Countries"
+                title="Hızlı ve Güvenli Teslimat"
 
             />
 
@@ -124,7 +124,7 @@ export default function WhyUsSection() {
 
                 visual={<FolderVisual />}
 
-                title="Certified and Compliant Fleet"
+                title="Profesyonel ve Deneyimli Ekip"
 
             />
 

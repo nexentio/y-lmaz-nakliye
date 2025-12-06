@@ -8,37 +8,37 @@ const KeyContactsSection: React.FC = () => {
 
     {
 
-      name: "Michael Reyes",
+      name: "Yılmaz Arslan",
 
-      position: "US Business Development",
+      position: "Kurucu & Genel Müdür",
 
-      email: "michael@logi-nord.com",
+      email: "info@yilmaznakliyat.com",
 
-      phone: "+1 (832) 555-0192"
-
-    },
-
-    {
-
-      name: "Customer Support",
-
-      position: "Global Customer Support",
-
-      email: "support@logi-nord.com",
-
-      phone: "+1 (832) 555-0192"
+      phone: "0545 717 5150"
 
     },
 
     {
 
-      name: "Sophie Van Dijk",
+      name: "Müşteri Hizmetleri",
 
-      position: "Commercial Director",
+      position: "7/24 Müşteri Desteği",
 
-      email: "sophie@logi-nord.com",
+      email: "info@yilmaznakliyat.com",
 
-      phone: "+1 (832) 555-0191"
+      phone: "0543 391 9863"
+
+    },
+
+    {
+
+      name: "Operasyon Departmanı",
+
+      position: "Araç ve Operasyon Yönetimi",
+
+      email: "info@yilmaznakliyat.com",
+
+      phone: "0545 717 5150"
 
     }
 
@@ -50,7 +50,7 @@ const KeyContactsSection: React.FC = () => {
 
     <section>
 
-      <h2 className="text-3xl font-bold text-[#1C1817] mb-8 text-center md:text-left">Key Contacts</h2>
+      <h2 className="text-3xl font-bold text-[#1C1817] mb-8 text-center md:text-left">İletişim Bilgileri</h2>
 
       <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
 

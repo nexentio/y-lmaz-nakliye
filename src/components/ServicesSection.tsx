@@ -16,11 +16,11 @@ const services: ServiceItem[] = [
 
     number: '01',
 
-    title: 'National & International Freight',
+    title: 'Yük Taşıma',
 
     imageUrl: 'https://framerusercontent.com/images/iBliZ6U0n2mOK6nHB0zA61chf4.webp',
 
-    alt: 'View of containers in motion at a large logistics hub located in a port.'
+    alt: 'Büyük yüklerin güvenli taşınması için tır filomuz.'
 
   },
 
@@ -30,11 +30,11 @@ const services: ServiceItem[] = [
 
     number: '02',
 
-    title: 'Regional Distribution',
+    title: 'Evden Eve Taşıma',
 
     imageUrl: 'https://framerusercontent.com/images/Hr6t8ScCAwHOJkSXSmsF2S264A.jpg',
 
-    alt: 'Stacked shipping containers.'
+    alt: '2+1 ve 3+1 ev eşyalarının profesyonel taşınması.'
 
   },
 
@@ -44,11 +44,11 @@ const services: ServiceItem[] = [
 
     number: '03',
 
-    title: 'Warehousing & Fulfillment',
+    title: 'Canlı Hayvan Taşıma',
 
     imageUrl: 'https://framerusercontent.com/images/XbiC6HqXQazD6tC0lwwd6VHSp8.webp',
 
-    alt: 'Large logistics warehouse with a worker walking in the center.'
+    alt: 'Canlı hayvanların güvenli ve özenli taşınması.'
 
   },
 
@@ -58,11 +58,11 @@ const services: ServiceItem[] = [
 
     number: '04',
 
-    title: 'Refrigerated Transport',
+    title: 'Tekstil Ürünleri Taşıma',
 
     imageUrl: 'https://framerusercontent.com/images/ZBaUPtNu1XK33fXrjh3e6RFX9u0.webp',
 
-    alt: 'Set of refrigerated trailers for transport.'
+    alt: 'Tekstil ürünlerinin güvenli taşınması.'
 
   },
 
@@ -72,11 +72,11 @@ const services: ServiceItem[] = [
 
     number: '05',
 
-    title: '3PL Subcontracting',
+    title: 'Tırla Ürün Taşıma',
 
     imageUrl: 'https://framerusercontent.com/images/7LCSOKNtTwk0qTCBifDWJdJE.webp',
 
-    alt: 'Drone view of a transportation truck depot.'
+    alt: 'Geniş tır filomuz ile her türlü ürün taşımacılığı.'
 
   }
 
@@ -114,15 +114,15 @@ export const ServicesSection: React.FC = () => {
 
               <h2 className="text-4xl md:text-5xl lg:text-[64px] leading-[1.05] md:leading-[1.1] lg:leading-[0.95] tracking-tight font-medium">
 
-                Logistics that <br className="hidden lg:block" />
+                İhtiyaçlarınıza Uygun <br className="hidden lg:block" />
 
-                fit your needs.
+                Taşımacılık Hizmetleri.
 
               </h2>
 
               <p className="text-lg md:text-xl text-[#1C1817] leading-relaxed opacity-90 font-normal max-w-sm">
 
-                From temperature-controlled transport to regional distribution — we've got it covered.
+                Yük taşıma, evden eve taşıma, canlı hayvan taşıma ve tekstil ürünleri taşıma — Yılmaz Nakliyat olarak her ihtiyaca özel çözümler sunuyoruz. Kurucumuz Yılmaz Arslan'ın önderliğinde, müşterilerimize güvenilir, kaliteli ve cana yakın hizmet sağlıyoruz. 30+ araçlık filomuzla Türkiye genelinde profesyonel taşımacılık hizmeti veriyoruz.
 
               </p>
 

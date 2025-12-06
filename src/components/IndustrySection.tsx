@@ -18,11 +18,11 @@ const industries: Industry[] = [
 
     id: '1',
 
-    title: 'Food & Beverage',
+    title: 'Demirci Malzemeleri',
 
     imageUrl: 'https://framerusercontent.com/images/fTY3jHNvYEyooysxiifTM2xSTfg.jpg',
 
-    alt: 'Apples in a factory conveyor belt'
+    alt: 'Demirci malzemelerinin güvenli taşınması'
 
   },
 
@@ -30,11 +30,11 @@ const industries: Industry[] = [
 
     id: '2',
 
-    title: 'Pharmaceutical & Medical',
+    title: 'Müteahhit Malzemeleri',
 
     imageUrl: 'https://framerusercontent.com/images/KPtRTAWZPh8dOr5hNCF5msdU4X4.jpg',
 
-    alt: 'Shelves full of pharmaceutical products'
+    alt: 'İnşaat malzemelerinin profesyonel taşınması'
 
   },
 
@@ -42,11 +42,11 @@ const industries: Industry[] = [
 
     id: '3',
 
-    title: 'Industrial & Manufacturing',
+    title: 'Ev Eşyaları',
 
     imageUrl: 'https://framerusercontent.com/images/5UpEscfduHJTgjeKasOjUYDYps.webp',
 
-    alt: 'Rubber Components'
+    alt: 'Ev eşyalarının özenli taşınması'
 
   },
 
@@ -54,11 +54,11 @@ const industries: Industry[] = [
 
     id: '4',
 
-    title: 'Electronics & Technology',
+    title: 'Ofis ve İş Yeri',
 
     imageUrl: 'https://framerusercontent.com/images/Ky1iXcBJYmYHQm4voS6nnQEKrqI.jpg',
 
-    alt: 'Electronic products on a table'
+    alt: 'Ofis eşyalarının taşınması'
 
   },
 
@@ -66,11 +66,11 @@ const industries: Industry[] = [
 
     id: '5',
 
-    title: 'Retail & E-Commerce',
+    title: 'Genel Yük Taşımacılığı',
 
     imageUrl: 'https://framerusercontent.com/images/1hNotqCvrefWQBNcp6xuTP3XLdk.jpg',
 
-    alt: 'View inside a Shopping Center'
+    alt: 'Her türlü yükün güvenli taşınması'
 
   }
 
@@ -104,13 +104,13 @@ export const IndustrySection: React.FC = () => {
 
                 <h2 className="text-5xl md:text-6xl lg:text-[64px] font-bold leading-[1.1] tracking-tight text-white">
 
-                  Built for Critical Industries.
+                  Her Sektör İçin Profesyonel Çözümler.
 
                 </h2>
 
                 <p className="text-lg md:text-xl text-white/90 leading-relaxed font-medium max-w-md">
 
-                  We support companies in Food, Pharma, Retail, and Manufacturing with Tailored Logistics.
+                  Demircilerden müteahhitlere, ev taşımacılığından yük taşımacılığına kadar her sektöre özel taşımacılık hizmetleri. Yılmaz Nakliyat olarak, kurucumuz Yılmaz Arslan'ın önderliğinde her sektörün ihtiyacını anlayıp, cana yakın ve güvenilir çözümler sunuyoruz.
 
                 </p>
 
@@ -128,7 +128,7 @@ export const IndustrySection: React.FC = () => {
 
                 >
 
-                  <span className="font-semibold tracking-wide text-sm">Know Our Industries</span>
+                  <span className="font-semibold tracking-wide text-sm">Hizmetlerimizi İnceleyin</span>
 
                   <div className="w-10 h-10 rounded-full bg-gradient-to-b from-[#f94006] to-[#af2c04] flex items-center justify-center transition-transform duration-300 group-hover:scale-110 shadow-lg shadow-brand-orange/20">
 

@@ -24,7 +24,7 @@ export const SectionButton = () => {
 
       <div className="px-6 py-3 rounded-full border border-brand-orange/20 text-brand-dark bg-white/50 backdrop-blur-sm transition-colors duration-300 group-hover:bg-brand-orange/5">
 
-        <span className="text-sm font-semibold tracking-wide">Know More About Us</span>
+        <span className="text-sm font-semibold tracking-wide">Hakkımızda Daha Fazla</span>
 
       </div>
 

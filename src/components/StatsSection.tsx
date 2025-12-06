@@ -60,7 +60,7 @@ export const StatsSection: React.FC = () => {
 
                <span className="text-[11px] font-bold tracking-[0.08em] text-[#1C1817] uppercase leading-none">
 
-                 By the Numbers
+                 Rakamlarla
 
                </span>
 
@@ -70,9 +70,9 @@ export const StatsSection: React.FC = () => {
 
              {/* Heading */}
 
-             <h2 className="text-4xl sm:text-5xl md:text-[56px] leading-[1.1] font-medium tracking-[-0.02em] text-[#1C1817]">
+             <h2 className="text-3xl sm:text-4xl md:text-5xl leading-[1.1] font-medium tracking-[-0.02em] text-[#1C1817]">
 
-               A diverse fleet serving Europe & United States.
+               Türkiye genelinde hizmet veren güvenilir araç filomuz.
 
              </h2>
 
@@ -90,13 +90,13 @@ export const StatsSection: React.FC = () => {
 
                <span className="font-semibold text-5xl sm:text-[64px] text-[#1C1817] leading-none tracking-tight">
 
-                 30+
+                 15+
 
                </span>
 
                <p className="text-base sm:text-lg text-[#1C1817] opacity-90 leading-tight">
 
-                 Total Vehicles.
+                 Toplam Araç.
 
                </p>
 
@@ -110,13 +110,13 @@ export const StatsSection: React.FC = () => {
 
                <span className="font-semibold text-5xl sm:text-[64px] text-[#1C1817] leading-none tracking-tight">
 
-                 20+
+                 2+
 
                </span>
 
                <p className="text-base sm:text-lg text-[#1C1817] opacity-90 leading-tight">
 
-                 Heavy-duty Semi-Trailers.
+                 Tır ve Ağır Vasıta.
 
                </p>
 
@@ -130,13 +130,13 @@ export const StatsSection: React.FC = () => {
 
                <span className="font-semibold text-5xl sm:text-[64px] text-[#1C1817] leading-none tracking-tight">
 
-                 +10
+                 5+
 
                </span>
 
                <p className="text-base sm:text-lg text-[#1C1817] opacity-90 leading-tight">
 
-                 Urban Delivery Vehicles.
+                 Ford Transit ve Şehir İçi Araçlar.
 
                </p>
 
@@ -150,13 +150,13 @@ export const StatsSection: React.FC = () => {
 
                <span className="font-semibold text-5xl sm:text-[64px] text-[#1C1817] leading-none tracking-tight">
 
-                 100%
+                 3+
 
                </span>
 
                <p className="text-base sm:text-lg text-[#1C1817] opacity-90 leading-tight">
 
-                 ADR & HACCP–Compliant Units.
+                 2+1 ve 3+1 Ev Taşıma Araçları.
 
                </p>
 

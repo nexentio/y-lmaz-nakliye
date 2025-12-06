@@ -1,22 +1,75 @@
-import React from 'react';
+"use client";
+
+import React, { useState } from 'react';
 
 import FormInput from './FormInput';
 
 const ContactFormSection: React.FC = () => {
+  const [formData, setFormData] = useState({
+    name: '',
+    email: '',
+    company: '',
+    message: ''
+  });
+
+  const phoneNumber = "905457175150"; // 0545 717 5150 with country code
+
+  const handleSubmit = (e: React.FormEvent) => {
+    e.preventDefault();
+
+    // Form verilerini WhatsApp mesajı formatına dönüştür
+    let whatsappMessage = "Merhaba! Yılmaz Nakliyat iletişim formundan mesaj gönderiyorum.\n\n";
+    
+    if (formData.name) {
+      whatsappMessage += `👤 Ad Soyad: ${formData.name}\n`;
+    }
+    
+    if (formData.email) {
+      whatsappMessage += `📧 E-posta: ${formData.email}\n`;
+    }
+    
+    if (formData.company) {
+      whatsappMessage += `🏢 Şirket: ${formData.company}\n`;
+    }
+    
+    if (formData.message) {
+      whatsappMessage += `\n💬 Mesaj:\n${formData.message}\n`;
+    }
+    
+    whatsappMessage += "\nTeşekkürler! 🙏";
+
+    // WhatsApp URL'ini oluştur
+    const encodedMessage = encodeURIComponent(whatsappMessage);
+    const whatsappUrl = `https://wa.me/${phoneNumber}?text=${encodedMessage}`;
+
+    // WhatsApp'ı yeni sekmede aç
+    window.open(whatsappUrl, '_blank');
+  };
+
+  const handleChange = (field: string, value: string) => {
+    setFormData(prev => ({
+      ...prev,
+      [field]: value
+    }));
+  };
 
   return (
 
     <section className="bg-white rounded-3xl p-8 md:p-12 shadow-sm">
 
-      <form className="space-y-6">
+      <form className="space-y-6" onSubmit={handleSubmit}>
 
         <FormInput 
 
           number="01"
 
-          label="Name"
+          label="Ad Soyad"
 
-          placeholder="Your full name"
+          placeholder="Adınız ve soyadınız"
+          
+          value={formData.name}
+          
+          onChange={(e) => handleChange('name', e.target.value)}
 
         />
 
@@ -24,11 +77,15 @@ const ContactFormSection: React.FC = () => {
 
           number="02"
 
-          label="Email"
+          label="E-posta"
 
-          placeholder="your.email@example.com"
+          placeholder="ornek@email.com"
 
           type="email"
+          
+          value={formData.email}
+          
+          onChange={(e) => handleChange('email', e.target.value)}
 
         />
 
@@ -36,9 +93,13 @@ const ContactFormSection: React.FC = () => {
 
           number="03"
 
-          label="Company"
+          label="Şirket"
 
-          placeholder="Your company name"
+          placeholder="Şirket adınız (isteğe bağlı)"
+          
+          value={formData.company}
+          
+          onChange={(e) => handleChange('company', e.target.value)}
 
         />
 
@@ -48,13 +109,17 @@ const ContactFormSection: React.FC = () => {
 
             <span className="text-xs font-semibold text-[#1C1817]">04</span>
 
-            <label className="text-base font-semibold text-[#1C1817]">Message</label>
+            <label className="text-base font-semibold text-[#1C1817]">Mesaj</label>
 
           </div>
 
           <textarea 
 
-            placeholder="Tell us about your logistics needs..."
+            placeholder="Taşımacılık ihtiyaçlarınızı bizimle paylaşın..."
+            
+            value={formData.message}
+            
+            onChange={(e) => handleChange('message', e.target.value)}
 
             rows={6}
 
@@ -74,7 +139,7 @@ const ContactFormSection: React.FC = () => {
 
           >
 
-            Send Message
+            Mesaj Gönder
 
           </button>
 

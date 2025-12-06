@@ -14,7 +14,7 @@ import { LOCATIONS } from '../constants';
 
 export default function LocationsSection() {
 
-  const [activeLocationId, setActiveLocationId] = useState<string>('rotterdam-hub');
+  const [activeLocationId, setActiveLocationId] = useState<string>('turkey-hub');
 
   const handlePinClick = (id: string) => {
 
@@ -58,19 +58,19 @@ export default function LocationsSection() {
 
           <span className="text-[10px] md:text-xs font-bold tracking-[0.2em] text-stone-800 uppercase">
 
-            Global reach, local strength.
+            Türkiye genelinde, yerel güç.
 
           </span>
 
           <h1 className="text-4xl md:text-6xl font-medium text-stone-900 tracking-tight">
 
-            Our Locations
+            Lokasyonlarımız
 
           </h1>
 
           <p className="text-base md:text-lg text-stone-600 font-light max-w-md mx-auto">
 
-            We Operate from Strategic Hubs:
+            Stratejik Merkezlerimizden Hizmet Veriyoruz:
 
           </p>
 

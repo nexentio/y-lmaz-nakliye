@@ -16,13 +16,13 @@ export default function Hero() {
 
       {/* Main Headline */}
 
-      <div className="flex flex-col gap-2 mb-8">
+      <div className="flex flex-col gap-2 mb-8 mt-[100px]">
 
         <h1 className="text-5xl md:text-7xl lg:text-[88px] leading-[1.1] font-semibold tracking-tight text-white drop-shadow-2xl">
 
-          <span className="block">Your Freight, delivered</span>
+          <span className="block">Eşyalarınız, Güvenle</span>
 
-          <span className="block">with Precision.</span>
+          <span className="block">Teslim Ediliyor.</span>
 
         </h1>
 
@@ -36,7 +36,7 @@ export default function Hero() {
 
         <p className="text-lg md:text-xl text-white/90 font-normal">
 
-          Across Europe and the US.
+          Türkiye Genelinde Profesyonel Taşımacılık.
 
         </p>
 
@@ -52,21 +52,26 @@ export default function Hero() {
 
         <p className="text-lg md:text-xl text-white/80 max-w-md leading-relaxed font-light">
 
-          Reliable transport. Real-time tracking.<br />
+          Güvenilir taşımacılık. Profesyonel hizmet.<br />
 
-          Tailored logistics for your business.
+          Her türlü yük ve eşya taşımacılığı. Yılmaz Arslan önderliğinde, sizin için buradayız.
 
         </p>
 
         {/* Secondary CTA Button (Glassmorphism + Orange Border) */}
 
-        <a href="#" className="group flex items-center h-[56px] transition-all duration-300">
+        <a 
+          href={`https://wa.me/905457175150?text=${encodeURIComponent("Merhaba! Yılmaz Nakliyat hizmetleriniz hakkında bilgi almak istiyorum. Hizmetlerinizi keşfetmek ve taşımacılık ihtiyacım için teklif almak istiyorum. Teşekkürler! 🙏")}`}
+          target="_blank"
+          rel="noopener noreferrer"
+          className="group flex items-center h-[56px] transition-all duration-300"
+        >
 
             {/* Text Part */}
 
             <div className="h-full px-8 flex items-center border border-[#F94006] rounded-l-full bg-gradient-to-b from-white/5 to-white/0 backdrop-blur-md border-r-0 group-hover:bg-white/10 transition-colors">
 
-                <span className="text-white text-base font-medium whitespace-nowrap">Know Our Services</span>
+                <span className="text-white text-base font-medium whitespace-nowrap">Hizmetlerimizi Keşfedin</span>
 
             </div>
 

@@ -47,9 +47,9 @@ export default function ContactPage() {
 
           <header className="mb-12">
 
-            <p className="text-sm font-medium text-[#1C1817] mb-2 tracking-wide uppercase">Reach out to us.</p>
+            <p className="text-sm font-medium text-[#1C1817] mb-2 tracking-wide uppercase">Bizimle iletişime geçin.</p>
 
-            <h1 className="text-5xl font-bold tracking-tight text-[#1C1817]">Start the Conversation.</h1>
+            <h1 className="text-5xl font-bold tracking-tight text-[#1C1817]">Sohbeti Başlatalım.</h1>
 
           </header>
 

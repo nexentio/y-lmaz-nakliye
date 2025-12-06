@@ -9,10 +9,14 @@ interface FormInputProps {
   placeholder: string;
 
   type?: string;
+  
+  value?: string;
+  
+  onChange?: (e: React.ChangeEvent<HTMLInputElement>) => void;
 
 }
 
-const FormInput: React.FC<FormInputProps> = ({ number, label, placeholder, type = "text" }) => {
+const FormInput: React.FC<FormInputProps> = ({ number, label, placeholder, type = "text", value, onChange }) => {
 
   return (
 
@@ -31,6 +35,10 @@ const FormInput: React.FC<FormInputProps> = ({ number, label, placeholder, type 
         type={type}
 
         placeholder={placeholder}
+        
+        value={value}
+        
+        onChange={onChange}
 
         className="w-full bg-white border border-gray-300 rounded-full py-4 px-6 text-[#1C1817] placeholder-gray-400 focus:outline-none focus:border-[#F94006] focus:ring-1 focus:ring-[#F94006] transition-colors"
 

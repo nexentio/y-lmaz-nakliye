@@ -34,13 +34,13 @@ const TestimonialsSection: React.FC = () => {
 
           <h2 className="text-3xl md:text-4xl font-bold text-stone-850 tracking-tight">
 
-            What Our Clients Say
+            Müşterilerimiz Ne Diyor
 
           </h2>
 
           <p className="text-stone-850 max-w-2xl text-[17px] leading-relaxed">
 
-            Delivering best experience. We ensure safe and efficient delivery for our clients every step of the way.
+            En iyi deneyimi sunuyoruz. Yılmaz Nakliyat olarak, kurucumuz Yılmaz Arslan'ın önderliğinde müşterilerimizin eşyalarını her adımda güvenle ve verimli bir şekilde taşıyoruz. Samimi ve cana yakın hizmet anlayışımızla müşteri memnuniyetini en üst seviyede tutuyoruz.
 
           </p>
 

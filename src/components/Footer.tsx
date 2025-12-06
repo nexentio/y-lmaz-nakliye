@@ -26,17 +26,17 @@ interface FooterColumn {
 
 const contactsData: FooterColumn = {
 
-  title: "Contacts",
+  title: "İletişim",
 
   links: [
 
-    { label: "info@loginord.com", href: "mailto:info@loginord.com" },
+    { label: "0545 717 5150", href: "tel:+905457175150" },
 
-    { label: "houston@loginord.com", href: "mailto:houston@loginord.com" },
+    { label: "0543 391 9863", href: "tel:+905433919863" },
 
-    { label: "+31 23 732 600", href: "tel:+3123732600" },
+    { label: "WhatsApp: 0545 717 5150", href: "https://wa.me/905457175150" },
 
-    { label: "+1 713 5976172", href: "tel:+17135976172" },
+    { label: "WhatsApp: 0543 391 9863", href: "https://wa.me/905433919863" },
 
   ]
 
@@ -44,15 +44,15 @@ const contactsData: FooterColumn = {
 
 const servicesData: FooterColumn = {
 
-  title: "Services",
+  title: "Hizmetler",
 
   links: [
 
-    { label: "Services", href: "#services" },
+    { label: "Hizmetlerimiz", href: "#services" },
 
-    { label: "Our Fleet", href: "#fleet" },
+    { label: "Araç Filosu", href: "#fleet" },
 
-    { label: "Industries", href: "#industries" },
+    { label: "Sektörler", href: "#industries" },
 
   ]
 
@@ -60,13 +60,13 @@ const servicesData: FooterColumn = {
 
 const companyData: FooterColumn = {
 
-  title: "Company",
+  title: "Şirket",
 
   links: [
 
-    { label: "About Us", href: "#about" },
+    { label: "Hakkımızda", href: "#about" },
 
-    { label: "Contact Us", href: "#contact" },
+    { label: "İletişim", href: "#contact" },
 
   ]
 
@@ -90,7 +90,7 @@ const Logo: React.FC = () => (
 
     <div className="relative text-white text-5xl font-bold tracking-tight flex items-center gap-1">
 
-      LogiNord
+      Yılmaz Nakliyat
 
       <ArrowUpRight className="text-white w-8 h-8 stroke-[3]" />
 
@@ -106,7 +106,7 @@ const NewsletterForm: React.FC = () => (
 
     <h3 className="text-white text-xl font-medium mb-6">
 
-      Keep on track by subscribing our Newsletter.
+      Bültenimize abone olarak güncel haberlerden haberdar olun.
 
     </h3>
 
@@ -118,7 +118,7 @@ const NewsletterForm: React.FC = () => (
 
           type="email" 
 
-          placeholder="example@email.com" 
+          placeholder="ornek@email.com" 
 
           className="w-full bg-transparent border border-white/10 rounded-full py-3 px-6 text-white placeholder-white/50 focus:outline-none focus:border-[#F94006] transition-colors"
 
@@ -128,7 +128,7 @@ const NewsletterForm: React.FC = () => (
 
       <button className="group flex items-center gap-2 border border-[#F94006] rounded-full px-6 py-3 text-white font-medium hover:bg-[#F94006]/10 transition-colors shrink-0">
 
-        Subscribe
+        Abone Ol
 
         <span className="bg-[#F94006] rounded-full p-1 group-hover:bg-[#d63604] transition-colors">
 
@@ -148,7 +148,7 @@ const SocialList: React.FC = () => (
 
   <div className="mb-12 lg:mb-0">
 
-    <h4 className="text-white font-semibold text-lg mb-4">Connect</h4>
+    <h4 className="text-white font-semibold text-lg mb-4">Bağlanın</h4>
 
     <div className="flex gap-8">
 
@@ -250,7 +250,7 @@ const MarqueeSection: React.FC = () => {
 
         <div className="flex flex-col md:flex-row items-center gap-2 md:gap-0 text-3xl md:text-5xl font-bold text-white mb-8 md:mb-0">
 
-          <span className="whitespace-nowrap">Ready to m</span>
+          <span className="whitespace-nowrap">Hemen İletişime</span>
 
           {/* The orange line graphic */}
 
@@ -260,15 +260,20 @@ const MarqueeSection: React.FC = () => {
 
           </div>
 
-          <span className="whitespace-nowrap">ve smarter?</span>
+          <span className="whitespace-nowrap">Geçelim mi?</span>
 
         </div>
 
-        <button className="group relative overflow-hidden rounded-full bg-gradient-to-r from-[#F94006] to-[#ae2d04] p-[1px] focus:outline-none focus:ring-2 focus:ring-[#F94006] focus:ring-offset-2 focus:ring-offset-[#1a0502]">
+        <a 
+          href={`https://wa.me/905457175150?text=${encodeURIComponent("Merhaba! Yılmaz Nakliyat hizmetleriniz hakkında bilgi almak ve teklif almak istiyorum. Taşımacılık ihtiyacım için sizinle iletişime geçmek istiyorum. Teşekkürler! 🙏")}`}
+          target="_blank"
+          rel="noopener noreferrer"
+          className="group relative overflow-hidden rounded-full bg-gradient-to-r from-[#F94006] to-[#ae2d04] p-[1px] focus:outline-none focus:ring-2 focus:ring-[#F94006] focus:ring-offset-2 focus:ring-offset-[#1a0502]"
+        >
 
           <span className="relative flex items-center gap-3 rounded-full bg-gradient-to-r from-[#F94006] to-[#ae2d04] px-8 py-4 text-white font-semibold transition-transform active:scale-95">
 
-            Get a Custom Quote
+            Teklif Alın
 
             <div className="bg-white rounded-full p-2 text-[#F94006]">
 
@@ -278,7 +283,7 @@ const MarqueeSection: React.FC = () => {
 
           </span>
 
-        </button>
+        </a>
 
       </div>
 
@@ -333,46 +338,6 @@ const Footer: React.FC = () => {
             <ColumnLinks data={servicesData} />
 
             <ColumnLinks data={companyData} />
-
-          </div>
-
-        </div>
-
-      </div>
-
-      {/* Bottom Bar */}
-
-      <div className="bg-[rgba(28,24,23,0.6)] py-6">
-
-        <div className="container mx-auto px-6 md:px-12 flex flex-col md:flex-row items-center justify-between text-sm text-white font-medium">
-
-          <p>© Copyright 2025 - Made by <span className="underline decoration-white/30 cursor-pointer hover:decoration-white transition-all">JBStudio</span></p>
-
-          
-
-          <div className="flex items-center gap-2 mt-4 md:mt-0">
-
-             <a href="#" className="flex items-center gap-2 bg-white text-black px-4 py-2 rounded-full font-bold hover:bg-gray-200 transition-colors">
-
-                ⚡ Get Template
-
-             </a>
-
-             <a href="#" className="flex items-center gap-2 bg-white text-black px-4 py-2 rounded-full font-bold hover:bg-gray-200 transition-colors">
-
-                Made in Framer
-
-             </a>
-
-          </div>
-
-          <div className="mt-4 md:mt-0">
-
-            <a href="#" className="hover:text-[#F94006] transition-colors mr-1">Get Template</a>
-
-            <span className="mx-1">-</span>
-
-            <a href="#" className="hover:text-[#F94006] transition-colors ml-1">Privacy Policy</a>
 
           </div>
 

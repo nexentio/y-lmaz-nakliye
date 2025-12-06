@@ -42,7 +42,7 @@ const ServicesHero: React.FC = () => {
 
         <h1 className="text-5xl md:text-7xl lg:text-[5.5rem] font-medium tracking-tight leading-[0.95]">
 
-          <span className="inline-block">Tailored Logistics</span>
+          <span className="inline-block">Özel Taşımacılık</span>
 
         </h1>
 
@@ -66,7 +66,7 @@ const ServicesHero: React.FC = () => {
 
           <span className="text-[11px] font-bold tracking-wider uppercase">
 
-            Our Services
+            Hizmetlerimiz
 
           </span>
 
@@ -84,7 +84,7 @@ const ServicesHero: React.FC = () => {
 
           src="https://framerusercontent.com/images/HJ9kWdKwmGATaERGQxk0EMg9SU.jpg?scale-down-to=2048"
 
-          alt="Red shipping container truck in front of white industrial warehouse"
+          alt="Yılmaz Nakliyat - Profesyonel Taşımacılık Hizmetleri ve Güvenilir Filo"
 
           className="w-full h-full object-cover object-[50%_65%]"
 
@@ -102,7 +102,7 @@ const ServicesHero: React.FC = () => {
 
          <h2 className="text-5xl md:text-7xl lg:text-[5.5rem] font-medium tracking-tight leading-[0.95]">
 
-          For a Global World.
+          Güvenilir Taşımacılık İçin.
 
         </h2>
 

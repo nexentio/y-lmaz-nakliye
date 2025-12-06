@@ -182,11 +182,11 @@ export const TESTIMONIALS: Testimonial[] = [
 
     id: 1,
 
-    quote: "\"Loginord helped us streamline our entire distribution network in Western Europe. Always on time, always reliable.\"",
+    quote: "\"Evden eve taşıma hizmetinizden çok memnun kaldık. Eşyalarımız hiç zarar görmeden, zamanında teslim edildi. Teşekkür ederiz.\"",
 
-    name: "Frank Anderson",
+    name: "Yılmaz Arslan",
 
-    company: "European Food Co.",
+    company: "Yılmaz Nakliyat Müşterisi",
 
     image: "https://framerusercontent.com/images/eA14AQZoraXhWBvjDmeNUInSEk.webp"
 
@@ -196,11 +196,11 @@ export const TESTIMONIALS: Testimonial[] = [
 
     id: 2,
 
-    quote: "\"Loginord became a true partner in our cold-chain operations across the US. Their real-time visibility tools make all the difference.\"",
+    quote: "\"Demirci malzemelerimizi her zaman güvenle taşıdılar. Profesyonel ekip ve düzenli hizmet için teşekkürler.\"",
 
-    name: "Carla Jennings",
+    name: "Mehmet Demirci",
 
-    company: "FreshHarvest Foods",
+    company: "Demirci İşletmesi",
 
     image: "https://framerusercontent.com/images/unWYDuYMRPUeJ16AX0mrzNKJ8.webp"
 
@@ -210,11 +210,11 @@ export const TESTIMONIALS: Testimonial[] = [
 
     id: 3,
 
-    quote: "\"What impressed us most was their flexibility during seasonal peaks. Loginord scaled up quickly without compromising quality.\"",
+    quote: "\"İnşaat malzemelerimizin taşınmasında çok yardımcı oldular. Zamanında ve güvenli teslimat için her zaman tercih ediyoruz.\"",
 
-    name: "Thierry Morel",
+    name: "Ali Müteahhit",
 
-    company: "AgriNova Americas",
+    company: "İnşaat Firması",
 
     image: "https://framerusercontent.com/images/Ej8sUg9nHnlycpYyqFac2ga4.webp"
 
@@ -224,11 +224,11 @@ export const TESTIMONIALS: Testimonial[] = [
 
     id: 4,
 
-    quote: "\"From the first shipment, it was clear they understood the complexity of electronics transport. Everything has been smooth and secure.\"",
+    quote: "\"Canlı hayvan taşımacılığında çok hassas ve özenli davrandılar. Hayvanlarımız çok güvenli bir şekilde teslim edildi.\"",
 
-    name: "Derek Tanaka",
+    name: "Fatma Çiftçi",
 
-    company: "Nextronix Components",
+    company: "Hayvancılık İşletmesi",
 
     image: "https://framerusercontent.com/images/V4oFVZNGp88PU7IzhV9HJiodMws.webp"
 
@@ -238,17 +238,17 @@ export const TESTIMONIALS: Testimonial[] = [
 
 export const NAV_LINKS: NavLink[] = [
 
-  { label: 'Home', href: '#' },
+  { label: 'Ana Sayfa', href: '#' },
 
-  { label: 'About Us', href: '#' },
+  { label: 'Hakkımızda', href: '#' },
 
-  { label: 'Services', href: '#' },
+  { label: 'Hizmetler', href: '#' },
 
-  { label: 'Fleet', href: '#' },
+  { label: 'Araç Filosu', href: '#' },
 
-  { label: 'Industries', href: '#' },
+  { label: 'Sektörler', href: '#' },
 
-  { label: 'Contact Us', href: '#' },
+  { label: 'İletişim', href: '#' },
 
 ];
 
@@ -320,25 +320,25 @@ export const LOCATIONS: LocationData[] = [
 
   {
 
-    id: 'rotterdam-hub',
+    id: 'turkey-hub',
 
-    city: 'Rotterdam',
+    city: 'Gaziantep',
 
-    country: 'Netherlands',
+    country: 'Türkiye',
 
-    title: 'European Headquarters & Warehouse',
+    title: 'Merkez Ofis ve Lojistik Merkezi',
 
-    description: "Located in the heart of Europe's logistics corridor, our Rotterdam HQ oversees ground freight, regional distribution, and B2B partnerships across France, Germany, Benelux, and Spain.",
+    description: "Gaziantep'te bulunan merkez ofisimiz, yük taşımacılığı, evden eve taşımacılık, canlı hayvan taşımacılığı ve tekstil ürünleri taşımacılığı hizmetlerini Türkiye genelinde yönetmektedir. Yılmaz Nakliyat olarak, kurucumuz Yılmaz Arslan'ın önderliğinde Gaziantep'ten Türkiye'nin her yerine güvenilir taşımacılık hizmeti sunuyoruz.",
 
     coordinates: {
 
-      top: 72.5,
+      top: 45.5,
 
-      left: 58.5,
+      left: 62.5,
 
     },
 
-    image: 'https://images.unsplash.com/photo-1473876637954-4b493d59fd09?q=80&w=2000&auto=format&fit=crop', 
+    image: '/adres-resmi/gaziantep.webp', 
 
     active: true,
 
@@ -352,9 +352,9 @@ export const TEAM_MEMBERS: TeamMember[] = [
 
     id: '1',
 
-    name: 'Anders Smithsson',
+    name: 'Yılmaz Arslan',
 
-    role: 'Founder & CEO',
+    role: 'Kurucu & Genel Müdür',
 
     imageUrl: 'https://images.unsplash.com/photo-1560250097-0b93528c311a?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
 
@@ -366,9 +366,9 @@ export const TEAM_MEMBERS: TeamMember[] = [
 
     id: '2',
 
-    name: 'Sophie Van Dijk',
+    name: 'Ayşe Yılmaz',
 
-    role: 'Commercial Director',
+    role: 'Ticari Müdür',
 
     imageUrl: 'https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
 
@@ -380,9 +380,9 @@ export const TEAM_MEMBERS: TeamMember[] = [
 
     id: '3',
 
-    name: 'Michael Reyes',
+    name: 'Mehmet Yılmaz',
 
-    role: 'Head of Operations',
+    role: 'Operasyon Müdürü',
 
     imageUrl: 'https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
 
@@ -394,9 +394,9 @@ export const TEAM_MEMBERS: TeamMember[] = [
 
     id: '4',
 
-    name: 'Claire Fontaine',
+    name: 'Fatma Yılmaz',
 
-    role: 'Quality & Compliance Lead',
+    role: 'Kalite ve Uyumluluk Sorumlusu',
 
     imageUrl: 'https://images.unsplash.com/photo-1580489944761-15a19d654956?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
 
@@ -414,9 +414,9 @@ export const STANDARDS: StandardItem[] = [
 
     iconSrc: "https://framerusercontent.com/images/rkWr4LxNKhYA7mIbUN436Q8264.svg?width=59&height=36",
 
-    title: "ISO 9001:2015",
+    title: "Sigortalı Taşımacılık",
 
-    description: "Our operations follow strict quality management standards, ensuring consistency, efficiency, and customer satisfaction at every stage.",
+    description: "Tüm yükleriniz ve eşyalarınız kapsamlı sigorta ile korunmaktadır. Yılmaz Nakliyat olarak, taşımacılık sürecinde oluşabilecek her türlü riski sigorta kapsamına alarak müşterilerimize güvence sağlıyoruz. Kurucumuz Yılmaz Arslan'ın önderliğinde, güvenli ve sigortalı taşımacılık hizmeti sunuyoruz.",
 
     width: 59,
 
@@ -430,9 +430,9 @@ export const STANDARDS: StandardItem[] = [
 
     iconSrc: "https://framerusercontent.com/images/YojkX4pmmDTitKmvFG2xERdo.svg?width=51&height=40",
 
-    title: "GDP Certification",
+    title: "Güvenli ve Özenli Taşımacılık",
 
-    description: "We comply with Good Distribution Practices to guarantee the integrity and safety of products throughout the supply chain.",
+    description: "Eşyalarınızı ve yüklerinizi kendi eşyalarımız gibi özenle taşıyoruz. Profesyonel paketleme, güvenli yükleme ve hasarsız teslimat için özel ekipmanlar ve deneyimli ekibimizle hizmet veriyoruz. Yılmaz Nakliyat, her taşımacılık işleminde güvenliği ön planda tutar.",
 
     width: 51,
 
@@ -446,9 +446,9 @@ export const STANDARDS: StandardItem[] = [
 
     iconSrc: "https://framerusercontent.com/images/eLNWAzqL6G7tJSxbylXqaxnc9VU.svg?width=37&height=41",
 
-    title: "Environmental Compliance",
+    title: "Zamanında Teslimat Garantisi",
 
-    description: "Commitment to sustainable logistics practices that meet international environmental and safety regulations.",
+    description: "Yılmaz Nakliyat olarak, taahhüt ettiğimiz teslimat sürelerine uygun hareket ediyoruz. Türkiye genelinde düzenli sevkiyatlarımızla, yüklerinizin zamanında ve güvenle teslim edilmesini garanti ediyoruz. Kurucumuz Yılmaz Arslan'ın önderliğinde, müşteri memnuniyetini en üst seviyede tutuyoruz.",
 
     width: 37,
 
@@ -464,19 +464,19 @@ export const services: ServiceData[] = [
 
     id: "01",
 
-    title: "National & International Freight",
+    title: "Yük Taşıma",
 
     image: "https://picsum.photos/800/600?random=1",
 
-    description: "We move goods across Europe and North America with precision. Whether it's full truckloads or smaller consignments, our multimodal solutions ensure on-time, secure deliveries.",
+    description: "Türkiye genelinde büyük yüklerinizi güvenle taşıyoruz. Tam tır yüklerinden küçük gönderilere kadar geniş araç filomuzla zamanında ve güvenli teslimat garantisi sunuyoruz.",
 
     features: [
 
-      { title: "Multi-modal shipping:", description: "Road, rail, air, and ocean freight." },
+      { title: "Geniş araç filosu:", description: "Tırlar, Ford Transit ve özel araçlar." },
 
-      { title: "Customs-ready:", description: "International documentation and clearance support." },
+      { title: "Güvenli taşımacılık:", description: "Sigortalı ve profesyonel hizmet." },
 
-      { title: "Route optimization:", description: "For efficiency, cost, and sustainability." }
+      { title: "Esnek çözümler:", description: "Her türlü yük için uygun taşıma seçenekleri." }
 
     ]
 
@@ -486,19 +486,19 @@ export const services: ServiceData[] = [
 
     id: "02",
 
-    title: "Regional Distribution",
+    title: "Evden Eve Taşıma",
 
     image: "https://picsum.photos/800/600?random=2",
 
-    description: "Our regional distribution network enables daily and scheduled deliveries in France and the U.S., supported by digital traceability and performance tracking.",
+    description: "2+1 ve 3+1 ev eşyalarınızı özenle taşıyoruz. Profesyonel ekibimiz ve özel araçlarımızla eşyalarınızı zarar görmeden yeni adresinize ulaştırıyoruz.",
 
     features: [
 
-      { title: "Same-day / next-day options:", description: "Based on regional hubs." },
+      { title: "Özel ev taşıma araçları:", description: "2+1 ve 3+1 evler için uygun araçlar." },
 
-      { title: "Real-time tracking:", description: "From pick-up to delivery." },
+      { title: "Profesyonel ekip:", description: "Eşyalarınızı özenle paketleyen ve taşıyan deneyimli personel." },
 
-      { title: "Proof of delivery (POD):", description: "Digital and secure." }
+      { title: "Güvenli teslimat:", description: "Eşyalarınızın hasarsız teslim edilmesi garantisi." }
 
     ]
 
@@ -508,19 +508,19 @@ export const services: ServiceData[] = [
 
     id: "03",
 
-    title: "Warehousing & Fulfillment",
+    title: "Canlı Hayvan Taşıma",
 
     image: "https://picsum.photos/800/600?random=3",
 
-    description: "More than storage — our logistics hubs offer advanced capabilities tailored to dynamic supply chains and omni-channel operations.",
+    description: "Canlı hayvanlarınızı en özenli şekilde taşıyoruz. Hayvanların sağlığı ve güvenliği için özel olarak tasarlanmış araçlar ve deneyimli ekibimizle hizmet veriyoruz.",
 
     features: [
 
-      { title: "Temperature-controlled zones:", description: "For sensitive goods." },
+      { title: "Özel araçlar:", description: "Canlı hayvanlar için uygun taşıma araçları." },
 
-      { title: "Inventory integration:", description: "Real-time sync with your systems." },
+      { title: "Deneyimli ekip:", description: "Hayvan bakımı konusunda uzman personel." },
 
-      { title: "Value-added services:", description: "Kitting, labeling, repacking." }
+      { title: "Güvenli taşımacılık:", description: "Hayvanların sağlığı ve konforu için özenli hizmet." }
 
     ]
 
@@ -530,19 +530,19 @@ export const services: ServiceData[] = [
 
     id: "04",
 
-    title: "Refrigerated Transport",
+    title: "Tekstil Ürünleri Taşıma",
 
     image: "https://picsum.photos/800/600?random=4",
 
-    description: "Temperature-controlled transport you can rely on. Designed for pharma, perishables, and other sensitive cargo, with full visibility and compliance.",
+    description: "Tekstil ürünlerinizi temiz ve güvenli şekilde taşıyoruz. Kumaşlar, hazır giyim ve tekstil malzemelerinin zarar görmeden teslim edilmesi için özel özen gösteriyoruz.",
 
     features: [
 
-      { title: "Certified cold chain:", description: "HACCP & GDP compliant." },
+      { title: "Temiz taşımacılık:", description: "Tekstil ürünleri için hijyenik taşıma." },
 
-      { title: "Live temperature monitoring:", description: "Throughout the journey." },
+      { title: "Özel paketleme:", description: "Ürünlerin zarar görmemesi için profesyonel paketleme." },
 
-      { title: "Pharma & food-grade fleet:", description: "Sanitized and calibrated." }
+      { title: "Zamanında teslimat:", description: "Tekstil sektörüne uygun hızlı ve güvenli teslimat." }
 
     ]
 
@@ -552,19 +552,19 @@ export const services: ServiceData[] = [
 
     id: "05",
 
-    title: "3PL Subcontracting",
+    title: "Tırla Ürün Taşıma",
 
     image: "https://picsum.photos/800/600?random=5",
 
-    description: "We support growing businesses with long-term logistics solutions, dedicated assets, and flexible SLAs — acting as an extension of your team.",
+    description: "Geniş tır filomuzla büyük hacimli ürünlerinizi Türkiye'nin her yerine güvenle taşıyoruz. Demirci malzemelerinden müteahhit malzemelerine kadar her türlü ürün için hizmet veriyoruz.",
 
     features: [
 
-      { title: "Custom contracts:", description: "Tailored to your industry & volumes." },
+      { title: "Geniş tır filosu:", description: "15+ tır ile büyük hacimli taşımacılık." },
 
-      { title: "Dedicated fleet options:", description: "Branded or white-label." },
+      { title: "Sektörel uzmanlık:", description: "Demirci, müteahhit ve endüstriyel ürün taşımacılığı." },
 
-      { title: "Client dashboards:", description: "Real-time data, performance reports." }
+      { title: "Güvenilir hizmet:", description: "Profesyonel şoförler ve bakımlı araçlarla güvenli taşımacılık." }
 
     ]
 
@@ -572,9 +572,9 @@ export const services: ServiceData[] = [
 
 ];
 
-export const SECTION_TAG = "FUELING EVERY MOVE";
+export const SECTION_TAG = "HER HAREKETİMİZ İÇİN";
 
-export const SECTION_TITLE = "What Sets Us Apart:";
+export const SECTION_TITLE = "Bizi Farklı Kılanlar:";
 
 export const FEATURES: FeatureItem[] = [
 
@@ -582,9 +582,9 @@ export const FEATURES: FeatureItem[] = [
 
     id: 'reliability',
 
-    title: 'Certified Reliability',
+    title: 'Güvenilir Hizmet',
 
-    description: 'ISO 9001 processes & time-definite performance.',
+    description: 'Kaliteli süreçler ve zamanında teslimat garantisi.',
 
     icon: 'https://framerusercontent.com/images/9evVzCTgnvOhSapzBMvHCFEFTqs.svg',
 
@@ -594,9 +594,9 @@ export const FEATURES: FeatureItem[] = [
 
     id: 'fleet',
 
-    title: 'Own Fleet + Trusted Partners',
+    title: 'Geniş Araç Filosu',
 
-    description: 'Flexibility and control for consistent delivery.',
+    description: 'Tutarlı teslimat için esneklik ve kontrol.',
 
     icon: 'https://framerusercontent.com/images/nNxIxSslCuOx4gx4QYOH0qVUlEY.svg',
 
@@ -606,9 +606,9 @@ export const FEATURES: FeatureItem[] = [
 
     id: 'dual-hub',
 
-    title: 'Dual-Hub Operations',
+    title: 'Türkiye Genelinde Hizmet',
 
-    description: 'Rotterdam & Houston coverage ensures global reach and regional precision.',
+    description: 'Türkiye genelinde kapsamlı hizmet ağı ile güvenilir taşımacılık.',
 
     icon: 'https://framerusercontent.com/images/gaR0VwBnC0N4APFwe98Wh6FNzA.svg',
 
@@ -618,9 +618,9 @@ export const FEATURES: FeatureItem[] = [
 
     id: 'integrations',
 
-    title: 'Client-Centric Integrations',
+    title: 'Müşteri Odaklı Hizmet',
 
-    description: 'API-based tracking, order management & EDI support.',
+    description: 'Profesyonel takip, sipariş yönetimi ve müşteri desteği.',
 
     icon: 'https://framerusercontent.com/images/ewowPWKy313pFX3YtxCqcFjFxg.svg',
 
@@ -630,9 +630,9 @@ export const FEATURES: FeatureItem[] = [
 
     id: 'scalable',
 
-    title: 'Scalable for Growth',
+    title: 'Büyümeye Uygun',
 
-    description: 'Modular service plans for evolving business needs.',
+    description: 'Gelişen iş ihtiyaçlarınız için modüler hizmet planları.',
 
     icon: 'https://framerusercontent.com/images/xfwVeEi5Q4ThoeqAvKoLkDEGjM.svg',
 
@@ -710,9 +710,9 @@ export const FAQ_DATA: FAQItem[] = [
 
     id: 1,
 
-    question: "Do you handle temperature-controlled shipments internationally?",
+    question: "Evden eve taşıma hizmetiniz için ne kadar süre önceden rezervasyon yapmalıyım?",
 
-    answer: "Yes, we specialize in end-to-end cold chain logistics. Our fleet is equipped with advanced temperature monitoring systems to ensure your sensitive cargo remains within the required temperature range throughout the entire journey, whether by air, sea, or road."
+    answer: "Yılmaz Nakliyat olarak, evden eve taşıma hizmetleri için en az 1-2 gün önceden rezervasyon yapmanızı öneririz. Ancak acil durumlarda aynı gün hizmet de verebiliriz. Kurucumuz Yılmaz Arslan'ın önderliğinde, müşterilerimize esnek ve hızlı çözümler sunuyoruz. 0545 717 5150 veya 0543 391 9863 numaralarımızdan bize ulaşarak teklif alabilirsiniz."
 
   },
 
@@ -720,9 +720,9 @@ export const FAQ_DATA: FAQItem[] = [
 
     id: 2,
 
-    question: "What's the average quote response time?",
+    question: "Teklif alma süresi ne kadar?",
 
-    answer: "We understand that speed is critical in logistics. Our team is committed to providing detailed quotes within 2 hours for standard requests and within 24 hours for complex, multi-modal project logistics."
+    answer: "Yılmaz Nakliyat olarak hızın taşımacılıkta ne kadar önemli olduğunu biliyoruz. Ekibimiz, standart istekler için 2 saat içinde, daha karmaşık projeler için 24 saat içinde detaylı teklifler sunmaya kararlıdır. WhatsApp üzerinden 0545 717 5150 veya 0543 391 9863 numaralarımızdan bize ulaşabilir, hızlı teklif alabilirsiniz."
 
   },
 
@@ -730,9 +730,9 @@ export const FAQ_DATA: FAQItem[] = [
 
     id: 3,
 
-    question: "Can I request dedicated capacity for seasonal peaks?",
+    question: "Canlı hayvan taşımacılığı yapıyor musunuz?",
 
-    answer: "Absolutely. We offer flexible contracts that allow you to secure dedicated capacity during your high-volume periods. We recommend discussing your seasonal forecasting with us at least 3 months in advance to guarantee availability."
+    answer: "Evet, Yılmaz Nakliyat olarak canlı hayvan taşımacılığı konusunda uzmanız. Hayvanlarınızın sağlığı ve konforu için özel olarak tasarlanmış araçlarımız ve deneyimli ekibimizle hizmet veriyoruz. Kurucumuz Yılmaz Arslan'ın önderliğinde, her hayvanı kendi hayvanımız gibi özenle taşıyoruz. Detaylı bilgi için bizimle iletişime geçin."
 
   },
 
@@ -740,9 +740,9 @@ export const FAQ_DATA: FAQItem[] = [
 
     id: 4,
 
-    question: "Can I request a quote for a single shipment?",
+    question: "Tek seferlik yük taşıma hizmeti alabilir miyim?",
 
-    answer: "Yes, we handle both recurring contracts and one-off spot shipments. You can easily request a quote through our portal or by contacting our support team directly, regardless of shipment volume."
+    answer: "Tabii ki! Yılmaz Nakliyat olarak hem düzenli sözleşmeler hem de tek seferlik spot taşımalar için hizmet veriyoruz. Yük hacminiz ne olursa olsun, 0545 717 5150 veya 0543 391 9863 numaralarımızdan veya WhatsApp üzerinden bize ulaşarak kolayca teklif isteyebilirsiniz. Müşterilerimize cana yakın ve samimi hizmet sunuyoruz."
 
   },
 
@@ -750,9 +750,9 @@ export const FAQ_DATA: FAQItem[] = [
 
     id: 5,
 
-    question: "Can you manage logistics during seasonal peaks?",
+    question: "Mevsimsel yoğunluk dönemlerinde hizmet verebiliyor musunuz?",
 
-    answer: "Yes, our scalable infrastructure is designed to absorb demand surges. We utilize predictive analytics to allocate resources efficiently during peak seasons, ensuring your supply chain remains uninterrupted."
+    answer: "Evet, Yılmaz Nakliyat'ın ölçeklenebilir altyapısı talep artışlarını karşılamak için tasarlanmıştır. 30+ araçlık filomuzla mevsimsel yoğunluk dönemlerinde de kesintisiz hizmet sunuyoruz. Kurucumuz Yılmaz Arslan önderliğinde, kaynaklarımızı verimli bir şekilde tahsis ederek tedarik zincirinizin kesintisiz kalmasını sağlıyoruz."
 
   },
 
@@ -760,9 +760,9 @@ export const FAQ_DATA: FAQItem[] = [
 
     id: 6,
 
-    question: "Are your services available for small and mid-sized businesses?",
+    question: "Küçük ve orta ölçekli işletmeler için hizmet veriyor musunuz?",
 
-    answer: "We serve businesses of all sizes. Our solutions are scalable, meaning we provide the same level of tracking, reliability, and support to SMEs as we do to enterprise clients, often with tailored pricing models."
+    answer: "Yılmaz Nakliyat olarak tüm işletme büyüklüklerine hizmet veriyoruz. Çözümlerimiz ölçeklenebilirdir, yani KOBİ'lere de büyük işletmelere sunduğumuz aynı takip, güvenilirlik ve destek seviyesini sunuyoruz, genellikle özel fiyatlandırma modelleriyle. Kurucumuz Yılmaz Arslan'ın vizyonu doğrultusunda, her işletmeye cana yakın hizmet sunuyoruz."
 
   },
 
@@ -770,9 +770,9 @@ export const FAQ_DATA: FAQItem[] = [
 
     id: 7,
 
-    question: "What certifications does Loginord hold?",
+    question: "Yılmaz Nakliyat hangi sertifikalara sahip?",
 
-    answer: "We maintain the highest industry standards. Loginord is ISO 9001 certified for quality management, GDP certified for pharmaceutical transport, and we are an Authorized Economic Operator (AEO)."
+    answer: "Yılmaz Nakliyat olarak en yüksek endüstri standartlarını koruyoruz. Kurucumuz Yılmaz Arslan'ın önderliğinde kalite yönetimi için ISO 9001 standartlarına uygun olarak çalışıyoruz. Tüm araçlarımız ve süreçlerimiz düzenli olarak kalite ve güvenlik açısından kontrol edilir. Müşterilerimize güvenilir ve kaliteli hizmet sunmak için sürekli kendimizi geliştiriyoruz."
 
   }
 
@@ -838,13 +838,13 @@ export const INDUSTRY_IMAGES: IndustryImage[] = [
 
 export const TEXT_CONTENT = {
 
-  tag: "INDUSTRIES",
+  tag: "SEKTÖRLER",
 
-  titlePrefix: "Tailored to your",
+  titlePrefix: "Sektörünüze Özel",
 
-  titleSuffix: "Industry.",
+  titleSuffix: "Çözümler.",
 
-  description: "From perishable foods to high-value electronics, Loginord crafts specialized supply-chain solutions that fit your requirements and regulations."
+  description: "Demirci malzemelerinden müteahhit malzemelerine, ev eşyalarından yük taşımacılığına kadar Yılmaz Nakliyat, her sektöre özel taşımacılık çözümleri sunuyor. Yılmaz Arslan önderliğinde, Türkiye genelinde güvenilir ve profesyonel taşımacılık hizmeti."
 
 };
 
@@ -854,21 +854,27 @@ export const INDUSTRIES_DATA: IndustryData[] = [
 
   {
 
-    id: 'food-beverage',
+    id: 'demirci-malzemeleri',
 
-    title: 'Food & Beverage',
+    title: 'Demirci Malzemeleri Taşımacılığı',
 
-    description: 'Temperature-controlled transport from farm to market.',
+    description: 'Demirci malzemelerinizi güvenle ve profesyonelce taşıyoruz. Yılmaz Nakliyat olarak, kurucumuz Yılmaz Arslan önderliğinde demirci sektörünün tüm ihtiyaçlarına özel çözümler sunuyoruz. Demir profiller, çelik levhalar, borular, köşebentler ve tüm demirci malzemeleri için özel olarak tasarlanmış tırlarımızla hizmetinizdeyiz. Ağır yüklerin güvenli taşınması için özel ekipmanlar ve deneyimli ekibimizle, malzemelerinizin hasar görmeden ve zamanında teslim edilmesini garanti ediyoruz.',
 
     imageUrl: 'https://framerusercontent.com/images/4W2UQjgXqF2ySWbOeXH2W9G6os.jpg?width=1000',
 
     features: [
 
-      'HACCP-certified cold chain',
+      'Ağır demir malzemeleri için özel tırlar (25 tona kadar)',
 
-      'Cross-docking & warehousing',
+      'Demir profiller, çelik levhalar, borular ve köşebentler taşımacılığı',
 
-      'Last-mile refrigerated delivery'
+      'Özel vinç ve kaldırma ekipmanları ile güvenli yükleme',
+
+      'Zamanında ve hasarsız teslimat garantisi',
+
+      'Türkiye genelinde şehirlerarası demirci malzemeleri taşımacılığı',
+
+      'Sigortalı ve güvenli taşımacılık hizmeti'
 
     ]
 
@@ -876,21 +882,27 @@ export const INDUSTRIES_DATA: IndustryData[] = [
 
   {
 
-    id: 'pharma',
+    id: 'muteahhit-malzemeleri',
 
-    title: 'Pharmaceutical & Medical',
+    title: 'Müteahhit ve İnşaat Malzemeleri Taşımacılığı',
 
-    description: 'Safe, traceable logistics for healthcare essentials.',
+    description: 'İnşaat sektörü için güvenilir taşımacılık hizmetleri. Yılmaz Nakliyat, müteahhitlerin tüm malzemelerini şantiyelerine güvenle ulaştırıyor. Çimento, tuğla, kiremit, beton bloklar, hazır beton, demir çubuklar, çatı malzemeleri ve tüm inşaat malzemeleri için özel araçlarımızla hizmet veriyoruz. Şantiye teslimatlarında uzman ekibimiz, dar sokaklara ve zor erişimli alanlara da güvenle ulaşabiliyor. Proje bazlı taşımacılık çözümlerimizle, inşaat projelerinizin kesintisiz devam etmesini sağlıyoruz.',
 
     imageUrl: 'https://framerusercontent.com/images/M2Blfi2uhHuLhqgAkz4Gths8aXo.jpg?width=1000',
 
     features: [
 
-      'GDP/GMP-compliant transport',
+      'Çimento, tuğla, kiremit ve beton bloklar taşımacılığı',
 
-      'Tamper-evident packaging',
+      'Hazır beton ve demir çubuklar için özel araçlar',
 
-      'Real-time tracking'
+      'Çatı malzemeleri ve yalıtım ürünleri taşımacılığı',
+
+      'Şantiye teslimatında uzman ekip ve özel araçlar',
+
+      'Proje bazlı taşımacılık çözümleri ve düzenli sevkiyat',
+
+      'Dar sokaklara ve zor erişimli alanlara teslimat imkanı'
 
     ]
 
@@ -898,21 +910,27 @@ export const INDUSTRIES_DATA: IndustryData[] = [
 
   {
 
-    id: 'industrial',
+    id: 'ev-esyalari',
 
-    title: 'Industrial & Manufacturing',
+    title: 'Evden Eve Taşımacılık',
 
-    description: 'Just-in-time heavy transport for manufacturing logistics.',
+    description: 'Ev eşyalarınızı özenle taşıyoruz. Yılmaz Nakliyat, 2+1 ve 3+1 evler için özel araçları ve profesyonel ekibiyle hizmetinizde. Eşyalarınızın güvenli taşınması için özel paketleme hizmeti sunuyoruz. Mobilyalar, elektronik eşyalar, mutfak gereçleri, yatak odası takımları ve tüm ev eşyalarınızı özenle paketleyip, özel koruma malzemeleriyle sararak taşıyoruz. Deneyimli taşıma ekibimiz, eşyalarınızı hasar görmeden yeni adresinize ulaştırıyor. 2+1 ve 3+1 evler için özel olarak tasarlanmış araçlarımızla, tek seferde tüm eşyalarınızı taşıyabiliyoruz.',
 
     imageUrl: 'https://framerusercontent.com/images/5UpEscfduHJTgjeKasOjUYDYps.webp?width=1000',
 
     features: [
 
-      'Full & breakbulk FTL services',
+      '2+1 ve 3+1 evler için özel tasarlanmış araçlar',
 
-      'Real-time route optimization',
+      'Profesyonel paketleme ve koruma hizmeti',
 
-      'Customs-cleared cross-border'
+      'Mobilya, elektronik ve tüm ev eşyaları taşımacılığı',
+
+      'Deneyimli taşıma ekibi ile güvenli teslimat',
+
+      'Özel koruma malzemeleri ile hasarsız taşımacılık',
+
+      'Tek seferde tüm eşyalarınızı taşıma imkanı'
 
     ]
 
@@ -920,21 +938,27 @@ export const INDUSTRIES_DATA: IndustryData[] = [
 
   {
 
-    id: 'electronics',
+    id: 'ofis-isyeri',
 
-    title: 'Electronics & Technology',
+    title: 'Ofis ve İş Yeri Taşımacılığı',
 
-    description: 'Secure logistics for high-value tech components.',
+    description: 'Ofis ve iş yeri taşımacılığında deneyimli ekibimizle hizmet veriyoruz. Kurucumuz Yılmaz Arslan önderliğinde, ofis eşyalarınızı güvenle taşıyoruz. Ofis masaları, sandalyeler, dosya dolapları, bilgisayar sistemleri, yazıcılar, fotokopi makineleri ve tüm ofis eşyalarınızı özel paketleme ile koruyarak taşıyoruz. İş akışınızı aksatmadan, hızlı ve verimli bir şekilde taşımacılık hizmeti sunuyoruz. Büyük ofislerden küçük işletmelere kadar her ölçekte ofis taşımacılığı yapıyoruz. Eşyalarınızın montaj ve demontaj işlemlerini de yaparak, yeni ofisinizde hemen çalışmaya başlayabilmenizi sağlıyoruz.',
 
     imageUrl: 'https://framerusercontent.com/images/gDJQlN4uLNxj3MMRA45Ji66530.jpg?width=1000',
 
     features: [
 
-      'ESD-safe handling & packaging',
+      'Ofis mobilyaları için özel paketleme ve koruma',
 
-      'Express air & ground transport',
+      'Bilgisayar sistemleri ve elektronik cihazlar taşımacılığı',
 
-      'Customs-ready documentation support'
+      'Hızlı ve verimli taşımacılık ile iş akışınızı aksatmama',
+
+      'Montaj ve demontaj hizmetleri',
+
+      'Büyük ofislerden küçük işletmelere kadar her ölçekte hizmet',
+
+      'Hafta içi ve hafta sonu esnek taşımacılık seçenekleri'
 
     ]
 
@@ -942,21 +966,27 @@ export const INDUSTRIES_DATA: IndustryData[] = [
 
   {
 
-    id: 'retail',
+    id: 'genel-yuk',
 
-    title: 'Retail & E-Commerce',
+    title: 'Genel Yük Taşımacılığı',
 
-    description: 'Fast, scalable delivery for retail and online sales.',
+    description: 'Her türlü yükünüzü güvenle taşıyoruz. Yılmaz Nakliyat olarak, 30+ araçlık filomuzla genel yük taşımacılığında güvenilir çözümler sunuyoruz. Paletli yükler, koli yükleri, ambalajlı ürünler, makine parçaları, tekstil ürünleri ve her türlü genel yük için uygun araçlarımızla hizmet veriyoruz. Türkiye genelinde kapsamlı hizmet ağımızla, yüklerinizi güvenle ve zamanında teslim ediyoruz. Küçük yüklerden büyük tır yüklerine kadar her boyutta taşımacılık yapıyoruz. Sigortalı ve güvenli taşımacılık hizmetimizle, yüklerinizin güvenliğini garanti ediyoruz.',
 
     imageUrl: 'https://framerusercontent.com/images/j4QHmpdyTicyhFFwPzYSL5E7jlU.jpg?width=1000',
 
     features: [
 
-      'Nationwide fulfillment & distribution',
+      'Paletli yükler, koli yükleri ve ambalajlı ürünler taşımacılığı',
 
-      'Integrated returns management',
+      'Makine parçaları ve endüstriyel yükler için özel araçlar',
 
-      'Last-mile delivery optimization'
+      'Tekstil ürünleri ve kumaş taşımacılığı',
+
+      'Türkiye genelinde kapsamlı hizmet ağı',
+
+      'Küçük yüklerden büyük tır yüklerine kadar her boyutta hizmet',
+
+      'Sigortalı ve güvenli taşımacılık ile zamanında teslimat garantisi'
 
     ]
 

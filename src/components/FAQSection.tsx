@@ -22,7 +22,7 @@ export const FAQSection: React.FC = () => {
 
           <p className="uppercase tracking-widest text-[11px] font-bold text-[#1C1817] mb-4 pl-0.5">
 
-            We're here to help you
+            Size yardımcı olmak için buradayız
 
           </p>
 
@@ -32,9 +32,9 @@ export const FAQSection: React.FC = () => {
 
           <h1 className="text-4xl md:text-[64px] font-bold tracking-tight leading-[1.1] mb-6 text-[#1C1817]">
 
-            Frequently <br className="hidden md:block" />
+            Sıkça <br className="hidden md:block" />
 
-            Asked Questions
+            Sorulan Sorular
 
           </h1>
 
@@ -44,9 +44,7 @@ export const FAQSection: React.FC = () => {
 
           <p className="text-[#1C1817] text-lg md:text-[19px] leading-relaxed max-w-2xl opacity-80">
 
-            We've answered some of the most common questions 
-
-            below. Still unsure? Reach out — our team is here to help.
+            En sık sorulan sorulara aşağıda cevaplar verdik. Hala emin değil misiniz? Yılmaz Nakliyat olarak bizimle iletişime geçin — ekibimiz size yardımcı olmak için burada. Kurucumuz Yılmaz Arslan önderliğinde, tüm sorularınızı cana yakın bir şekilde yanıtlamaktan mutluluk duyarız.
 
           </p>
 

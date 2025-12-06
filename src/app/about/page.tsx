@@ -10,6 +10,8 @@ import ValuesSection from '../../components/ValuesSection';
 
 import LocationsSection from '../../components/LocationsSection';
 
+import CitiesSection from '../../components/CitiesSection';
+
 import { TeamSection } from '../../components/TeamSection';
 
 import CertifiedSection from '../../components/CertifiedSection';
@@ -46,6 +48,10 @@ export default function AboutPage() {
         <ValuesSection />
 
       </div>
+
+      {/* Cities Section */}
+      
+      <CitiesSection />
 
       {/* Locations Section */}
 

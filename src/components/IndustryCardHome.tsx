@@ -20,7 +20,7 @@ export const IndustryCardHome: React.FC<IndustryCardHomeProps> = ({ industry }) 
 
         src={industry.imageUrl} 
 
-        alt={industry.alt || industry.title} 
+        alt={industry.alt ? `Yılmaz Nakliyat ${industry.alt}` : `Yılmaz Nakliyat ${industry.title} - Profesyonel Taşımacılık`} 
 
         className="w-full h-full object-cover transition-transform duration-700 ease-out group-hover:scale-110"
 

@@ -10,11 +10,11 @@ const testimonials: Testimonial[] = [
 
     id: '1',
 
-    quote: "\"Loginord helped us streamline our entire distribution network in Western Europe. Always on time, always reliable.\"",
+    quote: "\"Yılmaz Nakliyat ile çalışmaya başladığımızdan beri demirci malzemelerimizin taşınması hiç sorun olmadı. Her zaman zamanında ve güvenilir hizmet alıyoruz. Yılmaz Arslan bey ve ekibi gerçekten profesyonel.\"",
 
-    name: "Frank Anderson",
+    name: "Mehmet Demirci",
 
-    company: "European Food Co.",
+    company: "Demirci Malzemeleri İşletmesi",
 
     avatarUrl: "https://picsum.photos/id/64/200/200"
 
@@ -24,11 +24,11 @@ const testimonials: Testimonial[] = [
 
     id: '2',
 
-    quote: "\"Loginord became a true partner in our cold-chain operations across the US. Their real-time visibility tools make all the difference.\"",
+    quote: "\"İnşaat projelerimizde Yılmaz Nakliyat'ı tercih ediyoruz. Şantiye teslimatlarında çok başarılılar. Malzemelerimiz her zaman zamanında ve hasarsız geliyor. Müteahhitler için ideal bir taşımacılık firması.\"",
 
-    name: "Carla Jennings",
+    name: "Ali Yılmaz",
 
-    company: "FreshHarvest Foods",
+    company: "Yılmaz İnşaat Ltd.",
 
     avatarUrl: "https://picsum.photos/id/338/200/200"
 
@@ -38,11 +38,11 @@ const testimonials: Testimonial[] = [
 
     id: '3',
 
-    quote: "\"What impressed us most was their flexibility during seasonal peaks. Loginord scaled up quickly without compromising quality.\"",
+    quote: "\"Ev taşımacılığında Yılmaz Nakliyat'ı seçtik ve hiç pişman olmadık. Eşyalarımızı özenle paketleyip taşıdılar. 3+1 evimizin tüm eşyalarını tek seferde güvenle taşıdılar. Çok memnun kaldık.\"",
 
-    name: "Thierry Morel",
+    name: "Ayşe Kaya",
 
-    company: "AgriNova Americas",
+    company: "Yılmaz Nakliyat Müşterisi",
 
     avatarUrl: "https://picsum.photos/id/237/200/200"
 
@@ -52,11 +52,11 @@ const testimonials: Testimonial[] = [
 
     id: '4',
 
-    quote: "\"From the first shipment, it was clear they understood the complexity of electronics transport. Everything has been smooth and secure.\"",
+    quote: "\"Ofis taşımacılığı için Yılmaz Nakliyat ile çalıştık. İş akışımızı hiç aksatmadan, hızlı ve verimli bir şekilde taşımacılık yaptılar. Bilgisayar sistemlerimiz ve tüm ofis eşyalarımız güvenle taşındı.\"",
 
-    name: "Derek Tanaka",
+    name: "Fatih Özkan",
 
-    company: "Nextronix Components",
+    company: "Teknoloji Şirketi",
 
     avatarUrl: "https://picsum.photos/id/91/200/200"
 
@@ -80,7 +80,7 @@ export const IndustriesTestimonialsSection: React.FC = () => {
 
           <h2 className="text-[#1C1817] text-4xl md:text-5xl font-medium tracking-tight max-w-sm">
 
-            What Our Clients Say
+            Müşterilerimiz Ne Diyor
 
           </h2>
 
@@ -88,7 +88,7 @@ export const IndustriesTestimonialsSection: React.FC = () => {
 
             <p className="text-[#1C1817] text-lg md:text-[19px] leading-snug">
 
-              Delivering best experience. We ensure safe and efficient delivery for our clients every step of the way.
+              En iyi deneyimi sunuyoruz. Yılmaz Nakliyat olarak, kurucumuz Yılmaz Arslan'ın önderliğinde müşterilerimizin eşyalarını her adımda güvenle ve verimli bir şekilde taşıyoruz.
 
             </p>
 
@@ -112,7 +112,7 @@ export const IndustriesTestimonialsSection: React.FC = () => {
 
               src="https://picsum.photos/id/206/800/1200" 
 
-              alt="Logistics transport road" 
+              alt="Yılmaz Nakliyat - Türkiye Genelinde Profesyonel Taşımacılık Hizmetleri" 
 
               className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
 

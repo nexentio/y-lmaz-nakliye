@@ -22,7 +22,7 @@ export const ContactHero: React.FC<ContactHeroProps> = ({ skyImage, cityImage })
 
         <h1 className="text-6xl md:text-7xl lg:text-[88px] leading-[0.95] tracking-tight font-medium text-[#1C1817]">
 
-          Tailored <br/> Logistics
+          Özel <br/> Taşımacılık
 
         </h1>
 
@@ -42,7 +42,7 @@ export const ContactHero: React.FC<ContactHeroProps> = ({ skyImage, cityImage })
 
               </div>
 
-              <span className="uppercase text-sm font-bold tracking-widest text-[#1C1817]">Our Services</span>
+              <span className="uppercase text-sm font-bold tracking-widest text-[#1C1817]">Hizmetlerimiz</span>
 
            </div>
 
@@ -64,7 +64,7 @@ export const ContactHero: React.FC<ContactHeroProps> = ({ skyImage, cityImage })
 
             src={skyImage} 
 
-            alt="Logistics Sky View" 
+            alt="Yılmaz Nakliyat - Türkiye Genelinde Taşımacılık Hizmetleri" 
 
             className="w-full h-full object-cover transform group-hover:scale-105 transition-transform duration-700 ease-out"
 
@@ -84,7 +84,7 @@ export const ContactHero: React.FC<ContactHeroProps> = ({ skyImage, cityImage })
 
             src={cityImage} 
 
-            alt="Global City Logistics" 
+            alt="Yılmaz Nakliyat - Güvenilir Taşımacılık ve Lojistik Çözümleri" 
 
             className="w-full h-full object-cover transform group-hover:scale-105 transition-transform duration-700 ease-out"
 
@@ -100,7 +100,7 @@ export const ContactHero: React.FC<ContactHeroProps> = ({ skyImage, cityImage })
 
         <h2 className="text-5xl md:text-6xl lg:text-[64px] font-medium tracking-tight text-[#1C1817] leading-tight max-w-2xl">
 
-          For a Global World.
+          Türkiye Genelinde Güvenilir Hizmet.
 
         </h2>
 
@@ -108,7 +108,7 @@ export const ContactHero: React.FC<ContactHeroProps> = ({ skyImage, cityImage })
 
           <p className="text-xl md:text-[22px] leading-relaxed text-[#1C1817] font-normal">
 
-            Whether you're looking for a quote, have a specific question, or just want to explore how we can support your logistics needs — we're here to help.
+            Teklif almak, özel bir sorunuz olması veya taşımacılık ihtiyaçlarınız için nasıl destek olabileceğimizi öğrenmek istiyorsanız — Yılmaz Nakliyat olarak buradayız. Kurucumuz Yılmaz Arslan önderliğinde, size en uygun çözümü bulmak için cana yakın ve samimi bir yaklaşımla hizmetinizdeyiz.
 
           </p>
 

@@ -12,9 +12,9 @@ const timelineData: TimelineItemData[] = [
 
     number: '01',
 
-    title: 'Discovery',
+    title: 'Keşif',
 
-    description: 'We assess your needs and KPIs.',
+    description: 'İhtiyaçlarınızı ve beklentilerinizi değerlendiriyoruz.',
 
   },
 
@@ -24,9 +24,9 @@ const timelineData: TimelineItemData[] = [
 
     number: '02',
 
-    title: 'Solution Design',
+    title: 'Çözüm Tasarımı',
 
-    description: 'We build a custom logistics plan.',
+    description: 'Size özel taşımacılık planı oluşturuyoruz.',
 
   },
 
@@ -38,7 +38,7 @@ const timelineData: TimelineItemData[] = [
 
     title: 'Onboarding',
 
-    description: 'You get connected to our systems.',
+    description: 'Sistemlerimize entegre oluyorsunuz.',
 
   },
 
@@ -48,9 +48,9 @@ const timelineData: TimelineItemData[] = [
 
     number: '04',
 
-    title: 'Operations',
+    title: 'Operasyonlar',
 
-    description: 'We deliver, track, and optimize.',
+    description: 'Teslim ediyor, takip ediyor ve optimize ediyoruz.',
 
   },
 
@@ -60,9 +60,9 @@ const timelineData: TimelineItemData[] = [
 
     number: '05',
 
-    title: 'Review',
+    title: 'İnceleme',
 
-    description: 'We meet monthly to improve.',
+    description: 'İyileştirme için düzenli görüşmeler yapıyoruz.',
 
   },
 
@@ -85,13 +85,13 @@ const Timeline: React.FC = () => {
 
         <p className="text-xs md:text-[11px] font-semibold tracking-widest text-[#1C1817] uppercase mb-4">
 
-          How It Works
+          Nasıl Çalışıyoruz
 
         </p>
 
         <h2 className="text-4xl md:text-[56px] font-medium tracking-tight text-[#1C1817]">
 
-          The Process
+          Süreç
 
         </h2>
 

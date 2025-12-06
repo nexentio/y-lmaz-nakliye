@@ -48,7 +48,7 @@ export const ServiceCard: React.FC<ServiceCardProps> = ({ data }) => {
 
             src={data.image} 
 
-            alt={data.title}
+            alt={`Yılmaz Nakliyat ${data.title} - Profesyonel Taşımacılık Hizmetleri`}
 
             className="w-full h-full object-cover hover:scale-105 transition-transform duration-700 ease-out opacity-90 hover:opacity-100"
 

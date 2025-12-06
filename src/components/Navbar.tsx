@@ -83,7 +83,7 @@ export default function Navbar({ variant = 'dark' }: NavbarProps) {
 
       <Link href="/" className="flex items-center gap-1 group cursor-pointer">
 
-        <span className={`text-2xl font-semibold tracking-tight ${logoColor}`} style={{ textShadow: '0 0 24px rgba(0, 0, 0, 1), 0 0 28px rgba(0, 0, 0, 0.8), 0 0 32px rgba(0, 0, 0, 0.8), 0 0 36px rgba(0, 0, 0, 0.8)' }}>LogiNord</span>
+        <span className={`text-2xl font-semibold tracking-tight ${logoColor}`} style={{ textShadow: '0 0 24px rgba(0, 0, 0, 1), 0 0 28px rgba(0, 0, 0, 0.8), 0 0 32px rgba(0, 0, 0, 0.8), 0 0 36px rgba(0, 0, 0, 0.8)' }}>Yılmaz Nakliyat</span>
 
         <div className="mb-3 ml-0.5">
 
@@ -103,17 +103,17 @@ export default function Navbar({ variant = 'dark' }: NavbarProps) {
 
       <div className={`hidden lg:flex items-center gap-8 ${menuBg} px-8 py-3 rounded-full`}>
 
-        <NavLink text="Home" href="/" variant={variant} />
+        <NavLink text="Ana Sayfa" href="/" variant={variant} />
 
-        <NavLink text="About Us" href="/about" variant={variant} />
+        <NavLink text="Hakkımızda" href="/about" variant={variant} />
 
-        <NavLink text="Services" href="/services" variant={variant} />
+        <NavLink text="Hizmetler" href="/services" variant={variant} />
 
-        <NavLink text="Fleet" href="/fleet" variant={variant} />
+        <NavLink text="Araç Filosu" href="/fleet" variant={variant} />
 
-           <NavLink text="Industries" href="/industries" variant={variant} />
+           <NavLink text="Sektörler" href="/industries" variant={variant} />
 
-        <NavLink text="Contact Us" href="/contact" variant={variant} />
+        <NavLink text="İletişim" href="/contact" variant={variant} />
 
       </div>
 
@@ -121,9 +121,14 @@ export default function Navbar({ variant = 'dark' }: NavbarProps) {
 
       <div className="hidden lg:block">
 
-        <button className="flex items-center gap-3 bg-[#F94006] hover:bg-[#d63604] text-white px-6 py-3 rounded-full transition-all duration-300 shadow-lg shadow-orange-900/20 group">
+        <a 
+          href={`https://wa.me/905457175150?text=${encodeURIComponent("Merhaba! Yılmaz Nakliyat hizmetleriniz hakkında bilgi almak ve teklif almak istiyorum. Taşımacılık ihtiyacım için sizinle iletişime geçmek istiyorum. Teşekkürler! 🙏")}`}
+          target="_blank"
+          rel="noopener noreferrer"
+          className="flex items-center gap-3 bg-[#F94006] hover:bg-[#d63604] text-white px-6 py-3 rounded-full transition-all duration-300 shadow-lg shadow-orange-900/20 group"
+        >
 
-          <span className="text-sm font-medium">Get a Quote</span>
+          <span className="text-sm font-medium">Teklif Alın</span>
 
           <div className="bg-white/20 rounded-full p-1 transition-transform group-hover:translate-x-1">
 
@@ -131,7 +136,7 @@ export default function Navbar({ variant = 'dark' }: NavbarProps) {
 
           </div>
 
-        </button>
+        </a>
 
       </div>
 
@@ -153,25 +158,30 @@ export default function Navbar({ variant = 'dark' }: NavbarProps) {
 
         <div className={`absolute top-20 left-0 w-full ${mobileMenuBg} p-6 flex flex-col gap-6 lg:hidden z-50`}>
 
-           <NavLink text="Home" href="/" variant={variant} />
+           <NavLink text="Ana Sayfa" href="/" variant={variant} />
 
-           <NavLink text="About Us" href="/about" variant={variant} />
+           <NavLink text="Hakkımızda" href="/about" variant={variant} />
 
-           <NavLink text="Services" href="/services" variant={variant} />
+           <NavLink text="Hizmetler" href="/services" variant={variant} />
 
-           <NavLink text="Fleet" href="/fleet" variant={variant} />
+           <NavLink text="Araç Filosu" href="/fleet" variant={variant} />
 
-           <NavLink text="Industries" href="/industries" variant={variant} />
+           <NavLink text="Sektörler" href="/industries" variant={variant} />
 
-           <NavLink text="Contact Us" href="/contact" variant={variant} />
+           <NavLink text="İletişim" href="/contact" variant={variant} />
 
-           <button className="flex items-center justify-center gap-3 bg-[#F94006] text-white px-6 py-3 rounded-full w-full">
+           <a 
+             href={`https://wa.me/905457175150?text=${encodeURIComponent("Merhaba! Yılmaz Nakliyat hizmetleriniz hakkında bilgi almak ve teklif almak istiyorum. Taşımacılık ihtiyacım için sizinle iletişime geçmek istiyorum. Teşekkürler! 🙏")}`}
+             target="_blank"
+             rel="noopener noreferrer"
+             className="flex items-center justify-center gap-3 bg-[#F94006] text-white px-6 py-3 rounded-full w-full"
+           >
 
-            <span className="text-sm font-medium">Get a Quote</span>
+            <span className="text-sm font-medium">Teklif Alın</span>
 
             <ArrowRight size={16} />
 
-          </button>
+          </a>
 
         </div>
 

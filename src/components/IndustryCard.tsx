@@ -52,7 +52,7 @@ const IndustryCard: React.FC<IndustryCardProps> = ({ data, industry }) => {
 
       {cardData.description && (
 
-        <p className="text-[#1C1817] mb-6 text-base leading-relaxed">
+        <p className="text-[#1C1817] mb-6 text-base leading-relaxed text-gray-700">
 
           {cardData.description}
 
@@ -68,7 +68,7 @@ const IndustryCard: React.FC<IndustryCardProps> = ({ data, industry }) => {
 
           src={cardData.imageUrl} 
 
-          alt={cardData.title} 
+          alt={`Yılmaz Nakliyat ${cardData.title} - Profesyonel Taşımacılık Hizmetleri`} 
 
           className="w-full h-full object-cover transform hover:scale-105 transition-transform duration-500"
 

@@ -26,19 +26,19 @@ export const TeamSection: React.FC = () => {
 
             <span className="text-xs font-semibold tracking-wider text-gray-900 uppercase mb-5 block">
 
-              The Team
+              Ekibimiz
 
             </span>
 
             <h2 className="text-4xl md:text-5xl font-medium tracking-tight text-gray-900 mb-8 leading-[1.15]">
 
-              People You<br />Can Rely On.
+              Güvenebileceğiniz<br />İnsanlar.
 
             </h2>
 
             <p className="text-lg text-gray-600 font-light leading-relaxed max-w-sm">
 
-              Our strength lies in our people — from dispatch operators to cross-border drivers. Meet the management team behind every successful delivery.
+              Gücümüz insanlarımızdan geliyor — sevk görevlilerinden şoförlerimize kadar. Her başarılı teslimatın arkasındaki yönetim ekibimizi tanıyın.
 
             </p>
 
