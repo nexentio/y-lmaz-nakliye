@@ -309,7 +309,7 @@ export default function FleetPage() {
 
                  <span className="font-semibold text-5xl sm:text-[64px] text-[#1C1817] leading-none tracking-tight">
 
-                   30+
+                   15+
 
                  </span>
 
@@ -329,7 +329,7 @@ export default function FleetPage() {
 
                  <span className="font-semibold text-5xl sm:text-[64px] text-[#1C1817] leading-none tracking-tight">
 
-                   15+
+                   2+
 
                  </span>
 
@@ -349,7 +349,7 @@ export default function FleetPage() {
 
                  <span className="font-semibold text-5xl sm:text-[64px] text-[#1C1817] leading-none tracking-tight">
 
-                   10+
+                   5+
 
                  </span>
 
@@ -369,7 +369,7 @@ export default function FleetPage() {
 
                  <span className="font-semibold text-5xl sm:text-[64px] text-[#1C1817] leading-none tracking-tight">
 
-                   5+
+                   3+
 
                  </span>
 
@@ -576,9 +576,9 @@ export default function FleetPage() {
 
         <FleetSection
 
-          title="Bağlı Filo, Bağlı Siz."
+          title="Güvenilir Filo, Güvenilir Hizmet."
 
-          description="Her araç, gelişmiş telematik donanımıyla donatılmıştır, size gerçek zamanlı görünürlük ve proaktif uyarılar sağlar."
+          description="Yılmaz Nakliyat olarak, tüm araçlarımız düzenli bakım ve kontrolden geçer. Müşterilerimize güvenilir ve zamanında teslimat sağlamak için sürekli olarak araçlarımızı takip ediyor ve en iyi durumda tutuyoruz. Kurucumuz Yılmaz Arslan'ın önderliğinde, her yükünüzü güvenle taşıyoruz."
 
           variant="dark"
 
@@ -588,9 +588,9 @@ export default function FleetPage() {
 
             type="icon"
 
-            title="Canlı GPS Takibi"
+            title="Güvenilir Takip Sistemi"
 
-            description="Kesin konum ve varış süresini görün."
+            description="Yüklerinizin durumunu telefon veya WhatsApp üzerinden takip edebilirsiniz. Yılmaz Nakliyat olarak, müşterilerimize şeffaf ve güvenilir hizmet sunuyoruz."
 
             icon={<GPSIcon />}
 
@@ -602,9 +602,9 @@ export default function FleetPage() {
 
             type="image"
 
-            title="API Entegrasyonu"
+            title="Hızlı İletişim"
 
-            description="Takibi TMS veya portalınıza entegre edin."
+            description="0545 717 5150 ve 0543 391 9863 numaralarımızdan veya WhatsApp üzerinden 7/24 bize ulaşabilirsiniz. Yılmaz Nakliyat olarak, müşterilerimizle sürekli iletişim halindeyiz."
 
             imageSrc="https://images.unsplash.com/photo-1551288049-bebda4e38f71?q=80&w=2070&auto=format&fit=crop"
 
@@ -614,9 +614,9 @@ export default function FleetPage() {
 
             type="image"
 
-            title="Otomatik Uyarılar"
+            title="Zamanında Bilgilendirme"
 
-            description="Rota sapmaları ve sıcaklık değişimleri."
+            description="Yüklerinizin durumu hakkında düzenli olarak bilgilendirilirsiniz. Yılmaz Nakliyat olarak, müşterilerimizi her adımda bilgilendirerek güven sağlıyoruz."
 
             imageSrc="https://images.unsplash.com/photo-1516245834210-c4c14278733f?q=80&w=2069&auto=format&fit=crop"
 
@@ -626,9 +626,9 @@ export default function FleetPage() {
 
             type="icon"
 
-            title="Telematik Kontrol Paneli"
+            title="Profesyonel Ekip"
 
-            description="Hız, yakıt tüketimi, sürücü davranışı."
+            description="Deneyimli sürücülerimiz ve taşıma ekibimizle, yüklerinizi güvenle ve özenle taşıyoruz. Yılmaz Nakliyat olarak, her işimizde profesyonellik ve özen gösteriyoruz."
 
             icon={<DashboardIcon />}
 
@@ -658,9 +658,9 @@ export default function FleetPage() {
 
             type="icon"
 
-            title="Önleyici Bakım"
+            title="Düzenli Araç Bakımı"
 
-            description="Araçlar ve soğutma sistemleri için düzenli kontroller."
+            description="Tüm araçlarımız düzenli olarak bakımdan geçer. Yılmaz Nakliyat olarak, araçlarımızın her zaman hazır ve güvenli olmasını sağlıyoruz."
 
             icon={<MaintenanceIcon />}
 
@@ -672,9 +672,9 @@ export default function FleetPage() {
 
             type="image"
 
-            title="Uyumluluk Denetimleri"
+            title="Yasal Uyumluluk"
 
-            description="ADR, HACCP ve Türk taşımacılık düzenlemeleri."
+            description="Tüm taşımacılık işlemlerimiz Türk taşımacılık mevzuatına uygundur. Yılmaz Nakliyat olarak, yasal gereklilikleri eksiksiz yerine getiriyoruz."
 
             imageSrc="https://images.unsplash.com/photo-1450101499163-c8848c66ca85?q=80&w=2070&auto=format&fit=crop"
 
@@ -684,9 +684,9 @@ export default function FleetPage() {
 
             type="image"
 
-            title="Sürücü Eğitimi"
+            title="Deneyimli Sürücüler"
 
-            description="Düzenli güvenlik ve eko-sürüş kursları."
+            description="Tüm sürücülerimiz deneyimli ve güvenli sürüş konusunda eğitimlidir. Yılmaz Nakliyat olarak, güvenli taşımacılık için sürekli eğitim veriyoruz."
 
             imageSrc="https://images.unsplash.com/photo-1449965408869-eaa3f722e40d?q=80&w=2070&auto=format&fit=crop"
 
@@ -696,9 +696,9 @@ export default function FleetPage() {
 
             type="icon"
 
-            title="7/24 Yol Yardımı"
+            title="7/24 Destek Hattı"
 
-            description="Yolda çıkan sorunlar için hızlı müdahale."
+            description="Yolda herhangi bir sorun olduğunda, 0545 717 5150 veya 0543 391 9863 numaralarımızdan bize ulaşabilirsiniz. Yılmaz Nakliyat olarak, her zaman yanınızdayız."
 
             icon={<RoadsideIcon />}
 
@@ -716,9 +716,9 @@ export default function FleetPage() {
 
         <FleetSection
 
-          title="Daha Yeşil Bir Filo İçin."
+          title="Güvenilir ve Verimli Taşımacılık."
 
-          description="Karbon ayak izini azaltmak ve ESG hedeflerinizi desteklemek için çevre dostu araçlara ve süreçlere yatırım yapıyoruz."
+          description="Yılmaz Nakliyat olarak, araçlarımızı düzenli bakım ve kontrolden geçirerek verimli çalışmasını sağlıyoruz. Kurucumuz Yılmaz Arslan'ın önderliğinde, müşterilerimize güvenilir ve zamanında teslimat garantisi sunuyoruz."
 
           variant="dark"
 
@@ -728,9 +728,9 @@ export default function FleetPage() {
 
             type="icon"
 
-            title="Rota Optimizasyonu"
+            title="Akıllı Rota Planlama"
 
-            description="Daha düşük yakıt tüketimi için."
+            description="En kısa ve güvenli rotaları belirleyerek, yüklerinizin zamanında ve güvenle teslim edilmesini sağlıyoruz. Yılmaz Nakliyat olarak, her sevkiyatta en uygun rotayı seçiyoruz."
 
             icon={<RouteIcon />}
 
@@ -742,9 +742,9 @@ export default function FleetPage() {
 
             type="image"
 
-            title="Ortaklık"
+            title="Güvenilir Ortaklıklar"
 
-            description="Karbon dengeleme programları ile."
+            description="Türkiye genelinde güvenilir iş ortaklarımızla çalışarak, yüklerinizin her noktaya güvenle ulaşmasını sağlıyoruz. Yılmaz Nakliyat olarak, geniş bir hizmet ağına sahibiz."
 
             imageSrc="https://images.unsplash.com/photo-1542601906990-b4d3fb778b09?q=80&w=2026&auto=format&fit=crop"
 
@@ -754,9 +754,9 @@ export default function FleetPage() {
 
             type="image"
 
-            title="Pilot Program"
+            title="Sürekli Gelişim"
 
-            description="Elektrikli şehir içi araçlarla."
+            description="Filosumuzu sürekli genişletiyor ve modernize ediyoruz. Yılmaz Nakliyat olarak, müşterilerimize daha iyi hizmet verebilmek için sürekli yatırım yapıyoruz."
 
             imageSrc="https://images.unsplash.com/photo-1617788138017-80ad40651399?q=80&w=2070&auto=format&fit=crop"
 
@@ -766,9 +766,9 @@ export default function FleetPage() {
 
             type="icon"
 
-            title="Çevre Standartları"
+            title="Yasal Standartlara Uyum"
 
-            description="Tüm ağır araçlarda emisyon standartları."
+            description="Tüm araçlarımız Türk taşımacılık mevzuatına ve çevre standartlarına uygundur. Yılmaz Nakliyat olarak, yasal gereklilikleri eksiksiz yerine getiriyoruz."
 
             icon={<EuroIcon />}
 
