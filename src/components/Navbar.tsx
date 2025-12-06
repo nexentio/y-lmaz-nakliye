@@ -4,6 +4,8 @@ import React, { useState, useEffect } from 'react';
 
 import Link from 'next/link';
 
+import Image from 'next/image';
+
 import { ArrowRight, Menu, X } from 'lucide-react';
 
 const NavLink = ({ text, href, variant = 'dark' }: { text: string; href: string; variant?: 'dark' | 'light' }) => {
@@ -83,19 +85,11 @@ export default function Navbar({ variant = 'dark' }: NavbarProps) {
 
       <Link href="/" className="flex items-center gap-1 group cursor-pointer">
 
-        <span className={`text-2xl font-semibold tracking-tight ${logoColor}`} style={{ textShadow: '0 0 24px rgba(0, 0, 0, 1), 0 0 28px rgba(0, 0, 0, 0.8), 0 0 32px rgba(0, 0, 0, 0.8), 0 0 36px rgba(0, 0, 0, 0.8)' }}>Yılmaz Nakliyat</span>
-
-        <div className="mb-3 ml-0.5">
-
-           <svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="4" strokeLinecap="round" strokeLinejoin="round" className={logoColor}>
-
-             <path d="M7 17L17 7" />
-
-             <path d="M7 7h10v10" />
-
-           </svg>
-
-        </div>
+        <img 
+          src="/logo-yilmaz-nakliyat.png" 
+          alt="Yılmaz Nakliyat Logo" 
+          className="h-10 w-auto object-contain"
+        />
 
       </Link>
 
