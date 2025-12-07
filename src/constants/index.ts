@@ -772,9 +772,9 @@ export const INDUSTRY_IMAGES: IndustryImage[] = [
 
     id: 1,
 
-    alt: "Juicy raw Steak on a Table",
+    alt: "Canlı renklerde, üst üste istiflenmiş çok sayıda tekstil ve kumaş rulosu.",
 
-    src: "https://picsum.photos/400/600?random=1", 
+    src: "/stok/canli-renklerde-kumas-rulolari.webp", 
 
   },
 
@@ -782,9 +782,9 @@ export const INDUSTRY_IMAGES: IndustryImage[] = [
 
     id: 2,
 
-    alt: "Table with pharmaceutical pills",
+    alt: "Endüstriyel depoda istiflenmiş uzun inşaat demirleri ve kangal çelik çubuklar.",
 
-    src: "https://picsum.photos/400/600?random=2",
+    src: "/stok/insaat-demiri-celik-depolama.webp",
 
   },
 
@@ -792,9 +792,9 @@ export const INDUSTRY_IMAGES: IndustryImage[] = [
 
     id: 3,
 
-    alt: "Industrial Factory",
+    alt: "Nakliye kamyonundan rampayla yeşil alana indirilen süt ve et ırkı inekler.",
 
-    src: "https://picsum.photos/400/600?random=3",
+    src: "/stok/nakliye-kamyonundan-inen-inekler-ciftlik.webp",
 
   },
 
@@ -802,9 +802,9 @@ export const INDUSTRY_IMAGES: IndustryImage[] = [
 
     id: 4,
 
-    alt: "3D Printer closeup",
+    alt: "Profesyonel nakliyat elemanı koli bant makinesiyle taşıma kutusunu mühürlüyor.",
 
-    src: "https://picsum.photos/400/600?random=4",
+    src: "/stok/profesyonel-nakliyat-kutu-bantlama.webp",
 
   },
 
@@ -846,7 +846,7 @@ export const INDUSTRIES_DATA: IndustryData[] = [
 
     description: 'Demirci malzemelerinizi güvenle ve profesyonelce taşıyoruz. Yılmaz Nakliyat olarak, kurucumuz Yılmaz Arslan önderliğinde demirci sektörünün tüm ihtiyaçlarına özel çözümler sunuyoruz. Demir profiller, çelik levhalar, borular, köşebentler ve tüm demirci malzemeleri için özel olarak tasarlanmış tırlarımızla hizmetinizdeyiz. Ağır yüklerin güvenli taşınması için özel ekipmanlar ve deneyimli ekibimizle, malzemelerinizin hasar görmeden ve zamanında teslim edilmesini garanti ediyoruz.',
 
-    imageUrl: 'https://framerusercontent.com/images/4W2UQjgXqF2ySWbOeXH2W9G6os.jpg?width=1000',
+    imageUrl: '/araclar/insaat-demiri-nakliyesi-santiye.webp',
 
     features: [
 
@@ -874,7 +874,7 @@ export const INDUSTRIES_DATA: IndustryData[] = [
 
     description: 'İnşaat sektörü için güvenilir taşımacılık hizmetleri. Yılmaz Nakliyat, müteahhitlerin tüm malzemelerini şantiyelerine güvenle ulaştırıyor. Çimento, tuğla, kiremit, beton bloklar, hazır beton, demir çubuklar, çatı malzemeleri ve tüm inşaat malzemeleri için özel araçlarımızla hizmet veriyoruz. Şantiye teslimatlarında uzman ekibimiz, dar sokaklara ve zor erişimli alanlara da güvenle ulaşabiliyor. Proje bazlı taşımacılık çözümlerimizle, inşaat projelerinizin kesintisiz devam etmesini sağlıyoruz.',
 
-    imageUrl: 'https://framerusercontent.com/images/M2Blfi2uhHuLhqgAkz4Gths8aXo.jpg?width=1000',
+    imageUrl: '/araclar/insaat-demiri-indiren-isciler-santiye.webp',
 
     features: [
 
@@ -902,7 +902,7 @@ export const INDUSTRIES_DATA: IndustryData[] = [
 
     description: 'Ev eşyalarınızı özenle taşıyoruz. Yılmaz Nakliyat, 2+1 ve 3+1 evler için özel araçları ve profesyonel ekibiyle hizmetinizde. Eşyalarınızın güvenli taşınması için özel paketleme hizmeti sunuyoruz. Mobilyalar, elektronik eşyalar, mutfak gereçleri, yatak odası takımları ve tüm ev eşyalarınızı özenle paketleyip, özel koruma malzemeleriyle sararak taşıyoruz. Deneyimli taşıma ekibimiz, eşyalarınızı hasar görmeden yeni adresinize ulaştırıyor. 2+1 ve 3+1 evler için özel olarak tasarlanmış araçlarımızla, tek seferde tüm eşyalarınızı taşıyabiliyoruz.',
 
-    imageUrl: 'https://framerusercontent.com/images/5UpEscfduHJTgjeKasOjUYDYps.webp?width=1000',
+    imageUrl: '/araclar/beyaz-ford-transit-kamyonet-mobilya-panel-nakliyesi.webp',
 
     features: [
 
@@ -930,7 +930,7 @@ export const INDUSTRIES_DATA: IndustryData[] = [
 
     description: 'Ofis ve iş yeri taşımacılığında deneyimli ekibimizle hizmet veriyoruz. Kurucumuz Yılmaz Arslan önderliğinde, ofis eşyalarınızı güvenle taşıyoruz. Ofis masaları, sandalyeler, dosya dolapları, bilgisayar sistemleri, yazıcılar, fotokopi makineleri ve tüm ofis eşyalarınızı özel paketleme ile koruyarak taşıyoruz. İş akışınızı aksatmadan, hızlı ve verimli bir şekilde taşımacılık hizmeti sunuyoruz. Büyük ofislerden küçük işletmelere kadar her ölçekte ofis taşımacılığı yapıyoruz. Eşyalarınızın montaj ve demontaj işlemlerini de yaparak, yeni ofisinizde hemen çalışmaya başlayabilmenizi sağlıyoruz.',
 
-    imageUrl: 'https://framerusercontent.com/images/gDJQlN4uLNxj3MMRA45Ji66530.jpg?width=1000',
+    imageUrl: '/beyaz-ford-transit-kamyonet-yilmaz-nakliyat.webp',
 
     features: [
 
@@ -958,7 +958,7 @@ export const INDUSTRIES_DATA: IndustryData[] = [
 
     description: 'Her türlü yükünüzü güvenle taşıyoruz. Yılmaz Nakliyat olarak, 30+ araçlık filomuzla genel yük taşımacılığında güvenilir çözümler sunuyoruz. Paletli yükler, koli yükleri, ambalajlı ürünler, makine parçaları, tekstil ürünleri ve her türlü genel yük için uygun araçlarımızla hizmet veriyoruz. Türkiye genelinde kapsamlı hizmet ağımızla, yüklerinizi güvenle ve zamanında teslim ediyoruz. Küçük yüklerden büyük tır yüklerine kadar her boyutta taşımacılık yapıyoruz. Sigortalı ve güvenli taşımacılık hizmetimizle, yüklerinizin güvenliğini garanti ediyoruz.',
 
-    imageUrl: 'https://framerusercontent.com/images/j4QHmpdyTicyhFFwPzYSL5E7jlU.jpg?width=1000',
+    imageUrl: '/yilmaz-nakliyat-guvenli-tasima-yuk-sabitleme.webp',
 
     features: [
 

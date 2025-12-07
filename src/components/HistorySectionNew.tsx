@@ -303,17 +303,6 @@ const HistorySectionNew: React.FC = () => {
 
                   {/* Overlay LOGO text on the building wall - purely decorative to match the specific image provided */}
 
-                  {activeYear === 2010 && (
-
-                    <div className="absolute top-[10%] right-[10%] opacity-70 pointer-events-none mix-blend-multiply">
-
-                        <span className="font-sans font-bold text-[#5c4d46] text-4xl tracking-tighter">Yılmaz Nakliyat</span>
-
-                        <span className="align-top text-xs ml-1">↗</span>
-
-                    </div>
-
-                  )}
 
                 </div>
 
