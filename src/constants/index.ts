@@ -452,7 +452,7 @@ export const services: ServiceData[] = [
 
     title: "Yük Taşıma",
 
-    image: "https://picsum.photos/800/600?random=1",
+    image: "/yilmaz-nakliyat-yuk-tasima-araci.webp",
 
     description: "Türkiye genelinde büyük yüklerinizi güvenle taşıyoruz. Tam tır yüklerinden küçük gönderilere kadar geniş araç filomuzla zamanında ve güvenli teslimat garantisi sunuyoruz.",
 
@@ -474,7 +474,7 @@ export const services: ServiceData[] = [
 
     title: "Evden Eve Taşıma",
 
-    image: "https://picsum.photos/800/600?random=2",
+    image: "/evden-eve-nakliyat-yukleme.webp",
 
     description: "2+1 ve 3+1 ev eşyalarınızı özenle taşıyoruz. Profesyonel ekibimiz ve özel araçlarımızla eşyalarınızı zarar görmeden yeni adresinize ulaştırıyoruz.",
 
@@ -496,7 +496,7 @@ export const services: ServiceData[] = [
 
     title: "Canlı Hayvan Taşıma",
 
-    image: "https://picsum.photos/800/600?random=3",
+    image: "/yilmaz-nakliyat-koyun-tasimaciligi.webp",
 
     description: "Canlı hayvanlarınızı en özenli şekilde taşıyoruz. Hayvanların sağlığı ve güvenliği için özel olarak tasarlanmış araçlar ve deneyimli ekibimizle hizmet veriyoruz.",
 
@@ -518,7 +518,7 @@ export const services: ServiceData[] = [
 
     title: "Tekstil Ürünleri Taşıma",
 
-    image: "https://picsum.photos/800/600?random=4",
+    image: "/araclar/tekstil-rulolari-yuklu-kamyonet.webp",
 
     description: "Tekstil ürünlerinizi temiz ve güvenli şekilde taşıyoruz. Kumaşlar, hazır giyim ve tekstil malzemelerinin zarar görmeden teslim edilmesi için özel özen gösteriyoruz.",
 
@@ -540,7 +540,7 @@ export const services: ServiceData[] = [
 
     title: "Tırla Ürün Taşıma",
 
-    image: "https://picsum.photos/800/600?random=5",
+    image: "/yilmaz-nakliyat-lojistik-tir-kopru-gunbatimi.webp",
 
     description: "Geniş tır filomuzla büyük hacimli ürünlerinizi Türkiye'nin her yerine güvenle taşıyoruz. Demirci malzemelerinden müteahhit malzemelerine kadar her türlü ürün için hizmet veriyoruz.",
 
