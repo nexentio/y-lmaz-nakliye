@@ -8,6 +8,8 @@ import FleetSection from '../../components/FleetSection';
 
 import FleetCard from '../../components/FleetCard';
 
+import { WhatsAppCTA } from '../../components/WhatsAppCTA';
+
 import { 
 
   GPSIcon, 
@@ -457,26 +459,16 @@ export default function FleetPage() {
 
               {/* CTA Button */}
 
-              <a 
-                href={`https://wa.me/905457175150?text=${encodeURIComponent("Merhaba! Yılmaz Nakliyat araç filosu hakkında bilgi almak istiyorum. Filo ekibinizle iletişime geçmek ve taşımacılık ihtiyacım için teklif almak istiyorum. Teşekkürler! 🙏")}`}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="group mt-4 inline-flex items-center gap-1 rounded-full border border-accent/40 bg-gradient-to-r from-accent/0 to-accent/0 hover:from-accent/10 hover:to-accent/5 backdrop-blur-sm pl-6 pr-2 py-2 transition-all duration-300"
-              >
-
-                <span className="text-white font-medium text-sm sm:text-base">Filo Ekibimizle İletişime Geçin</span>
-
-                <span className="w-10 h-10 flex items-center justify-center rounded-full bg-accent/0 group-hover:bg-accent/10 transition-colors ml-2">
-
-                   <svg width="20" height="20" viewBox="0 0 24 24" fill="none" className="text-white transform group-hover:translate-x-0.5 transition-transform">
-
-                     <path d="M5 12H19M19 12L12 5M19 12L12 19" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
-
-                   </svg>
-
-                </span>
-
-              </a>
+              <div className="mt-4">
+                <WhatsAppCTA
+                  message="Merhaba! Yılmaz Nakliyat araç filosu hakkında bilgi almak istiyorum. Filo ekibinizle iletişime geçmek ve taşımacılık ihtiyacım için teklif almak istiyorum. Teşekkürler! 🙏"
+                  variant="outline"
+                  size="md"
+                  className="border-white/40 text-white hover:bg-white/10"
+                >
+                  Filo Ekibimizle İletişime Geçin
+                </WhatsAppCTA>
+              </div>
 
             </div>
 

@@ -4,6 +4,8 @@ import React from 'react';
 
 import ServiceCard from './ServiceCard';
 
+import { WhatsAppCTA } from './WhatsAppCTA';
+
 import { ServiceItem } from '../types';
 
 // Data extracted from the provided HTML/Design
@@ -125,6 +127,17 @@ export const ServicesSection: React.FC = () => {
                 Yük taşıma, evden eve taşıma, canlı hayvan taşıma ve tekstil ürünleri taşıma — Yılmaz Nakliyat olarak her ihtiyaca özel çözümler sunuyoruz. Kurucumuz Yılmaz Arslan'ın önderliğinde, müşterilerimize güvenilir, kaliteli ve cana yakın hizmet sağlıyoruz. 30+ araçlık filomuzla Türkiye genelinde profesyonel taşımacılık hizmeti veriyoruz.
 
               </p>
+
+              {/* WhatsApp CTA */}
+              <div className="pt-4">
+                <WhatsAppCTA
+                  message="Merhaba! Yılmaz Nakliyat hizmetleriniz hakkında detaylı bilgi almak istiyorum. Hangi hizmetleriniz var ve nasıl çalışıyorsunuz? Teşekkürler! 🙏"
+                  variant="primary"
+                  size="md"
+                >
+                  Hizmetler Hakkında Bilgi
+                </WhatsAppCTA>
+              </div>
 
             </div>
 

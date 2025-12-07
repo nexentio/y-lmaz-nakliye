@@ -6,6 +6,8 @@ import { FeatureCard } from './FeatureCard';
 
 import { SectionButton } from './ui/SectionButton';
 
+import { WhatsAppCTA } from './WhatsAppCTA';
+
 import { GlobalServiceVisual } from './visuals/GlobalServiceVisual';
 
 import { FleetVisual } from './visuals/FleetVisual';
@@ -70,9 +72,17 @@ export default function WhyUsSection() {
 
         </p>
 
-        <div className="pt-2">
+        <div className="pt-2 flex flex-col sm:flex-row gap-4">
 
           <SectionButton />
+
+          <WhatsAppCTA
+            message="Merhaba! Yılmaz Nakliyat hizmetleriniz hakkında daha fazla bilgi almak istiyorum. Teşekkürler! 🙏"
+            variant="outline"
+            size="md"
+          >
+            Daha Fazla Bilgi
+          </WhatsAppCTA>
 
         </div>
 
@@ -86,45 +96,45 @@ export default function WhyUsSection() {
 
           
 
-          <FeatureCard 
+            <FeatureCard 
 
-            title="Türkiye Genelinde Güvenilir Hizmet"
+                title="Türkiye Genelinde Güvenilir Hizmet"
 
             visual={<GlobalServiceVisual />}
 
             delay={0.1}
 
-          />
+            />
 
-          <FeatureCard 
+            <FeatureCard 
 
-            title="Geniş ve Modern Araç Filosu"
+                title="Geniş ve Modern Araç Filosu"
 
             visual={<FleetVisual />}
 
             delay={0.2}
 
-          />
+            />
 
-          <FeatureCard 
+            <FeatureCard 
 
             title="Hızlı ve Güvenli Teslimat"
 
-            visual={<DeliveryVisual />}
+                visual={<DeliveryVisual />}
 
             delay={0.3}
 
-          />
+            />
 
-          <FeatureCard 
+            <FeatureCard 
 
-            title="Profesyonel ve Deneyimli Ekip"
+                title="Profesyonel ve Deneyimli Ekip"
 
             visual={<DocumentsVisual />}
 
             delay={0.4}
 
-          />
+            />
 
         </div>
 

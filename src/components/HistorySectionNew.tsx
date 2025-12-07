@@ -130,9 +130,9 @@ const HistorySectionNew: React.FC = () => {
 
       {/* Sticky container holds the view in place while scrolling */}
 
-      <div className="sticky top-0 h-screen w-full flex items-center overflow-hidden px-4 md:px-12">
+      <div className="sticky top-0 h-screen w-full flex items-center overflow-hidden px-4 sm:px-6 md:px-12">
 
-        <div className="w-full max-w-[1440px] mx-auto grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-24 items-start">
+        <div className="w-full max-w-[1440px] mx-auto grid grid-cols-1 lg:grid-cols-12 gap-8 sm:gap-12 lg:gap-24 items-start">
 
           
 
@@ -140,13 +140,13 @@ const HistorySectionNew: React.FC = () => {
 
           <div className="lg:col-span-5 flex flex-col pt-4 relative z-10">
 
-            <h2 className="text-[56px] leading-tight font-medium text-[#1C1817] mb-24 tracking-tight">
+            <h2 className="text-4xl sm:text-5xl lg:text-[56px] leading-tight font-medium text-[#1C1817] mb-12 lg:mb-24 tracking-tight">
 
               Tarihimiz
 
             </h2>
 
-            <div className="relative flex flex-col items-end w-full pr-8">
+            <div className="relative flex flex-col items-end w-full pr-2 sm:pr-4 lg:pr-8">
 
               {historyData.map((item) => {
 
@@ -174,7 +174,7 @@ const HistorySectionNew: React.FC = () => {
 
                         layoutId="activeIndicator"
 
-                        className="absolute right-[120px] md:right-[160px] flex items-center"
+                        className="absolute right-[80px] sm:right-[100px] md:right-[120px] lg:right-[160px] flex items-center"
 
                         initial={{ opacity: 0, x: -20 }}
 
@@ -184,19 +184,19 @@ const HistorySectionNew: React.FC = () => {
 
                       >
 
-                        <div className="flex items-center gap-4">
+                        <div className="flex items-center gap-2 sm:gap-4">
 
-                            <div className="flex items-center gap-2">
+                            <div className="flex items-center gap-1.5 sm:gap-2">
 
-                              <div className="w-3 h-3 rounded-full border-[3px] border-[#F94006] bg-transparent box-border" />
+                              <div className="w-2.5 h-2.5 sm:w-3 sm:h-3 rounded-full border-[2.5px] sm:border-[3px] border-[#F94006] bg-transparent box-border" />
 
-                              <span className="text-[11px] font-bold uppercase tracking-widest text-[#1C1817]">Yıl</span>
+                              <span className="text-[9px] sm:text-[11px] font-bold uppercase tracking-widest text-[#1C1817]">Yıl</span>
 
                             </div>
 
                             {/* The Horizontal Line */}
 
-                            <div className="h-[2px] bg-[#F94006] w-[80px] md:w-[140px] rounded-full opacity-60" />
+                            <div className="h-[2px] bg-[#F94006] w-[50px] sm:w-[80px] md:w-[140px] rounded-full opacity-60" />
 
                         </div>
 
@@ -212,9 +212,9 @@ const HistorySectionNew: React.FC = () => {
 
                         ${isActive 
 
-                          ? 'text-[52px] font-medium text-[#1C1817] opacity-100' 
+                          ? 'text-3xl sm:text-4xl lg:text-[52px] font-medium text-[#1C1817] opacity-100' 
 
-                          : 'text-[42px] font-medium text-[#1C1817] opacity-20 scale-90'
+                          : 'text-2xl sm:text-3xl lg:text-[42px] font-medium text-[#1C1817] opacity-20 scale-90'
 
                         }`}
 
@@ -238,7 +238,7 @@ const HistorySectionNew: React.FC = () => {
 
           {/* Right Column: Content */}
 
-          <div className="lg:col-span-7 flex flex-col pt-12 lg:pt-[160px]">
+          <div className="lg:col-span-7 flex flex-col pt-8 sm:pt-12 lg:pt-[160px]">
 
             <AnimatePresence mode='wait'>
 
@@ -258,9 +258,13 @@ const HistorySectionNew: React.FC = () => {
 
                 {/* Text Content */}
 
-                <div className="mb-12 max-w-xl">
+                <div className="mb-8 sm:mb-12 max-w-xl">
 
-                  <h3 className="text-[40px] leading-[1.1] font-medium text-[#1C1817] mb-6 tracking-tight">
+                  <h3 className={`leading-[1.1] font-medium text-[#1C1817] mb-4 sm:mb-6 tracking-tight ${
+                    activeYear === 2025 
+                      ? 'text-xl sm:text-2xl lg:text-[40px]' 
+                      : 'text-2xl sm:text-3xl lg:text-[40px]'
+                  }`}>
 
                     {activeContent.title.split('. ').map((part, i) => (
 
@@ -270,7 +274,11 @@ const HistorySectionNew: React.FC = () => {
 
                   </h3>
 
-                  <p className="text-xl leading-relaxed text-[#1C1817] font-normal opacity-90">
+                  <p className={`leading-relaxed text-[#1C1817] font-normal opacity-90 ${
+                    activeYear === 2025
+                      ? 'text-sm sm:text-base lg:text-xl'
+                      : 'text-base sm:text-lg lg:text-xl'
+                  }`}>
 
                     {activeContent.description}
 
@@ -280,7 +288,11 @@ const HistorySectionNew: React.FC = () => {
 
                 {/* Image */}
 
-                <div className="w-[85%] mt-16 relative aspect-[16/10] overflow-hidden rounded-lg bg-gray-200 shadow-xl">
+                <div className={`relative aspect-[16/10] overflow-hidden rounded-lg bg-gray-200 shadow-xl ${
+                  activeYear === 2025
+                    ? 'w-full sm:w-[90%] lg:w-[85%] mt-6 sm:mt-10 lg:mt-16'
+                    : 'w-full sm:w-[90%] lg:w-[85%] mt-8 sm:mt-12 lg:mt-16'
+                }`}>
 
                   <img 
 

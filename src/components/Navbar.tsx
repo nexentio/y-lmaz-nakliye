@@ -4,11 +4,13 @@ import React, { useState, useEffect } from 'react';
 
 import Link from 'next/link';
 
+import { usePathname } from 'next/navigation';
+
 import Image from 'next/image';
 
 import { ArrowRight, Menu, X } from 'lucide-react';
 
-const NavLink = ({ text, href, variant = 'dark' }: { text: string; href: string; variant?: 'dark' | 'light' }) => {
+const NavLink = ({ text, href, variant = 'dark', onClick }: { text: string; href: string; variant?: 'dark' | 'light'; onClick?: () => void }) => {
 
   const textColor = variant === 'light' 
     ? 'text-[#1C1817]/80 hover:text-[#1C1817]' 
@@ -17,6 +19,7 @@ const NavLink = ({ text, href, variant = 'dark' }: { text: string; href: string;
   return (
     <Link 
       href={href}
+      onClick={onClick}
       className={`text-[13px] font-medium tracking-wide ${textColor} transition-colors uppercase`}
     >
       {text}
@@ -35,6 +38,13 @@ export default function Navbar({ variant = 'dark' }: NavbarProps) {
   const [isVisible, setIsVisible] = useState(true);
 
   const [lastScrollY, setLastScrollY] = useState(0);
+
+  const pathname = usePathname();
+
+  // Close drawer when route changes
+  useEffect(() => {
+    setIsOpen(false);
+  }, [pathname]);
 
   useEffect(() => {
 
@@ -138,7 +148,7 @@ export default function Navbar({ variant = 'dark' }: NavbarProps) {
 
       <div className="lg:hidden">
 
-        <button onClick={() => setIsOpen(!isOpen)} className={`${menuToggleColor} p-2`}>
+        <button onClick={() => setIsOpen(!isOpen)} className="text-[#8B4513] p-2">
 
           {isOpen ? <X /> : <Menu />}
 
@@ -152,17 +162,17 @@ export default function Navbar({ variant = 'dark' }: NavbarProps) {
 
         <div className={`absolute top-20 left-0 w-full ${mobileMenuBg} p-6 flex flex-col gap-6 lg:hidden z-50`}>
 
-           <NavLink text="Ana Sayfa" href="/" variant={variant} />
+           <NavLink text="Ana Sayfa" href="/" variant={variant} onClick={() => setIsOpen(false)} />
 
-           <NavLink text="Hakkımızda" href="/about" variant={variant} />
+           <NavLink text="Hakkımızda" href="/about" variant={variant} onClick={() => setIsOpen(false)} />
 
-           <NavLink text="Hizmetler" href="/services" variant={variant} />
+           <NavLink text="Hizmetler" href="/services" variant={variant} onClick={() => setIsOpen(false)} />
 
-           <NavLink text="Araç Filosu" href="/fleet" variant={variant} />
+           <NavLink text="Araç Filosu" href="/fleet" variant={variant} onClick={() => setIsOpen(false)} />
 
-           <NavLink text="Sektörler" href="/industries" variant={variant} />
+           <NavLink text="Sektörler" href="/industries" variant={variant} onClick={() => setIsOpen(false)} />
 
-           <NavLink text="İletişim" href="/contact" variant={variant} />
+           <NavLink text="İletişim" href="/contact" variant={variant} onClick={() => setIsOpen(false)} />
 
            <a 
              href={`https://wa.me/905457175150?text=${encodeURIComponent("Merhaba! Yılmaz Nakliyat hizmetleriniz hakkında bilgi almak ve teklif almak istiyorum. Taşımacılık ihtiyacım için sizinle iletişime geçmek istiyorum. Teşekkürler! 🙏")}`}

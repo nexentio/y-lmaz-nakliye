@@ -2,6 +2,8 @@
 
 import React, { useEffect, useState } from 'react';
 
+import { WhatsAppCTA } from './WhatsAppCTA';
+
 
 
 const ServicesHero: React.FC = () => {
@@ -98,13 +100,24 @@ const ServicesHero: React.FC = () => {
 
       {/* Bottom Title Row */}
 
-      <div className="flex justify-start">
+      <div className="flex flex-col md:flex-row items-start md:items-center justify-between gap-6">
 
          <h2 className="text-5xl md:text-7xl lg:text-[5.5rem] font-medium tracking-tight leading-[0.95]">
 
           Güvenilir Taşımacılık İçin.
 
         </h2>
+
+        {/* WhatsApp CTA Button */}
+        <div className="mt-4 md:mt-0">
+          <WhatsAppCTA
+            message="Merhaba! Yılmaz Nakliyat hizmetleriniz hakkında bilgi almak ve fiyat teklifi almak istiyorum. Teşekkürler! 🙏"
+            variant="primary"
+            size="lg"
+          >
+            Fiyat Al
+          </WhatsAppCTA>
+        </div>
 
       </div>
 

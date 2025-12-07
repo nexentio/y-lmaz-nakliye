@@ -14,14 +14,15 @@ import LocationsSection from '../../components/LocationsSection';
 
 import { FAQSection } from '../../components/FAQSection';
 
+import { WhatsAppCTA } from '../../components/WhatsAppCTA';
 
-// Hero images - you can replace these with actual image URLs
 
+// Hero images - local images
 const HERO_IMAGES = {
 
-  sky: "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?q=80&w=2070&auto=format&fit=crop",
+  sky: "/yilmaz-nakliyat-istanbul-bogazici-koprusu.webp",
 
-  city: "https://images.unsplash.com/photo-1449824913935-59a10b8d2000?q=80&w=2070&auto=format&fit=crop"
+  city: "/yilmaz-nakliyat-kamyonet-istanbul-bogaz-koprusu.webp"
 
 };
 
@@ -49,7 +50,18 @@ export default function ContactPage() {
 
             <p className="text-sm font-medium text-[#1C1817] mb-2 tracking-wide uppercase">Bizimle iletişime geçin.</p>
 
-            <h1 className="text-5xl font-bold tracking-tight text-[#1C1817]">Sohbeti Başlatalım.</h1>
+            <div className="flex flex-col sm:flex-row items-start sm:items-center justify-between gap-4">
+              <h1 className="text-5xl font-bold tracking-tight text-[#1C1817]">Sohbeti Başlatalım.</h1>
+              
+              {/* WhatsApp Quick Contact */}
+              <WhatsAppCTA
+                message="Merhaba! Yılmaz Nakliyat ile hızlıca iletişime geçmek istiyorum. Taşımacılık ihtiyacım için bilgi almak istiyorum. Teşekkürler! 🙏"
+                variant="primary"
+                size="md"
+              >
+                Hızlı İletişim
+              </WhatsAppCTA>
+            </div>
 
           </header>
 

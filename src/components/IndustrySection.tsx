@@ -8,6 +8,8 @@ import { Industry } from '../types';
 
 import { IndustryCardHome } from './IndustryCardHome';
 
+import { WhatsAppCTA } from './WhatsAppCTA';
+
 import { TickerBackground } from './TickerBackground';
 
 // Data from the design
@@ -116,9 +118,9 @@ export const IndustrySection: React.FC = () => {
 
               </div>
 
-              {/* Action Button */}
+              {/* Action Buttons */}
 
-              <div>
+              <div className="flex flex-col sm:flex-row gap-4">
 
                 <a 
 
@@ -137,6 +139,15 @@ export const IndustrySection: React.FC = () => {
                   </div>
 
                 </a>
+
+                <WhatsAppCTA
+                  message="Merhaba! Yılmaz Nakliyat sektörel taşımacılık çözümleriniz hakkında bilgi almak istiyorum. Hangi sektörler için hizmet veriyorsunuz? Teşekkürler! 🙏"
+                  variant="outline"
+                  size="md"
+                  className="border-white/30 text-white hover:bg-white/10"
+                >
+                  Sektörel Çözümler
+                </WhatsAppCTA>
 
               </div>
 
