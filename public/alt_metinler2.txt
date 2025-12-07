@@ -1,0 +1,31 @@
+Görsel Dosya Adları ve Alt Metinleri
+=====================================
+
+Dosya Adı: yilmaz-nakliyat-filosu.avif
+Alt Metin: Yılmaz Nakliyat logosu taşıyan beyaz tır ve kamyonet araçlarından oluşan lojistik filosu.
+-------------------------------------
+
+Dosya Adı: yilmaz-nakliyat-araci.avif
+Alt Metin: Yılmaz Nakliyat logosu ve yazısı bulunan beyaz nakliye kamyoneti.
+-------------------------------------
+
+Dosya Adı: yilmaz-nakliyat-kamyonet-deniz-yol.avif
+Alt Metin: Yılmaz Nakliyat kamyoneti deniz manzaralı otoyolda hızlı nakliye hizmeti.
+-------------------------------------
+
+Dosya Adı: yilmaz-nakliyat-cimento-yuklu-kamyonet.avif
+Alt Metin: İnşaat alanında, çimento torbaları taşıyan Yılmaz Nakliyat kamyoneti.
+-------------------------------------
+
+Dosya Adı: yilmaz-nakliyat-metal-malzeme-tasima-kamyonet.avif
+Alt Metin: Yılmaz Nakliyat firmasına ait, metal profillerle yüklü beyaz kamyonet, depo önünde taşıma için bekliyor.
+-------------------------------------
+
+Dosya Adı: evden-eve-nakliyat-yukleme.avif
+Alt Metin: Profesyonel evden eve nakliyat elemanları, beyaz Yılmaz Nakliyat kamyonetine dikkatlice eşya yüklüyor.
+-------------------------------------
+
+Dosya Adı: yilmaz-nakliyat-kamyonet-metal-profil-yukleme.avif
+Alt Metin: Yılmaz Nakliyat kamyoneti, çelik profillerle yüklü halde sanayi atölyesi önünde, içeriden kaynak kıvılcımları yükseliyor.
+-------------------------------------
+

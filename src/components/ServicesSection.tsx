@@ -18,9 +18,9 @@ const services: ServiceItem[] = [
 
     title: 'Yük Taşıma',
 
-    imageUrl: 'https://framerusercontent.com/images/iBliZ6U0n2mOK6nHB0zA61chf4.webp',
+    imageUrl: '/yilmaz-nakliyat-yuk-tasima-araci.webp',
 
-    alt: 'Büyük yüklerin güvenli taşınması için tır filomuz.'
+    alt: 'Yılmaz Nakliyat logosu taşıyan, paletli yüklerle dolu beyaz nakliye aracı otoyolda hızla ilerliyor.'
 
   },
 
@@ -32,9 +32,9 @@ const services: ServiceItem[] = [
 
     title: 'Evden Eve Taşıma',
 
-    imageUrl: 'https://framerusercontent.com/images/Hr6t8ScCAwHOJkSXSmsF2S264A.jpg',
+    imageUrl: '/evden-eve-nakliyat-yukleme.webp',
 
-    alt: '2+1 ve 3+1 ev eşyalarının profesyonel taşınması.'
+    alt: 'Profesyonel evden eve nakliyat elemanları, beyaz Yılmaz Nakliyat kamyonetine dikkatlice eşya yüklüyor.'
 
   },
 
@@ -46,9 +46,9 @@ const services: ServiceItem[] = [
 
     title: 'Canlı Hayvan Taşıma',
 
-    imageUrl: 'https://framerusercontent.com/images/XbiC6HqXQazD6tC0lwwd6VHSp8.webp',
+    imageUrl: '/yilmaz-nakliyat-koyun-tasimaciligi.webp',
 
-    alt: 'Canlı hayvanların güvenli ve özenli taşınması.'
+    alt: 'Yılmaz Nakliyat logosu taşıyan kamyonet ile kırsal alanda canlı hayvan (koyun) nakliyesi.'
 
   },
 
@@ -60,9 +60,9 @@ const services: ServiceItem[] = [
 
     title: 'Tekstil Ürünleri Taşıma',
 
-    imageUrl: 'https://framerusercontent.com/images/ZBaUPtNu1XK33fXrjh3e6RFX9u0.webp',
+    imageUrl: '/yilmaz-nakliyat-kamyoneti.webp',
 
-    alt: 'Tekstil ürünlerinin güvenli taşınması.'
+    alt: 'Beyaz Yılmaz Nakliyat kamyoneti, paletler ve kutular yüklü, depolama alanında nakliye hizmeti.'
 
   },
 
@@ -74,9 +74,9 @@ const services: ServiceItem[] = [
 
     title: 'Tırla Ürün Taşıma',
 
-    imageUrl: 'https://framerusercontent.com/images/7LCSOKNtTwk0qTCBifDWJdJE.webp',
+    imageUrl: '/yilmaz-nakliyat-tir-istanbul-bogaz-koprusu.webp',
 
-    alt: 'Geniş tır filomuz ile her türlü ürün taşımacılığı.'
+    alt: 'Yılmaz Nakliyat tırı, İstanbul Boğaz Köprüsü\'nden geçerken uluslararası taşımacılık ve lojistik hizmetlerini temsil ediyor.'
 
   }
 

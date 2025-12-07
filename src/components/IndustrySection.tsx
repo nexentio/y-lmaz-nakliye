@@ -20,9 +20,9 @@ const industries: Industry[] = [
 
     title: 'Demirci Malzemeleri',
 
-    imageUrl: 'https://framerusercontent.com/images/fTY3jHNvYEyooysxiifTM2xSTfg.jpg',
+    imageUrl: '/yilmaz-nakliyat-metal-malzeme-tasima-kamyonet.webp',
 
-    alt: 'Demirci malzemelerinin güvenli taşınması'
+    alt: 'Yılmaz Nakliyat firmasına ait, metal profillerle yüklü beyaz kamyonet, depo önünde taşıma için bekliyor.'
 
   },
 
@@ -32,9 +32,9 @@ const industries: Industry[] = [
 
     title: 'Müteahhit Malzemeleri',
 
-    imageUrl: 'https://framerusercontent.com/images/KPtRTAWZPh8dOr5hNCF5msdU4X4.jpg',
+    imageUrl: '/yilmaz-nakliyat-cimento-yuklu-kamyonet.webp',
 
-    alt: 'İnşaat malzemelerinin profesyonel taşınması'
+    alt: 'İnşaat alanında, çimento torbaları taşıyan Yılmaz Nakliyat kamyoneti.'
 
   },
 
@@ -44,9 +44,9 @@ const industries: Industry[] = [
 
     title: 'Ev Eşyaları',
 
-    imageUrl: 'https://framerusercontent.com/images/5UpEscfduHJTgjeKasOjUYDYps.webp',
+    imageUrl: '/yilmaz-nakliyat-kamyoneti-tasima.webp',
 
-    alt: 'Ev eşyalarının özenli taşınması'
+    alt: 'Yılmaz Nakliyat logolu, kasasında yük bulunan beyaz nakliye kamyoneti yolda ilerliyor.'
 
   },
 
@@ -56,9 +56,9 @@ const industries: Industry[] = [
 
     title: 'Ofis ve İş Yeri',
 
-    imageUrl: 'https://framerusercontent.com/images/Ky1iXcBJYmYHQm4voS6nnQEKrqI.jpg',
+    imageUrl: '/beyaz-ford-transit-kamyonet-yilmaz-nakliyat.webp',
 
-    alt: 'Ofis eşyalarının taşınması'
+    alt: 'Yılmaz Nakliyat\'a ait yüklü beyaz Ford Transit kamyonet, yeşil kırsal yolda ilerliyor.'
 
   },
 
@@ -68,9 +68,9 @@ const industries: Industry[] = [
 
     title: 'Genel Yük Taşımacılığı',
 
-    imageUrl: 'https://framerusercontent.com/images/1hNotqCvrefWQBNcp6xuTP3XLdk.jpg',
+    imageUrl: '/yilmaz-nakliyat-guvenli-tasima-yuk-sabitleme.webp',
 
-    alt: 'Her türlü yükün güvenli taşınması'
+    alt: 'Yılmaz Nakliyat çalışanı, paletli yükleri güvenli taşıma için kamyonette sabitliyor.'
 
   }
 

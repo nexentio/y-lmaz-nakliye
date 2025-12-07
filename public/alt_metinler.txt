@@ -1,0 +1,51 @@
+Görsel Dosya Adları ve Alt Metinleri
+=====================================
+
+Dosya Adı: yilmaz-nakliyat-guvenli-tasima-yuk-sabitleme.avif
+Alt Metin: Yılmaz Nakliyat çalışanı, paletli yükleri güvenli taşıma için kamyonette sabitliyor.
+-------------------------------------
+
+Dosya Adı: beyaz-ford-transit-kamyonet-yilmaz-nakliyat.avif
+Alt Metin: Yılmaz Nakliyat'a ait yüklü beyaz Ford Transit kamyonet, yeşil kırsal yolda ilerliyor.
+-------------------------------------
+
+Dosya Adı: yilmaz-nakliyat-yuk-tasima-araci.avif
+Alt Metin: Yılmaz Nakliyat logosu taşıyan, paletli yüklerle dolu beyaz nakliye aracı otoyolda hızla ilerliyor.
+-------------------------------------
+
+Dosya Adı: yilmaz-nakliyat-kamyoneti-tasima.avif
+Alt Metin: Yılmaz Nakliyat logolu, kasasında yük bulunan beyaz nakliye kamyoneti yolda ilerliyor.
+-------------------------------------
+
+Dosya Adı: yilmaz-nakliyat-kamyoneti.avif
+Alt Metin: Beyaz Yılmaz Nakliyat kamyoneti, paletler ve kutular yüklü, depolama alanında nakliye hizmeti.
+-------------------------------------
+
+Dosya Adı: yilmaz-nakliyat-koyun-tasimaciligi.avif
+Alt Metin: Yılmaz Nakliyat logosu taşıyan kamyonet ile kırsal alanda canlı hayvan (koyun) nakliyesi.
+-------------------------------------
+
+Dosya Adı: yilmaz-nakliyat-kasali-ford-transit-arazi.avif
+Alt Metin: Yeşil arazide, otlayan koyunların yanında duran Yılmaz Nakliyat logolu kasalı Ford Transit kamyonet.
+-------------------------------------
+
+Dosya Adı: yilmaz-nakliyat-kamyoneti-otoyolda.avif
+Alt Metin: Yılmaz Nakliyat logosu taşıyan beyaz kapalı kasa kamyonet, güneşli bir günde otoyolda hızla ilerlerken.
+-------------------------------------
+
+Dosya Adı: yilmaz-nakliyat-istanbul-bogazici-koprusu.avif
+Alt Metin: Yılmaz Nakliyat beyaz tırı, İstanbul Boğaziçi Köprüsü üzerinde alacakaranlıkta uluslararası lojistik ve taşımacılık yapıyor.
+-------------------------------------
+
+Dosya Adı: yilmaz-nakliyat-tir-istanbul-bogaz-koprusu.avif
+Alt Metin: Yılmaz Nakliyat tırı, İstanbul Boğaz Köprüsü'nden geçerken uluslararası taşımacılık ve lojistik hizmetlerini temsil ediyor.
+-------------------------------------
+
+Dosya Adı: yilmaz-nakliyat-lojistik-tir-kopru-gunbatimi.avif
+Alt Metin: Gün batımında büyük bir köprü üzerinde ilerleyen Yılmaz Nakliyat (lojistik) tırı.
+-------------------------------------
+
+Dosya Adı: yilmaz-nakliyat-kamyonet-istanbul-bogaz-koprusu.avif
+Alt Metin: İstanbul Boğaz Köprüsü manzaralı yolda ilerleyen Yılmaz Nakliyat'a ait beyaz nakliye kamyonu.
+-------------------------------------
+
