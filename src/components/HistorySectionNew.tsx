@@ -16,7 +16,7 @@ const historyData: HistoryItem[] = [
 
     description: "Yılmaz Nakliyat, kurucumuz Yılmaz Arslan tarafından tek bir araç ve net bir misyonla kuruldu: Yerel işletmelere büyük firmaların sağlayamadığı kalitede, cana yakın ve güvenilir taşımacılık hizmeti sunmak.",
 
-    image: "https://framerusercontent.com/images/3DZlCUTBGHadzvzLs3EvBWZH4.jpg"
+    image: "/araclar/beyaz-ford-transit-gunbatimi-otoyol.webp"
 
   },
 
@@ -28,7 +28,7 @@ const historyData: HistoryItem[] = [
 
     description: "2013 yılına gelindiğinde filomuz on araca ulaştı. Yılmaz Arslan'ın liderliğinde operasyonlarımızı genişleterek Türkiye genelinde hizmet vermeye başladık ve ilk lojistik merkezimizi kurduk. Bu dönemde müşteri memnuniyetini her şeyin üstünde tutarak büyümeye devam ettik.",
 
-    image: "https://picsum.photos/id/106/2400/2400" 
+    image: "/araclar/ticari-ford-transit-ve-lojistik-kamyonlari.webp" 
 
   },
 
@@ -40,7 +40,7 @@ const historyData: HistoryItem[] = [
 
     description: "En son teknoloji takip sistemleri entegre edildi ve teslimat sürelerimiz %40 azaltıldı. Yılmaz Nakliyat olarak taşımacılık sektöründe şeffaflık için yeni bir standart belirledik. Müşterilerimize gerçek zamanlı takip imkanı sunarak güven ve memnuniyet sağladık.",
 
-    image: "https://picsum.photos/id/192/2400/2400"
+    image: "/araclar/yuklu-van-rulo-malzeme-tasima-ticari-sokak.webp"
 
   },
 
@@ -52,7 +52,7 @@ const historyData: HistoryItem[] = [
 
     description: "Yatırımlarımızı artırarak filomuzu genişlettik. Tırlar, Ford Transit araçlar ve ev taşıma araçları ile her türlü taşımacılık ihtiyacına hizmet vermeye başladık. Yılmaz Arslan'ın vizyonu doğrultusunda, müşterilerimize daha iyi hizmet verebilmek için sürekli kendimizi geliştiriyoruz.",
 
-    image: "https://picsum.photos/id/112/2400/2400"
+    image: "/araclar/agiryuklu-nakliye-araci-ford-transit-kentsel.webp"
 
   },
 
@@ -64,7 +64,7 @@ const historyData: HistoryItem[] = [
 
     description: "15+ araçlık filomuz ve profesyonel ekibimizle Türkiye genelinde yük taşıma, evden eve taşıma, canlı hayvan taşıma ve tekstil ürünleri taşımacılığında güvenilir bir çözüm ortağıyız. Gaziantep'ten başlayarak, İstanbul, İzmir, Ankara, Konya gibi büyük şehirlere düzenli sevkiyatlarımızla müşterilerimize hizmet veriyoruz. Özellikle İstanbul'a tekstil ürünleri, İzmir'e genel yük, Ankara'ya inşaat malzemeleri, Konya'ya tarım ürünleri ve canlı hayvan taşımacılığı yapıyoruz. Yılmaz Arslan'ın önderliğinde, her müşterimize cana yakın ve samimi hizmet sunarak sektörde öncü olmaya devam ediyoruz.",
 
-    image: "https://picsum.photos/id/188/2400/2400"
+    image: "/araclar/tekstil-rulolari-yuklu-kamyonet.webp"
 
   }
 
@@ -286,7 +286,16 @@ const HistorySectionNew: React.FC = () => {
 
                     src={activeContent.image} 
 
-                    alt={`Yılmaz Nakliyat tarihi ${activeYear}`}
+                    alt={activeYear === 2010 
+                      ? "Gün batımında asfalt otoyolda ilerleyen beyaz Ford Transit nakliye aracı."
+                      : activeYear === 2013
+                      ? "Ford Transit ticari araç, arkada sıraya dizilmiş beyaz nakliye ve lojistik kamyonları."
+                      : activeYear === 2017
+                      ? "Ticari sokakta çatısında rulo paketler taşıyan beyaz van ve yükleme yapan işçiler."
+                      : activeYear === 2021
+                      ? "Büyük panellerle aşırı yüklenmiş, şehir içi nakliye yapan beyaz Ford Transit kamyonet."
+                      : "Tekstil ve kumaş rulolarıyla aşırı yüklenmiş, ticari bir caddede (Kayaoğulları Tekstil önü) park etmiş beyaz nakliye kamyoneti."
+                    }
 
                     className="w-full h-full object-cover grayscale sepia-[.15]"
 

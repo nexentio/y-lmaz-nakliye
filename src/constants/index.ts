@@ -354,9 +354,9 @@ export const TEAM_MEMBERS: TeamMember[] = [
 
     name: 'Yılmaz Arslan',
 
-    role: 'Kurucu & Genel Müdür',
+    role: 'Müdür',
 
-    imageUrl: 'https://images.unsplash.com/photo-1560250097-0b93528c311a?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
+    imageUrl: '/takim/yilmaz-arslan.jpeg',
 
     linkedinUrl: '#'
 
@@ -366,11 +366,11 @@ export const TEAM_MEMBERS: TeamMember[] = [
 
     id: '2',
 
-    name: 'Ayşe Yılmaz',
+    name: 'Ahmet Arslan',
 
-    role: 'Ticari Müdür',
+    role: 'Şoför',
 
-    imageUrl: 'https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
+    imageUrl: '/takim/ahmet-arslan.jpeg',
 
     linkedinUrl: '#'
 
@@ -380,25 +380,11 @@ export const TEAM_MEMBERS: TeamMember[] = [
 
     id: '3',
 
-    name: 'Mehmet Yılmaz',
+    name: 'Muhammed Arslan',
 
-    role: 'Operasyon Müdürü',
+    role: 'Şoför',
 
-    imageUrl: 'https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
-
-    linkedinUrl: '#'
-
-  },
-
-  {
-
-    id: '4',
-
-    name: 'Fatma Yılmaz',
-
-    role: 'Kalite ve Uyumluluk Sorumlusu',
-
-    imageUrl: 'https://images.unsplash.com/photo-1580489944761-15a19d654956?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
+    imageUrl: '/takim/muhammed-arslan.jpeg',
 
     linkedinUrl: '#'
 

@@ -16,7 +16,7 @@ const testimonials: Testimonial[] = [
 
     company: "Demirci Malzemeleri İşletmesi",
 
-    avatarUrl: "https://picsum.photos/id/64/200/200"
+    avatarUrl: "/google-logo.png"
 
   },
 
@@ -30,7 +30,7 @@ const testimonials: Testimonial[] = [
 
     company: "Yılmaz İnşaat Ltd.",
 
-    avatarUrl: "https://picsum.photos/id/338/200/200"
+    avatarUrl: "/google-logo.png"
 
   },
 
@@ -44,7 +44,7 @@ const testimonials: Testimonial[] = [
 
     company: "Yılmaz Nakliyat Müşterisi",
 
-    avatarUrl: "https://picsum.photos/id/237/200/200"
+    avatarUrl: "/google-logo.png"
 
   },
 
@@ -58,7 +58,7 @@ const testimonials: Testimonial[] = [
 
     company: "Teknoloji Şirketi",
 
-    avatarUrl: "https://picsum.photos/id/91/200/200"
+    avatarUrl: "/google-logo.png"
 
   }
 

@@ -4,111 +4,191 @@ import React from 'react';
 
 import { motion } from 'framer-motion';
 
-import { FileCheck } from 'lucide-react';
+import { MapPin, Headset, ShieldCheck, Star } from 'lucide-react';
+
+// --- Visual 4: Professional Team (Replaces DocumentsVisual) ---
 
 export const DocumentsVisual = () => {
 
-  const cards = [
-
-    { title: 'Cert', color: 'bg-white', y: 0, scale: 1, z: 30 },
-
-    { title: 'Safety', color: 'bg-slate-50', y: -8, scale: 0.95, z: 20 },
-
-    { title: 'HACCP', color: 'bg-slate-100', y: -16, scale: 0.9, z: 10 },
-
-  ];
-
   return (
 
-    <div className="relative w-full h-full flex items-center justify-center bg-slate-50/50">
+    <div className="relative w-full h-full flex items-center justify-center bg-slate-50 overflow-hidden">
 
-        {/* Animated Stack */}
+      {/* Dynamic Background Pattern */}
 
-        <div className="relative mt-4">
+      <div className="absolute inset-0 opacity-[0.03]" 
 
-            {cards.map((card, i) => (
+           style={{ backgroundImage: 'linear-gradient(#000 1px, transparent 1px), linear-gradient(90deg, #000 1px, transparent 1px)', backgroundSize: '20px 20px' }} />
 
-                <motion.div
+      {/* Floating Particles */}
 
-                    key={i}
+      <motion.div 
 
-                    className={`absolute left-1/2 -translate-x-1/2 w-24 h-32 ${card.color} border border-slate-200 rounded-lg shadow-sm flex flex-col items-center p-3`}
+         animate={{ y: [-10, -30], opacity: [0, 1, 0] }}
 
-                    style={{ zIndex: card.z, top: card.y }}
+         transition={{ duration: 3, repeat: Infinity, ease: "linear" }}
 
-                    animate={{ 
+         className="absolute bottom-10 left-10 w-1 h-1 bg-brand-orange rounded-full"
 
-                        y: [card.y, card.y - 10, card.y],
+      />
 
-                    }}
+      <motion.div 
 
-                    transition={{ 
+         animate={{ y: [-10, -40], opacity: [0, 1, 0] }}
 
-                        duration: 3, 
+         transition={{ duration: 4, delay: 1, repeat: Infinity, ease: "linear" }}
 
-                        delay: i * 0.5, 
+         className="absolute bottom-10 right-20 w-1.5 h-1.5 bg-slate-400 rounded-full"
 
-                        repeat: Infinity, 
+      />
 
-                        ease: "easeInOut" 
+      {/* Team Container */}
 
-                    }}
+      <div className="relative w-48 h-32">
 
-                >
+          
 
-                    {/* Fake text lines */}
+          {/* Connector Lines (SVG) */}
 
-                    <div className="w-8 h-8 rounded-full bg-orange-100 flex items-center justify-center mb-2">
+          <svg className="absolute inset-0 w-full h-full pointer-events-none drop-shadow-sm overflow-visible">
 
-                         <FileCheck className="w-4 h-4 text-brand-orange" />
+            {/* Lines connecting center to others */}
+
+             <motion.line 
+
+               x1="50%" y1="70%" x2="20%" y2="30%" 
+
+               stroke="#cbd5e1" strokeWidth="2" strokeDasharray="4 4"
+
+               initial={{ pathLength: 0, opacity: 0.5 }} animate={{ pathLength: 1 }} transition={{ duration: 1, delay: 0.5 }}
+
+             />
+
+             <motion.line 
+
+               x1="50%" y1="70%" x2="80%" y2="30%" 
+
+               stroke="#cbd5e1" strokeWidth="2" strokeDasharray="4 4"
+
+               initial={{ pathLength: 0, opacity: 0.5 }} animate={{ pathLength: 1 }} transition={{ duration: 1, delay: 0.5 }}
+
+             />
+
+          </svg>
+
+          {/* Member 1: Logistics (Left) */}
+
+          <motion.div 
+
+             className="absolute top-0 left-0"
+
+             initial={{ scale: 0, x: 20, y: 20 }}
+
+             animate={{ scale: 1, x: 0, y: 0 }}
+
+             transition={{ delay: 0.2, type: "spring", stiffness: 200 }}
+
+          >
+
+             <TeamAvatar icon={<MapPin size={18} />} color="bg-slate-700" delay={0} />
+
+             <motion.div 
+
+                className="absolute -bottom-6 left-1/2 -translate-x-1/2 bg-white border border-slate-100 px-2 py-0.5 rounded shadow-sm whitespace-nowrap"
+
+                initial={{ opacity: 0, y: -5 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: 1 }}
+
+             >
+
+                <div className="h-1 w-8 bg-slate-200 rounded-full overflow-hidden">
+
+                    <motion.div className="h-full bg-green-500 w-full" initial={{ x: '-100%' }} animate={{ x: 0 }} transition={{ delay: 1.2, duration: 0.5 }} />
+
+                </div>
+
+             </motion.div>
+
+          </motion.div>
+
+          {/* Member 2: Support (Right) */}
+
+          <motion.div 
+
+             className="absolute top-0 right-0"
+
+             initial={{ scale: 0, x: -20, y: 20 }}
+
+             animate={{ scale: 1, x: 0, y: 0 }}
+
+             transition={{ delay: 0.4, type: "spring", stiffness: 200 }}
+
+          >
+
+             <TeamAvatar icon={<Headset size={18} />} color="bg-slate-700" delay={1} />
+
+             <motion.div 
+
+                className="absolute -top-2 -right-2 bg-green-500 text-white text-[8px] font-bold px-1.5 py-0.5 rounded-full shadow-md z-20"
+
+                initial={{ scale: 0 }} animate={{ scale: 1 }} transition={{ delay: 1.4, type: 'spring' }}
+
+             >
+
+                ON
+
+             </motion.div>
+
+          </motion.div>
+
+          {/* Member 3: Leader / Driver (Center Bottom) */}
+
+          <motion.div 
+
+             className="absolute bottom-0 left-1/2 -translate-x-1/2 z-20"
+
+             initial={{ scale: 0, y: -20 }}
+
+             animate={{ scale: 1, y: 0 }}
+
+             transition={{ delay: 0.6, type: "spring", stiffness: 200 }}
+
+          >
+
+             <div className="relative">
+
+                 <div className="w-16 h-16 bg-gradient-to-br from-brand-orange to-orange-600 rounded-2xl shadow-lg shadow-orange-500/20 flex items-center justify-center text-white transform rotate-45 border-4 border-white">
+
+                    <div className="transform -rotate-45">
+
+                        <ShieldCheck size={28} />
 
                     </div>
 
-                    <div className="w-full h-1 bg-slate-200 rounded mb-1" />
+                 </div>
 
-                    <div className="w-3/4 h-1 bg-slate-200 rounded mb-3" />
+                 {/* Floating Stars */}
 
-                    
+                 <motion.div 
 
-                    <span className="text-[8px] font-bold text-slate-400 uppercase tracking-widest">{card.title}</span>
+                    className="absolute -top-4 left-1/2 -translate-x-1/2 flex gap-0.5"
 
-                    
+                    initial={{ opacity: 0, y: 10 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: 1.5 }}
 
-                    {/* Animated Checkmark for top card */}
+                 >
 
-                    {i === 0 && (
+                    {[1,2,3,4,5].map(i => (
 
-                        <motion.div 
+                        <Star key={i} size={8} className="text-yellow-400 fill-yellow-400" />
 
-                            className="absolute bottom-2 right-2 w-4 h-4 bg-green-500 rounded-full flex items-center justify-center"
+                    ))}
 
-                            animate={{ scale: [1, 1.2, 1] }}
+                 </motion.div>
 
-                            transition={{ duration: 1, repeat: Infinity, repeatDelay: 1 }}
+             </div>
 
-                        >
+          </motion.div>
 
-                            <svg viewBox="0 0 24 24" className="w-2.5 h-2.5 text-white" fill="none" stroke="currentColor" strokeWidth="4">
-
-                                <polyline points="20 6 9 17 4 12" />
-
-                            </svg>
-
-                        </motion.div>
-
-                    )}
-
-                </motion.div>
-
-            ))}
-
-        </div>
-
-        
-
-        {/* Glow effect at bottom */}
-
-        <div className="absolute bottom-8 w-24 h-4 bg-black/10 blur-md rounded-full" />
+      </div>
 
     </div>
 
@@ -116,3 +196,20 @@ export const DocumentsVisual = () => {
 
 };
 
+const TeamAvatar = ({ icon, color, delay }: { icon: any, color: string, delay: number }) => (
+
+    <motion.div 
+
+      animate={{ y: [-3, 3, -3] }}
+
+      transition={{ duration: 3, delay: delay, repeat: Infinity, ease: "easeInOut" }}
+
+      className={`w-12 h-12 ${color} rounded-xl shadow-md flex items-center justify-center text-white border-2 border-white relative z-10`}
+
+    >
+
+        {icon}
+
+    </motion.div>
+
+);

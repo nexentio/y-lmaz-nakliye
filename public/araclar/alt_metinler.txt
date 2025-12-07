@@ -1,0 +1,59 @@
+Görsel Dosya Adları ve Alt Metinleri
+=====================================
+
+Dosya Adı: kumas-rulolari-kamyonete-yukleniyor-tekstil.avif
+Alt Metin: Beyaz kamyonete mavi kumaş rulolarını yükleyen işçiler. Tekstil lojistiği ve tedarik zinciri görseli.
+-------------------------------------
+
+Dosya Adı: tekstil-kumas-rulolari-kamyonete-yukleniyor.avif
+Alt Metin: Beyaz kamyonet ile tekstil kumaş rulolarının depodan yüklenmesi ve lojistik çalışanları.
+-------------------------------------
+
+Dosya Adı: insaat-demiri-nakliyesi-santiye.avif
+Alt Metin: Şantiyede demir çubuk taşıyan işçiler, inşaat malzemesi nakliyesi.
+-------------------------------------
+
+Dosya Adı: tekstil-kumas-rulolari-kamyonet-yukleme.avif
+Alt Metin: Tekstil sevkiyatı: Kamyonete mavi ve pembe kumaş topları yükleyen iş güvenliği yelekli işçiler.
+-------------------------------------
+
+Dosya Adı: tekstil-balyasi-yuklu-kamyonet-nakliye.avif
+Alt Metin: Beyaz kamyonet ile mavi ve pembe tekstil balyalarının şehirde taşınması ve yükün sabitlenmesi.
+-------------------------------------
+
+Dosya Adı: insaat-demiri-indiren-isciler-santiye.avif
+Alt Metin: Şantiyede inşaat demiri taşıyan ve indiren sarı yelekli işçiler ve kamyonet.
+-------------------------------------
+
+Dosya Adı: yuklu-van-rulo-malzeme-tasima-ticari-sokak.avif
+Alt Metin: Ticari sokakta çatısında rulo paketler taşıyan beyaz van ve yükleme yapan işçiler.
+-------------------------------------
+
+Dosya Adı: beyaz-ford-transit-gunbatimi-otoyol.avif
+Alt Metin: Gün batımında asfalt otoyolda ilerleyen beyaz Ford Transit nakliye aracı.
+-------------------------------------
+
+Dosya Adı: yuklu-ford-transit-mermer-tasima.avif
+Alt Metin: Büyük mermer levhalar yüklenmiş beyaz Ford Transit kamyonet, inşaat malzemesi nakliyesi.
+-------------------------------------
+
+Dosya Adı: agiryuklu-nakliye-araci-ford-transit-kentsel.avif
+Alt Metin: Büyük panellerle aşırı yüklenmiş, şehir içi nakliye yapan beyaz Ford Transit kamyonet.
+-------------------------------------
+
+Dosya Adı: ticari-ford-transit-ve-lojistik-kamyonlari.avif
+Alt Metin: Ford Transit ticari araç, arkada sıraya dizilmiş beyaz nakliye ve lojistik kamyonları.
+-------------------------------------
+
+Dosya Adı: asiri-yuklu-kumas-rulolari-nakliye.avif
+Alt Metin: Şehir merkezinde kumaş/halı rulolarıyla aşırı yüklenmiş beyaz kamyonet.
+-------------------------------------
+
+Dosya Adı: beyaz-ford-transit-kamyonet-mobilya-panel-nakliyesi.avif
+Alt Metin: Beyaz Ford Transit pikap kamyonet, büyük mobilya panelleri ile yüklü, şehir içi nakliye veya mobilya teslimatı sırasında park halinde.
+-------------------------------------
+
+Dosya Adı: tekstil-rulolari-yuklu-kamyonet.avif
+Alt Metin: Tekstil ve kumaş rulolarıyla aşırı yüklenmiş, ticari bir caddede (Kayaoğulları Tekstil önü) park etmiş beyaz nakliye kamyoneti.
+-------------------------------------
+
