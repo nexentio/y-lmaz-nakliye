@@ -494,7 +494,7 @@ export default function FleetPage() {
 
                 title="Tırlar ve Ağır Vasıtalar"
 
-                imageSrc="https://framerusercontent.com/images/sqjR9log69svYrWvzRtPpLFHarc.jpg?lossless=1&width=1920&height=1080"
+                imageSrc="/yilmaz-nakliyat-tir-istanbul-bogaz-koprusu.webp"
 
                 description="Uzun mesafe ve tam tır yükleri için temel araçlarımız. Sağlam şasi ve yüksek kapasiteli römorklar, yüklerinizi güvenle taşır."
 
@@ -518,7 +518,7 @@ export default function FleetPage() {
 
                 title="Ford Transit Araçlar"
 
-                imageSrc="https://framerusercontent.com/images/zd6FBRCBmMTo4WjEG89IFgZbYuw.jpg?width=1920&height=1280"
+                imageSrc="/beyaz-ford-transit-kamyonet-yilmaz-nakliyat.webp"
 
                 description="Şehir içi dağıtım ve küçük yükler için ideal araçlar. Kompakt boyutları ve verimliliği ile dar sokaklarda rahatlıkla çalışır."
 
@@ -542,7 +542,7 @@ export default function FleetPage() {
 
                 title="Ev Taşıma Araçları"
 
-                imageSrc="https://framerusercontent.com/images/RmyDnwJBv9BORAIpIaORlKCRM.jpg?width=2400&height=1648"
+                imageSrc="/evden-eve-nakliyat-yukleme.webp"
 
                 description="2+1 ve 3+1 ev eşyalarının taşınması için özel olarak tasarlanmış araçlar. Eşyalarınızın güvenle taşınması için geniş ve korumalı taşıma alanı."
 
@@ -606,7 +606,7 @@ export default function FleetPage() {
 
             description="0545 717 5150 ve 0543 391 9863 numaralarımızdan veya WhatsApp üzerinden 7/24 bize ulaşabilirsiniz. Yılmaz Nakliyat olarak, müşterilerimizle sürekli iletişim halindeyiz."
 
-            imageSrc="https://images.unsplash.com/photo-1551288049-bebda4e38f71?q=80&w=2070&auto=format&fit=crop"
+            imageSrc="/yilmaz-nakliyat-teslimat-takip-uygulamasi.webp"
 
           />
 
@@ -618,7 +618,7 @@ export default function FleetPage() {
 
             description="Yüklerinizin durumu hakkında düzenli olarak bilgilendirilirsiniz. Yılmaz Nakliyat olarak, müşterilerimizi her adımda bilgilendirerek güven sağlıyoruz."
 
-            imageSrc="https://images.unsplash.com/photo-1516245834210-c4c14278733f?q=80&w=2069&auto=format&fit=crop"
+            imageSrc="/yilmaz-nakliyat-kamyoneti-otoyolda.webp"
 
           />
 
@@ -676,7 +676,7 @@ export default function FleetPage() {
 
             description="Tüm taşımacılık işlemlerimiz Türk taşımacılık mevzuatına uygundur. Yılmaz Nakliyat olarak, yasal gereklilikleri eksiksiz yerine getiriyoruz."
 
-            imageSrc="https://images.unsplash.com/photo-1450101499163-c8848c66ca85?q=80&w=2070&auto=format&fit=crop"
+            imageSrc="/yilmaz-nakliyat-depo-binasi-ve-sevkiyat-araci.webp"
 
           />
 
@@ -688,7 +688,7 @@ export default function FleetPage() {
 
             description="Tüm sürücülerimiz deneyimli ve güvenli sürüş konusunda eğitimlidir. Yılmaz Nakliyat olarak, güvenli taşımacılık için sürekli eğitim veriyoruz."
 
-            imageSrc="https://images.unsplash.com/photo-1449965408869-eaa3f722e40d?q=80&w=2070&auto=format&fit=crop"
+            imageSrc="/araclar/beyaz-ford-transit-gunbatimi-otoyol.webp"
 
           />
 
@@ -746,7 +746,7 @@ export default function FleetPage() {
 
             description="Türkiye genelinde güvenilir iş ortaklarımızla çalışarak, yüklerinizin her noktaya güvenle ulaşmasını sağlıyoruz. Yılmaz Nakliyat olarak, geniş bir hizmet ağına sahibiz."
 
-            imageSrc="https://images.unsplash.com/photo-1542601906990-b4d3fb778b09?q=80&w=2026&auto=format&fit=crop"
+            imageSrc="/yilmaz-nakliyat-turkiye-dagitim-agi.webp"
 
           />
 
@@ -758,7 +758,7 @@ export default function FleetPage() {
 
             description="Filosumuzu sürekli genişletiyor ve modernize ediyoruz. Yılmaz Nakliyat olarak, müşterilerimize daha iyi hizmet verebilmek için sürekli yatırım yapıyoruz."
 
-            imageSrc="https://images.unsplash.com/photo-1617788138017-80ad40651399?q=80&w=2070&auto=format&fit=crop"
+            imageSrc="/yilmaz-nakliyat-genis-arac-filosu.webp"
 
           />
 
