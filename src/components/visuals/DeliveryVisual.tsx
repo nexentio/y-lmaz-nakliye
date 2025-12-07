@@ -2,69 +2,85 @@
 
 import React from 'react';
 
-
-
 import { motion } from 'framer-motion';
 
-import { Package } from 'lucide-react';
+import { PackageCheck } from 'lucide-react';
 
 export const DeliveryVisual = () => {
 
   return (
 
-    <div className="relative w-full h-full flex items-center justify-center">
+    <div className="relative w-full h-full flex items-center justify-center bg-white">
 
-      {/* Central Package */}
+      {/* Radar Scan Effect */}
 
-      <motion.div 
+      <div className="absolute inset-0 flex items-center justify-center">
 
-        className="relative z-20 bg-[#E8C29D] w-12 h-12 flex items-center justify-center rounded shadow-sm border border-[#D4A982]"
+         <motion.div 
 
-        animate={{ y: [0, -4, 0] }}
+            animate={{ scale: [1, 2.5], opacity: [0.3, 0] }}
 
-        transition={{ duration: 2, repeat: Infinity, ease: "easeInOut" }}
+            transition={{ duration: 2, repeat: Infinity, ease: "easeOut" }}
+
+            className="w-20 h-20 border border-brand-orange rounded-full"
+
+         />
+
+         <motion.div 
+
+            animate={{ scale: [1, 2], opacity: [0.3, 0] }}
+
+            transition={{ duration: 2, repeat: Infinity, ease: "easeOut", delay: 0.5 }}
+
+            className="w-20 h-20 border border-brand-orange rounded-full absolute"
+
+         />
+
+      </div>
+
+      {/* Main Package */}
+
+      <motion.div
+
+        className="relative z-20 w-16 h-16 bg-gradient-to-br from-orange-400 to-brand-orange rounded-xl shadow-lg flex items-center justify-center text-white"
+
+        animate={{ y: [-5, 5, -5], rotate: [0, 5, 0] }}
+
+        transition={{ duration: 4, repeat: Infinity, ease: "easeInOut" }}
 
       >
 
-        <Package className="text-[#8B5E3C]" size={24} />
+        <PackageCheck className="w-8 h-8" />
 
-        {/* Sticker */}
+        
 
-        <div className="absolute top-2 left-2 w-3 h-3 bg-blue-500 rounded-full opacity-80" />
+        {/* Success Badge */}
 
-      </motion.div>
+        <motion.div 
 
-      
+            initial={{ scale: 0 }}
 
-      {/* Orbiting Elements (EU/US flags simulated) */}
+            animate={{ scale: [0, 1.2, 1] }}
 
-      <motion.div 
+            transition={{ duration: 0.5, delay: 1, repeat: Infinity, repeatDelay: 2 }}
 
-        className="absolute w-32 h-32 rounded-full border border-dashed border-brand-orange/30"
+            className="absolute -top-2 -right-2 bg-green-500 w-6 h-6 rounded-full border-2 border-white flex items-center justify-center"
 
-        animate={{ rotate: 360 }}
+        >
 
-        transition={{ duration: 15, repeat: Infinity, ease: "linear" }}
+            <div className="w-2 h-2 bg-white rounded-full" />
 
-      >
-
-         <div className="absolute -top-3 left-1/2 -translate-x-1/2 w-6 h-6 rounded-full bg-blue-600 border-2 border-white flex items-center justify-center overflow-hidden">
-
-            <span className="text-[6px] text-white font-bold">EU</span>
-
-         </div>
-
-         <div className="absolute -bottom-3 left-1/2 -translate-x-1/2 w-6 h-6 rounded-full bg-red-600 border-2 border-white flex items-center justify-center overflow-hidden">
-
-            <span className="text-[6px] text-white font-bold">US</span>
-
-         </div>
+        </motion.div>
 
       </motion.div>
 
-      {/* Shadow */}
+      {/* Path Dots */}
 
-      <div className="absolute top-1/2 mt-8 w-10 h-2 bg-black/5 rounded-full blur-sm" />
+      <svg className="absolute w-full h-full pointer-events-none opacity-30" viewBox="0 0 200 200">
+
+        <path d="M 20,100 Q 100,20 180,100" fill="none" stroke="#FB923C" strokeWidth="2" strokeDasharray="4 4" />
+
+      </svg>
 
     </div>
 

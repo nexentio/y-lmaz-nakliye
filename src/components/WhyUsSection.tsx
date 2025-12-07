@@ -2,89 +2,87 @@
 
 import React from 'react';
 
+import { ArrowRight } from 'lucide-react';
 
+import { FeatureCard } from './FeatureCard';
 
-import { SectionButton } from './ui/SectionButton';
+import { GlobalServiceVisual } from './visuals/GlobalServiceVisual';
 
-import { MultilingualVisual } from './visuals/MultilingualVisual';
-
-import { TruckVisual } from './visuals/TruckVisual';
+import { FleetVisual } from './visuals/FleetVisual';
 
 import { DeliveryVisual } from './visuals/DeliveryVisual';
 
-import { FolderVisual } from './visuals/FolderVisual';
-
-interface FeatureCardProps {
-
-  title: string;
-
-  visual: React.ReactNode;
-
-}
-
-const FeatureCard: React.FC<FeatureCardProps> = ({ title, visual }) => {
-
-  return (
-
-    <div className="bg-brand-gray rounded-[32px] p-6 flex flex-col items-center justify-between aspect-square w-full h-full overflow-hidden transition-transform duration-300 hover:scale-[1.02]">
-
-      <div className="flex-1 w-full relative">
-
-        {visual}
-
-      </div>
-
-      <p className="text-center text-brand-dark font-medium text-sm lg:text-base mt-4 px-2">
-
-        {title}
-
-      </p>
-
-    </div>
-
-  );
-
-};
+import { DocumentsVisual } from './visuals/DocumentsVisual';
 
 export default function WhyUsSection() {
 
   return (
 
-    <section className="w-full max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-24 items-center">
+    <section className="w-full max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-20 items-center px-4 md:px-12">
 
       
 
       {/* Left Content Column */}
 
-      <div className="lg:col-span-5 flex flex-col gap-8 text-left">
+      <div className="lg:col-span-5 flex flex-col gap-6 lg:gap-8">
 
-        <div>
+        <div className="space-y-4">
 
-          <span className="text-sm font-semibold text-brand-dark tracking-wide uppercase mb-2 block">
+          <span className="inline-block py-1 px-3 rounded-full bg-orange-100 text-brand-orange text-xs font-bold tracking-wider uppercase">
 
-            Neden Biz
+            Neden Biz?
 
           </span>
 
-          <h2 className="text-4xl lg:text-5xl font-semibold text-brand-dark mb-6 leading-[1.15]">
+          <h2 className="text-4xl md:text-5xl lg:text-6xl font-bold text-slate-900 leading-[1.1] tracking-tight">
 
-            Profesyonel Taşımacılık Hizmetleri
+            Profesyonel <br/>
+
+            <span className="relative">
+
+               Taşımacılık 
+
+               <svg className="absolute -bottom-2 left-0 w-full h-3 text-brand-orange opacity-40" viewBox="0 0 100 10" preserveAspectRatio="none">
+
+                 <path d="M0 5 Q 50 10 100 5" stroke="currentColor" strokeWidth="4" fill="none" />
+
+               </svg>
+
+            </span>
+
+            <br/> Hizmetleri
 
           </h2>
-
-          <p className="text-lg text-gray-600 leading-relaxed max-w-md">
-
-            Eşyalarınızı ve yüklerinizi güvenle taşıyoruz. Yılmaz Nakliyat olarak, kurucumuz Yılmaz Arslan'ın önderliğinde profesyonel ekibimiz ve 30+ araçlık geniş filomuz ile her türlü taşımacılık ihtiyacınıza cana yakın ve güvenilir çözümler sunuyoruz. Müşterilerimizin memnuniyeti bizim için en önemli önceliktir.
-
-          </p>
 
         </div>
 
         
 
-        <div className="pt-2">
+        <p className="text-slate-600 text-lg leading-relaxed text-justify md:text-left">
 
-          <SectionButton />
+          Eşyalarınızı ve yüklerinizi güvenle taşıyoruz. Yılmaz Nakliyat olarak, 
+
+          kurucumuz Yılmaz Arslan'ın önderliğinde profesyonel ekibimiz ve 30+ araçlık 
+
+          geniş filomuz ile her türlü taşımacılık ihtiyacınıza cana yakın ve güvenilir 
+
+          çözümler sunuyoruz.
+
+        </p>
+
+        <div className="pt-4">
+
+          <button className="group relative inline-flex items-center justify-center px-8 py-4 font-semibold text-white transition-all duration-200 bg-slate-900 rounded-full hover:bg-brand-orange hover:shadow-lg hover:shadow-orange-500/30 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-brand-orange">
+
+            <span>Hakkımızda Daha Fazla</span>
+
+            <div className="ml-3 w-6 h-6 rounded-full bg-white/20 flex items-center justify-center group-hover:translate-x-1 transition-transform">
+
+               <ArrowRight className="w-3 h-3 text-white" />
+
+            </div>
+
+          </button>
 
         </div>
 
@@ -94,39 +92,49 @@ export default function WhyUsSection() {
 
       <div className="lg:col-span-7 w-full">
 
-        <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 w-full">
+        <div className="grid grid-cols-1 sm:grid-cols-2 gap-5 w-full">
 
-            <FeatureCard 
+          
 
-                visual={<MultilingualVisual />}
+          <FeatureCard 
 
-                title="Türkiye Genelinde Güvenilir Hizmet"
+            title="Türkiye Genelinde Güvenilir Hizmet"
 
-            />
+            visual={<GlobalServiceVisual />}
 
-            <FeatureCard 
+            delay={0.1}
 
-                visual={<TruckVisual />}
+          />
 
-                title="Geniş ve Modern Araç Filosu"
+          <FeatureCard 
 
-            />
+            title="Geniş ve Modern Araç Filosu"
 
-            <FeatureCard 
+            visual={<FleetVisual />}
 
-                visual={<DeliveryVisual />}
+            delay={0.2}
 
-                title="Hızlı ve Güvenli Teslimat"
+          />
 
-            />
+          <FeatureCard 
 
-            <FeatureCard 
+            title="Hızlı ve Güvenli Teslimat"
 
-                visual={<FolderVisual />}
+            visual={<DeliveryVisual />}
 
-                title="Profesyonel ve Deneyimli Ekip"
+            delay={0.3}
 
-            />
+          />
+
+          <FeatureCard 
+
+            title="Profesyonel ve Deneyimli Ekip"
+
+            visual={<DocumentsVisual />}
+
+            delay={0.4}
+
+          />
 
         </div>
 
