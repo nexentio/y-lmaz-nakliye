@@ -2,9 +2,9 @@
 
 import React from 'react';
 
-import { ArrowRight } from 'lucide-react';
-
 import { FeatureCard } from './FeatureCard';
+
+import { SectionButton } from './ui/SectionButton';
 
 import { GlobalServiceVisual } from './visuals/GlobalServiceVisual';
 
@@ -70,19 +70,9 @@ export default function WhyUsSection() {
 
         </p>
 
-        <div className="pt-4">
+        <div className="pt-2">
 
-          <button className="group relative inline-flex items-center justify-center px-8 py-4 font-semibold text-white transition-all duration-200 bg-slate-900 rounded-full hover:bg-brand-orange hover:shadow-lg hover:shadow-orange-500/30 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-brand-orange">
-
-            <span>Hakkımızda Daha Fazla</span>
-
-            <div className="ml-3 w-6 h-6 rounded-full bg-white/20 flex items-center justify-center group-hover:translate-x-1 transition-transform">
-
-               <ArrowRight className="w-3 h-3 text-white" />
-
-            </div>
-
-          </button>
+          <SectionButton />
 
         </div>
 
