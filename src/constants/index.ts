@@ -188,7 +188,7 @@ export const TESTIMONIALS: Testimonial[] = [
 
     company: "Yılmaz Nakliyat Müşterisi",
 
-    image: "https://framerusercontent.com/images/eA14AQZoraXhWBvjDmeNUInSEk.webp"
+    image: "/google-logo.png"
 
   },
 
@@ -202,7 +202,7 @@ export const TESTIMONIALS: Testimonial[] = [
 
     company: "Demirci İşletmesi",
 
-    image: "https://framerusercontent.com/images/unWYDuYMRPUeJ16AX0mrzNKJ8.webp"
+    image: "/google-logo.png"
 
   },
 
@@ -216,7 +216,7 @@ export const TESTIMONIALS: Testimonial[] = [
 
     company: "İnşaat Firması",
 
-    image: "https://framerusercontent.com/images/Ej8sUg9nHnlycpYyqFac2ga4.webp"
+    image: "/google-logo.png"
 
   },
 
@@ -230,7 +230,7 @@ export const TESTIMONIALS: Testimonial[] = [
 
     company: "Hayvancılık İşletmesi",
 
-    image: "https://framerusercontent.com/images/V4oFVZNGp88PU7IzhV9HJiodMws.webp"
+    image: "/google-logo.png"
 
   }
 

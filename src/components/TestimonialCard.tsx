@@ -36,15 +36,15 @@ const TestimonialCard: React.FC<TestimonialCardProps> = ({ data }) => {
 
       <div className="flex items-center gap-3">
 
-        <div className="relative w-10 h-10 flex-shrink-0 overflow-hidden rounded-lg">
+        <div className="relative w-10 h-10 flex-shrink-0 overflow-hidden rounded-lg bg-white flex items-center justify-center p-1.5">
 
           <img
 
-            src={data.image}
+            src={data.image || '/google-logo.png'}
 
             alt={data.name}
 
-            className="w-full h-full object-cover"
+            className="w-full h-full object-contain"
 
             loading="lazy"
 

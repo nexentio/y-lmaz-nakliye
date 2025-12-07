@@ -28,15 +28,15 @@ export const IndustriesTestimonialCard: React.FC<TestimonialCardProps> = ({ data
 
       <div className="flex items-center gap-4">
 
-        <div className="relative w-12 h-12 rounded-lg overflow-hidden flex-shrink-0 bg-gray-200">
+        <div className="relative w-12 h-12 rounded-lg overflow-hidden flex-shrink-0 bg-white flex items-center justify-center p-2">
 
           <img 
 
-            src={data.avatarUrl || data.image || 'https://picsum.photos/200/200'} 
+            src={data.avatarUrl || data.image || '/google-logo.png'} 
 
             alt={data.name} 
 
-            className="w-full h-full object-cover"
+            className="w-full h-full object-contain"
 
             loading="lazy"
 
