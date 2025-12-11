@@ -190,7 +190,7 @@ export default function RootLayout({
     '@id': 'https://www.gaziantepnakliyeci.com/#organization',
     name: 'Yılmaz Nakliyat',
     url: 'https://www.gaziantepnakliyeci.com',
-    logo: 'https://www.yilmaz-nakliyat.com/logo-yilmaz-nakliyat.png',
+    logo: 'https://www.gaziantepnakliyeci.com/logo-yilmaz-nakliyat.png',
     description: 'Gaziantep tekstil kentinde güvenilir taşımacılık hizmetleri',
     founder: {
       '@type': 'Person',
