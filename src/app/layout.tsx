@@ -4,6 +4,7 @@ import NavbarWrapper from '../components/NavbarWrapper';
 import WhatsAppButton from '../components/WhatsAppButton';
 import { PhoneButton } from '../components/PhoneButton';
 import { CookieConsent } from '../components/CookieConsent';
+import { GoogleAnalytics } from '../components/GoogleAnalytics';
 
 export const metadata: Metadata = {
   metadataBase: new URL('https://www.gaziantepnakliyeci.com'),
@@ -266,6 +267,9 @@ export default function RootLayout({
         />
       </head>
       <body>
+        {process.env.NEXT_PUBLIC_GA_MEASUREMENT_ID && (
+          <GoogleAnalytics measurementId={process.env.NEXT_PUBLIC_GA_MEASUREMENT_ID} />
+        )}
         <NavbarWrapper />
         {children}
         <WhatsAppButton />
