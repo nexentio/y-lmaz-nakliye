@@ -1,6 +1,5 @@
 import React from 'react';
 import type { Metadata } from 'next';
-import Script from 'next/script';
 
 import { HeroSection } from '../../components/HeroSection';
 import HistorySectionNew from '../../components/HistorySectionNew';
@@ -47,10 +46,9 @@ export default function AboutPage() {
 
   return (
     <>
-      <Script
+      <script
         id="breadcrumb-schema-about"
         type="application/ld+json"
-        strategy="afterInteractive"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbData) }}
       />
       <div className="min-h-screen w-full flex flex-col bg-white">

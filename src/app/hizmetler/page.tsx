@@ -1,6 +1,5 @@
 import React from 'react';
 import type { Metadata } from 'next';
-import Script from 'next/script';
 
 import ServicesHero from '../../components/ServicesHero';
 import { ServicesListSection } from '../../components/ServicesListSection';
@@ -44,10 +43,9 @@ export default function ServicesPage() {
 
   return (
     <>
-      <Script
+      <script
         id="breadcrumb-schema-services"
         type="application/ld+json"
-        strategy="afterInteractive"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbData) }}
       />
       <div className="min-h-screen w-full flex flex-col bg-white">

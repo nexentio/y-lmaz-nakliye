@@ -1,5 +1,4 @@
 import type { Metadata } from 'next';
-import Script from 'next/script';
 import './globals.css';
 import NavbarWrapper from '../components/NavbarWrapper';
 import WhatsAppButton from '../components/WhatsAppButton';
@@ -248,26 +247,23 @@ export default function RootLayout({
         <meta name="geo.placename" content="Gaziantep" />
         <meta name="geo.position" content="37.0662;37.3833" />
         <meta name="ICBM" content="37.0662, 37.3833" />
-      </head>
-      <body>
-        <Script
+        <script
           id="structured-data-localbusiness"
           type="application/ld+json"
-          strategy="afterInteractive"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(localBusinessData) }}
         />
-        <Script
+        <script
           id="structured-data-organization"
           type="application/ld+json"
-          strategy="afterInteractive"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(organizationData) }}
         />
-        <Script
+        <script
           id="structured-data-website"
           type="application/ld+json"
-          strategy="afterInteractive"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(websiteData) }}
         />
+      </head>
+      <body>
         <NavbarWrapper />
         {children}
         <WhatsAppButton />

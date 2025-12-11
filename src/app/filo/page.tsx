@@ -1,6 +1,5 @@
 import React from 'react';
 import type { Metadata } from 'next';
-import Script from 'next/script';
 
 import Footer from '../../components/Footer';
 import { ArrowIcon } from '../../components/ArrowIcon';
@@ -172,10 +171,9 @@ export default function FleetPage() {
 
   return (
     <>
-      <Script
+      <script
         id="breadcrumb-schema-fleet"
         type="application/ld+json"
-        strategy="afterInteractive"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbData) }}
       />
       <div className="min-h-screen w-full flex flex-col bg-white">

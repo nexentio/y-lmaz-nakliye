@@ -1,6 +1,5 @@
 import React from 'react';
 import type { Metadata } from 'next';
-import Script from 'next/script';
 
 import Hero from '../components/Hero';
 import VideoBackground from '../components/VideoBackground';
@@ -42,10 +41,9 @@ export default function App() {
 
   return (
     <>
-      <Script
+      <script
         id="breadcrumb-schema"
         type="application/ld+json"
-        strategy="afterInteractive"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbData) }}
       />
       <div className="min-h-screen w-full flex flex-col">

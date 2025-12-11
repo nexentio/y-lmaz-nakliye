@@ -1,7 +1,6 @@
 "use client";
 
 import React from 'react';
-import Script from 'next/script';
 
 import Footer from '../../components/Footer';
 import { ContactHero } from '../../components/ContactHero';
@@ -40,10 +39,9 @@ export default function ContactPage() {
 
   return (
     <>
-      <Script
+      <script
         id="breadcrumb-schema-contact"
         type="application/ld+json"
-        strategy="afterInteractive"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbData) }}
       />
       <FAQSchemaScript />
