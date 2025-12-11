@@ -19,7 +19,7 @@ export default function WhatsAppButton() {
       href={whatsappUrl}
       target="_blank"
       rel="noopener noreferrer"
-      className="fixed bottom-8 right-8 z-50 group"
+      className="fixed bottom-8 right-6 z-50 group"
       aria-label="WhatsApp ile iletişime geçin"
     >
       {/* Main Button */}

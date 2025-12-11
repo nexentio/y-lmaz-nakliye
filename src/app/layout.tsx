@@ -2,6 +2,8 @@ import type { Metadata } from 'next';
 import './globals.css';
 import NavbarWrapper from '../components/NavbarWrapper';
 import WhatsAppButton from '../components/WhatsAppButton';
+import { PhoneButton } from '../components/PhoneButton';
+import { CookieConsent } from '../components/CookieConsent';
 
 export const metadata: Metadata = {
   metadataBase: new URL('https://www.gaziantepnakliyeci.com'),
@@ -267,6 +269,8 @@ export default function RootLayout({
         <NavbarWrapper />
         {children}
         <WhatsAppButton />
+        <PhoneButton />
+        <CookieConsent />
       </body>
     </html>
   );
