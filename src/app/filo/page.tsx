@@ -12,12 +12,12 @@ export const metadata: Metadata = {
   title: 'Araç Filosu',
   description: 'Yılmaz Nakliyat araç filosu: 15+ araç ile Gaziantep ve Türkiye genelinde güvenilir taşımacılık. Ağır yük kamyonetleri, Ford Transit araçlar ve ev taşıma araçları.',
   alternates: {
-    canonical: 'https://www.gaziantepnakliyeci.com/fleet',
+    canonical: 'https://www.gaziantepnakliyeci.com/filo',
   },
   openGraph: {
     title: 'Araç Filosu | Yılmaz Nakliyat',
     description: '15+ araç ile Gaziantep ve Türkiye genelinde güvenilir taşımacılık. Modern araç filosumuzla profesyonel hizmet.',
-    url: 'https://www.gaziantepnakliyeci.com/fleet',
+    url: 'https://www.gaziantepnakliyeci.com/filo',
     images: ['/yilmaz-nakliyat-genis-arac-filosu.webp'],
   },
 };
@@ -165,7 +165,7 @@ export default function FleetPage() {
         '@type': 'ListItem',
         position: 2,
         name: 'Araç Filosu',
-        item: 'https://www.gaziantepnakliyeci.com/fleet',
+        item: 'https://www.gaziantepnakliyeci.com/filo',
       },
     ],
   };

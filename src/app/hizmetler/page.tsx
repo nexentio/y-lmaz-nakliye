@@ -12,12 +12,12 @@ export const metadata: Metadata = {
   title: 'Hizmetlerimiz',
   description: 'Yılmaz Nakliyat hizmetleri: Gaziantep tekstil kentinde kumaş taşıma, elbise taşıma, evden eve taşıma, çeyiz taşıma, canlı hayvan taşıma, demir kapı taşıma, inşaat malzemeleri taşıma, Başpınar yük götürme ve ağır yük taşımacılığı.',
   alternates: {
-    canonical: 'https://www.gaziantepnakliyeci.com/services',
+    canonical: 'https://www.gaziantepnakliyeci.com/hizmetler',
   },
   openGraph: {
     title: 'Yılmaz Nakliyat Hizmetleri | Gaziantep Tekstil Kenti',
     description: 'Gaziantep tekstil kentinde kumaş taşıma, elbise taşıma, evden eve taşıma, çeyiz taşıma, demir kapı ve inşaat malzemeleri taşımacılığı hizmetleri.',
-    url: 'https://www.gaziantepnakliyeci.com/services',
+    url: 'https://www.gaziantepnakliyeci.com/hizmetler',
     images: ['/yilmaz-nakliyat-yuk-tasima-araci.webp'],
   },
 };
@@ -37,7 +37,7 @@ export default function ServicesPage() {
         '@type': 'ListItem',
         position: 2,
         name: 'Hizmetlerimiz',
-        item: 'https://www.gaziantepnakliyeci.com/services',
+        item: 'https://www.gaziantepnakliyeci.com/hizmetler',
       },
     ],
   };

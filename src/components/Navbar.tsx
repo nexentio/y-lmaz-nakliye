@@ -109,15 +109,15 @@ export default function Navbar({ variant = 'dark' }: NavbarProps) {
 
         <NavLink text="Ana Sayfa" href="/" variant={variant} />
 
-        <NavLink text="Hakkımızda" href="/about" variant={variant} />
+        <NavLink text="Hakkımızda" href="/hakkimizda" variant={variant} />
 
-        <NavLink text="Hizmetler" href="/services" variant={variant} />
+        <NavLink text="Hizmetler" href="/hizmetler" variant={variant} />
 
-        <NavLink text="Araç Filosu" href="/fleet" variant={variant} />
+        <NavLink text="Araç Filosu" href="/filo" variant={variant} />
 
-           <NavLink text="Sektörler" href="/industries" variant={variant} />
+           <NavLink text="Sektörler" href="/sektorler" variant={variant} />
 
-        <NavLink text="İletişim" href="/contact" variant={variant} />
+        <NavLink text="İletişim" href="/iletisim" variant={variant} />
 
       </div>
 
@@ -164,15 +164,15 @@ export default function Navbar({ variant = 'dark' }: NavbarProps) {
 
            <NavLink text="Ana Sayfa" href="/" variant={variant} onClick={() => setIsOpen(false)} />
 
-           <NavLink text="Hakkımızda" href="/about" variant={variant} onClick={() => setIsOpen(false)} />
+           <NavLink text="Hakkımızda" href="/hakkimizda" variant={variant} onClick={() => setIsOpen(false)} />
 
-           <NavLink text="Hizmetler" href="/services" variant={variant} onClick={() => setIsOpen(false)} />
+           <NavLink text="Hizmetler" href="/hizmetler" variant={variant} onClick={() => setIsOpen(false)} />
 
-           <NavLink text="Araç Filosu" href="/fleet" variant={variant} onClick={() => setIsOpen(false)} />
+           <NavLink text="Araç Filosu" href="/filo" variant={variant} onClick={() => setIsOpen(false)} />
 
-           <NavLink text="Sektörler" href="/industries" variant={variant} onClick={() => setIsOpen(false)} />
+           <NavLink text="Sektörler" href="/sektorler" variant={variant} onClick={() => setIsOpen(false)} />
 
-           <NavLink text="İletişim" href="/contact" variant={variant} onClick={() => setIsOpen(false)} />
+           <NavLink text="İletişim" href="/iletisim" variant={variant} onClick={() => setIsOpen(false)} />
 
            <a 
              href={`https://wa.me/905457175150?text=${encodeURIComponent("Merhaba! Yılmaz Nakliyat hizmetleriniz hakkında bilgi almak ve teklif almak istiyorum. Taşımacılık ihtiyacım için sizinle iletişime geçmek istiyorum. Teşekkürler! 🙏")}`}

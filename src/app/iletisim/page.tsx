@@ -33,7 +33,7 @@ export default function ContactPage() {
         '@type': 'ListItem',
         position: 2,
         name: 'İletişim',
-        item: 'https://www.gaziantepnakliyeci.com/contact',
+        item: 'https://www.gaziantepnakliyeci.com/iletisim',
       },
     ],
   };

@@ -14,12 +14,12 @@ export const metadata: Metadata = {
   title: 'Sektörler',
   description: 'Yılmaz Nakliyat sektörel çözümler: Demirci malzemeleri, müteahhit malzemeleri, evden eve taşıma, ofis taşımacılığı, genel yük taşımacılığı. Gaziantep ve Türkiye genelinde hizmet.',
   alternates: {
-    canonical: 'https://www.gaziantepnakliyeci.com/industries',
+    canonical: 'https://www.gaziantepnakliyeci.com/sektorler',
   },
   openGraph: {
     title: 'Sektörler | Yılmaz Nakliyat',
     description: 'Demirci malzemeleri, müteahhit malzemeleri, evden eve taşıma, ofis taşımacılığı. Her sektöre özel taşımacılık çözümleri.',
-    url: 'https://www.gaziantepnakliyeci.com/industries',
+    url: 'https://www.gaziantepnakliyeci.com/sektorler',
     images: ['/araclar/insaat-demiri-nakliyesi-santiye.webp'],
   },
 };
@@ -39,7 +39,7 @@ export default function IndustriesPage() {
         '@type': 'ListItem',
         position: 2,
         name: 'Sektörler',
-        item: 'https://www.gaziantepnakliyeci.com/industries',
+        item: 'https://www.gaziantepnakliyeci.com/sektorler',
       },
     ],
   };
