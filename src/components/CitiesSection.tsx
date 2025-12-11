@@ -41,6 +41,11 @@ const CitiesSection: React.FC = () => {
       name: 'Mersin',
       description: 'Liman kenti Mersin\'e genel yük, konteyner taşımacılığı ve tekstil ürünleri sevkiyatları yapıyoruz. Mersin Limanı\'ndan gelen yüklerin Türkiye geneline dağıtımında da hizmet veriyoruz.',
       services: ['Genel Yük', 'Konteyner Taşımacılığı', 'Tekstil Ürünleri', 'Liman Yükleri']
+    },
+    {
+      name: 'Gaziantep',
+      description: 'Gaziantep tekstil kentinde kumaş taşıma, elbise taşıma, tekstil ürünleri taşımacılığı yapıyoruz. Gaziantep\'in tüm ilçelerine (Başpınar dahil) yük götürme, çeyiz taşıma, ev taşıma hizmetleri sunuyoruz. Demir kapı taşıma, inşaat malzemeleri taşıma ve genel yük taşımacılığında deneyimli ekibimizle hizmetinizdeyiz.',
+      services: ['Tekstil Kenti Hizmetleri', 'Kumaş Taşıma', 'Elbise Taşıma', 'Ev Taşıma', 'Çeyiz Taşıma', 'Demir Kapı Taşıma', 'İnşaat Malzemeleri', 'Başpınar Yük Götürme']
     }
   ];
 

@@ -58,8 +58,6 @@ export const ContactHero: React.FC<ContactHeroProps> = ({ skyImage, cityImage })
 
         <div className="relative overflow-hidden rounded-lg group h-full">
 
-           <div className="absolute inset-0 bg-black/10 group-hover:bg-transparent transition-colors duration-500 z-10"></div>
-
            <img 
 
             src={skyImage} 
@@ -77,8 +75,6 @@ export const ContactHero: React.FC<ContactHeroProps> = ({ skyImage, cityImage })
         {/* Right Image (City Skyline) */}
 
         <div className="relative overflow-hidden rounded-lg group h-full">
-
-           <div className="absolute inset-0 bg-black/10 group-hover:bg-transparent transition-colors duration-500 z-10"></div>
 
            <img 
 

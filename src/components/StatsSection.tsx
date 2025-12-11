@@ -116,7 +116,7 @@ export const StatsSection: React.FC = () => {
 
                <p className="text-base sm:text-lg text-[#1C1817] opacity-90 leading-tight">
 
-                 Tır ve Ağır Vasıta.
+                 Ağır Yük Kamyonetleri.
 
                </p>
 

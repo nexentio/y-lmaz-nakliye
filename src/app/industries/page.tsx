@@ -1,24 +1,58 @@
 import React from 'react';
+import type { Metadata } from 'next';
+import Script from 'next/script';
 
 import Footer from '../../components/Footer';
-
 import SectionHeader from '../../components/SectionHeader';
-
 import ImageGrid from '../../components/ImageGrid';
-
 import IndustriesSectionHeader from '../../components/IndustriesSectionHeader';
-
 import IndustryCard from '../../components/IndustryCard';
-
 import IndustriesTestimonialsSection from '../../components/IndustriesTestimonialsSection';
-
 import { INDUSTRIES_DATA } from '../../constants';
 
+export const metadata: Metadata = {
+  title: 'Sektörler',
+  description: 'Yılmaz Nakliyat sektörel çözümler: Demirci malzemeleri, müteahhit malzemeleri, evden eve taşıma, ofis taşımacılığı, genel yük taşımacılığı. Gaziantep ve Türkiye genelinde hizmet.',
+  alternates: {
+    canonical: 'https://www.yilmaz-nakliyat.com/industries',
+  },
+  openGraph: {
+    title: 'Sektörler | Yılmaz Nakliyat',
+    description: 'Demirci malzemeleri, müteahhit malzemeleri, evden eve taşıma, ofis taşımacılığı. Her sektöre özel taşımacılık çözümleri.',
+    url: 'https://www.yilmaz-nakliyat.com/industries',
+    images: ['/araclar/insaat-demiri-nakliyesi-santiye.webp'],
+  },
+};
+
 export default function IndustriesPage() {
+  const breadcrumbData = {
+    '@context': 'https://schema.org',
+    '@type': 'BreadcrumbList',
+    itemListElement: [
+      {
+        '@type': 'ListItem',
+        position: 1,
+        name: 'Ana Sayfa',
+        item: 'https://www.yilmaz-nakliyat.com',
+      },
+      {
+        '@type': 'ListItem',
+        position: 2,
+        name: 'Sektörler',
+        item: 'https://www.yilmaz-nakliyat.com/industries',
+      },
+    ],
+  };
 
   return (
-
-    <div className="min-h-screen w-full flex flex-col bg-white">
+    <>
+      <Script
+        id="breadcrumb-schema-industries"
+        type="application/ld+json"
+        strategy="afterInteractive"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbData) }}
+      />
+      <div className="min-h-screen w-full flex flex-col bg-white">
 
       {/* Main Content */}
 
@@ -102,9 +136,8 @@ export default function IndustriesPage() {
 
       <Footer />
 
-    </div>
-
+      </div>
+    </>
   );
-
 }
 

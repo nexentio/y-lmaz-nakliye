@@ -1,14 +1,26 @@
 import React from 'react';
+import type { Metadata } from 'next';
+import Script from 'next/script';
 
 import Footer from '../../components/Footer';
-
 import { ArrowIcon } from '../../components/ArrowIcon';
-
 import FleetSection from '../../components/FleetSection';
-
 import FleetCard from '../../components/FleetCard';
-
 import { WhatsAppCTA } from '../../components/WhatsAppCTA';
+
+export const metadata: Metadata = {
+  title: 'Araç Filosu',
+  description: 'Yılmaz Nakliyat araç filosu: 15+ araç ile Gaziantep ve Türkiye genelinde güvenilir taşımacılık. Ağır yük kamyonetleri, Ford Transit araçlar ve ev taşıma araçları.',
+  alternates: {
+    canonical: 'https://www.yilmaz-nakliyat.com/fleet',
+  },
+  openGraph: {
+    title: 'Araç Filosu | Yılmaz Nakliyat',
+    description: '15+ araç ile Gaziantep ve Türkiye genelinde güvenilir taşımacılık. Modern araç filosumuzla profesyonel hizmet.',
+    url: 'https://www.yilmaz-nakliyat.com/fleet',
+    images: ['/yilmaz-nakliyat-genis-arac-filosu.webp'],
+  },
+};
 
 import { 
 
@@ -139,10 +151,34 @@ const VehicleCard: React.FC<VehicleCardProps> = ({ number, title, imageSrc, desc
 );
 
 export default function FleetPage() {
+  const breadcrumbData = {
+    '@context': 'https://schema.org',
+    '@type': 'BreadcrumbList',
+    itemListElement: [
+      {
+        '@type': 'ListItem',
+        position: 1,
+        name: 'Ana Sayfa',
+        item: 'https://www.yilmaz-nakliyat.com',
+      },
+      {
+        '@type': 'ListItem',
+        position: 2,
+        name: 'Araç Filosu',
+        item: 'https://www.yilmaz-nakliyat.com/fleet',
+      },
+    ],
+  };
 
   return (
-
-    <div className="min-h-screen w-full flex flex-col bg-white">
+    <>
+      <Script
+        id="breadcrumb-schema-fleet"
+        type="application/ld+json"
+        strategy="afterInteractive"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbData) }}
+      />
+      <div className="min-h-screen w-full flex flex-col bg-white">
 
 
       {/* Hero Section */}
@@ -159,7 +195,7 @@ export default function FleetPage() {
 
               src="https://framerusercontent.com/images/mwoDPtIBBxKDpcf82lXns9s41K4.webp?width=2240&height=1640" 
 
-              alt="Yılmaz Nakliyat - Hareket Halindeki Tır ve Taşımacılık Filosu" 
+              alt="Yılmaz Nakliyat - Hareket Halindeki Taşımacılık Filosu" 
 
               className="w-full h-auto object-cover block"
 
@@ -337,7 +373,7 @@ export default function FleetPage() {
 
                  <p className="text-base sm:text-lg text-[#1C1817] opacity-90 leading-tight">
 
-                   Tır ve Ağır Vasıta.
+                   Ağır Yük Kamyonetleri.
 
                  </p>
 
@@ -484,19 +520,19 @@ export default function FleetPage() {
 
                 number="01"
 
-                title="Tırlar ve Ağır Vasıtalar"
+                title="Ağır Yük Kamyonetleri"
 
-                imageSrc="/yilmaz-nakliyat-tir-istanbul-bogaz-koprusu.webp"
+                imageSrc="/yilmaz-nakliyat-kamyonet-metal-profil-yukleme.webp"
 
-                description="Uzun mesafe ve tam tır yükleri için temel araçlarımız. Sağlam şasi ve yüksek kapasiteli römorklar, yüklerinizi güvenle taşır."
+                description="Uzun mesafe ve ağır yükler için temel araçlarımız. Sağlam şasi ve yüksek kapasiteli kasalar, yüklerinizi güvenle taşır."
 
                 features={[
 
-                  "25 tona kadar yük kapasitesi",
+                  "Yüksek kapasiteli yük taşıma",
 
-                  "Kuru yük, perde yanlı, soğutmalı seçenekler",
+                  "Metal profiller, demir ve ağır malzemeler için uygun",
 
-                  "Tehlikeli madde taşımacılığı için uygun araçlar"
+                  "Güvenli ve profesyonel taşımacılık hizmeti"
 
                 ]}
 
@@ -668,7 +704,7 @@ export default function FleetPage() {
 
             description="Tüm taşımacılık işlemlerimiz Türk taşımacılık mevzuatına uygundur. Yılmaz Nakliyat olarak, yasal gereklilikleri eksiksiz yerine getiriyoruz."
 
-            imageSrc="/yilmaz-nakliyat-depo-binasi-ve-sevkiyat-araci.webp"
+            imageSrc="/yilmaz-nakliyat-metal-malzeme-tasima-kamyonet.webp"
 
           />
 
@@ -750,7 +786,7 @@ export default function FleetPage() {
 
             description="Filosumuzu sürekli genişletiyor ve modernize ediyoruz. Yılmaz Nakliyat olarak, müşterilerimize daha iyi hizmet verebilmek için sürekli yatırım yapıyoruz."
 
-            imageSrc="/yilmaz-nakliyat-genis-arac-filosu.webp"
+            imageSrc="/yilmaz-nakliyat-kasali-ford-transit-arazi.webp"
 
           />
 
@@ -776,8 +812,7 @@ export default function FleetPage() {
 
       <Footer />
 
-    </div>
-
+      </div>
+    </>
   );
-
 }

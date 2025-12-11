@@ -1,36 +1,53 @@
 "use client";
 
 import React from 'react';
+import Script from 'next/script';
 
 import Footer from '../../components/Footer';
-
 import { ContactHero } from '../../components/ContactHero';
-
 import ContactFormSection from '../../components/ContactFormSection';
-
 import KeyContactsSection from '../../components/KeyContactsSection';
-
 import LocationsSection from '../../components/LocationsSection';
-
 import { FAQSection } from '../../components/FAQSection';
-
 import { WhatsAppCTA } from '../../components/WhatsAppCTA';
-
+import FAQSchemaScript from '../../components/FAQSchemaScript';
 
 // Hero images - local images
 const HERO_IMAGES = {
-
-  sky: "/yilmaz-nakliyat-istanbul-bogazici-koprusu.webp",
-
-  city: "/yilmaz-nakliyat-kamyonet-istanbul-bogaz-koprusu.webp"
-
+  sky: "/araclar/beyaz-ford-transit-gunbatimi-otoyol.webp",
+  city: "/beyaz-ford-transit-kamyonet-yilmaz-nakliyat.webp"
 };
 
 export default function ContactPage() {
+  const breadcrumbData = {
+    '@context': 'https://schema.org',
+    '@type': 'BreadcrumbList',
+    itemListElement: [
+      {
+        '@type': 'ListItem',
+        position: 1,
+        name: 'Ana Sayfa',
+        item: 'https://www.yilmaz-nakliyat.com',
+      },
+      {
+        '@type': 'ListItem',
+        position: 2,
+        name: 'İletişim',
+        item: 'https://www.yilmaz-nakliyat.com/contact',
+      },
+    ],
+  };
 
   return (
-
-    <div className="min-h-screen bg-white text-[#1C1817] selection:bg-[#F94006] selection:text-white">
+    <>
+      <Script
+        id="breadcrumb-schema-contact"
+        type="application/ld+json"
+        strategy="afterInteractive"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbData) }}
+      />
+      <FAQSchemaScript />
+      <div className="min-h-screen bg-white text-[#1C1817] selection:bg-[#F94006] selection:text-white">
 
       <main>
 
@@ -109,9 +126,8 @@ export default function ContactPage() {
 
       <Footer />
 
-    </div>
-
+      </div>
+    </>
   );
-
 }
 

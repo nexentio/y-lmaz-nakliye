@@ -1,0 +1,23 @@
+# Yılmaz Nakliyat - Robots.txt
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://www.yilmaz-nakliyat.com/sitemap.xml
+
+# Disallow admin and private paths
+Disallow: /api/
+Disallow: /_next/
+Disallow: /admin/
+
+# Allow all static assets
+Allow: /public/
+Allow: /*.css
+Allow: /*.js
+Allow: /*.webp
+Allow: /*.png
+Allow: /*.jpg
+
+# Crawl-delay (optional)
+Crawl-delay: 1
+

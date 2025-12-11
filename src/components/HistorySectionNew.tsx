@@ -50,7 +50,7 @@ const historyData: HistoryItem[] = [
 
     title: "Büyüme ve Gelişim.",
 
-    description: "Yatırımlarımızı artırarak filomuzu genişlettik. Tırlar, Ford Transit araçlar ve ev taşıma araçları ile her türlü taşımacılık ihtiyacına hizmet vermeye başladık. Yılmaz Arslan'ın vizyonu doğrultusunda, müşterilerimize daha iyi hizmet verebilmek için sürekli kendimizi geliştiriyoruz.",
+    description: "Yatırımlarımızı artırarak filomuzu genişlettik. Ağır yük kamyonetleri, Ford Transit araçlar ve ev taşıma araçları ile her türlü taşımacılık ihtiyacına hizmet vermeye başladık. Yılmaz Arslan'ın vizyonu doğrultusunda, müşterilerimize daha iyi hizmet verebilmek için sürekli kendimizi geliştiriyoruz.",
 
     image: "/araclar/agiryuklu-nakliye-araci-ford-transit-kentsel.webp"
 
@@ -62,7 +62,7 @@ const historyData: HistoryItem[] = [
 
     title: "Güçlü Konum.",
 
-    description: "15+ araçlık filomuz ve profesyonel ekibimizle Türkiye genelinde yük taşıma, evden eve taşıma, canlı hayvan taşıma ve tekstil ürünleri taşımacılığında güvenilir bir çözüm ortağıyız. Gaziantep'ten başlayarak, İstanbul, İzmir, Ankara, Konya gibi büyük şehirlere düzenli sevkiyatlarımızla müşterilerimize hizmet veriyoruz. Özellikle İstanbul'a tekstil ürünleri, İzmir'e genel yük, Ankara'ya inşaat malzemeleri, Konya'ya tarım ürünleri ve canlı hayvan taşımacılığı yapıyoruz. Yılmaz Arslan'ın önderliğinde, her müşterimize cana yakın ve samimi hizmet sunarak sektörde öncü olmaya devam ediyoruz.",
+    description: "15+ araçlık filomuz ve profesyonel ekibimizle Türkiye genelinde yük taşıma, evden eve taşıma, çeyiz taşıma, canlı hayvan taşıma ve tekstil ürünleri taşımacılığında güvenilir bir çözüm ortağıyız. Gaziantep tekstil kentinden başlayarak, İstanbul, İzmir, Ankara, Konya gibi büyük şehirlere düzenli sevkiyatlarımızla müşterilerimize hizmet veriyoruz. Gaziantep tekstil kentinde kumaş taşıma, elbise taşıma, demir kapı taşıma, inşaat malzemeleri taşıma ve Gaziantep'in tüm ilçelerine (Başpınar dahil) yük götürme, çeyiz taşıma, ev taşıma hizmetleri sunuyoruz. Özellikle İstanbul'a tekstil ürünleri, İzmir'e genel yük, Ankara'ya inşaat malzemeleri, Konya'ya tarım ürünleri ve canlı hayvan taşımacılığı yapıyoruz. Yılmaz Arslan'ın önderliğinde, her müşterimize cana yakın ve samimi hizmet sunarak sektörde öncü olmaya devam ediyoruz.",
 
     image: "/araclar/tekstil-rulolari-yuklu-kamyonet.webp"
 

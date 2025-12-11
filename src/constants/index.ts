@@ -328,7 +328,7 @@ export const LOCATIONS: LocationData[] = [
 
     title: 'Merkez Ofis ve Lojistik Merkezi',
 
-    description: "Gaziantep'te bulunan merkez ofisimiz, yük taşımacılığı, evden eve taşımacılık, canlı hayvan taşımacılığı ve tekstil ürünleri taşımacılığı hizmetlerini Türkiye genelinde yönetmektedir. Yılmaz Nakliyat olarak, kurucumuz Yılmaz Arslan'ın önderliğinde Gaziantep'ten Türkiye'nin her yerine güvenilir taşımacılık hizmeti sunuyoruz.",
+    description: "Gaziantep tekstil kentinde bulunan merkez ofisimiz, yük taşımacılığı, evden eve taşımacılık, çeyiz taşıma, canlı hayvan taşımacılığı, tekstil ürünleri taşımacılığı (kumaş taşıma, elbise taşıma), demir kapı taşıma, inşaat malzemeleri taşımacılığı ve Gaziantep'in tüm ilçelerine (Başpınar dahil) yük götürme hizmetlerini Türkiye genelinde yönetmektedir. Yılmaz Nakliyat olarak, kurucumuz Yılmaz Arslan'ın önderliğinde Gaziantep'ten Türkiye'nin her yerine güvenilir taşımacılık hizmeti sunuyoruz.",
 
     coordinates: {
 
@@ -454,11 +454,11 @@ export const services: ServiceData[] = [
 
     image: "/yilmaz-nakliyat-yuk-tasima-araci.webp",
 
-    description: "Türkiye genelinde büyük yüklerinizi güvenle taşıyoruz. Tam tır yüklerinden küçük gönderilere kadar geniş araç filomuzla zamanında ve güvenli teslimat garantisi sunuyoruz.",
+    description: "Türkiye genelinde büyük yüklerinizi güvenle taşıyoruz. Ağır yüklerden küçük gönderilere kadar geniş araç filomuzla zamanında ve güvenli teslimat garantisi sunuyoruz.",
 
     features: [
 
-      { title: "Geniş araç filosu:", description: "Tırlar, Ford Transit ve özel araçlar." },
+      { title: "Geniş araç filosu:", description: "Kamyonetler, Ford Transit ve özel araçlar." },
 
       { title: "Güvenli taşımacılık:", description: "Sigortalı ve profesyonel hizmet." },
 
@@ -520,9 +520,11 @@ export const services: ServiceData[] = [
 
     image: "/araclar/tekstil-rulolari-yuklu-kamyonet.webp",
 
-    description: "Tekstil ürünlerinizi temiz ve güvenli şekilde taşıyoruz. Kumaşlar, hazır giyim ve tekstil malzemelerinin zarar görmeden teslim edilmesi için özel özen gösteriyoruz.",
+    description: "Gaziantep tekstil kentinde kumaş taşıma, elbise taşıma ve tekstil ürünlerinizi temiz ve güvenli şekilde taşıyoruz. Kumaşlar, hazır giyim, elbiseler ve tekstil malzemelerinin zarar görmeden teslim edilmesi için özel özen gösteriyoruz. Tekstil kent içerisinde profesyonel taşımacılık hizmeti sunuyoruz.",
 
     features: [
+
+      { title: "Gaziantep tekstil kenti:", description: "Tekstil kent içerisinde kumaş taşıma ve elbise taşıma hizmetleri." },
 
       { title: "Temiz taşımacılık:", description: "Tekstil ürünleri için hijyenik taşıma." },
 
@@ -538,15 +540,15 @@ export const services: ServiceData[] = [
 
     id: "05",
 
-    title: "Tırla Ürün Taşıma",
+    title: "Ağır Yük Taşımacılığı",
 
-    image: "/yilmaz-nakliyat-lojistik-tir-kopru-gunbatimi.webp",
+    image: "/yilmaz-nakliyat-kamyonet-metal-profil-yukleme.webp",
 
-    description: "Geniş tır filomuzla büyük hacimli ürünlerinizi Türkiye'nin her yerine güvenle taşıyoruz. Demirci malzemelerinden müteahhit malzemelerine kadar her türlü ürün için hizmet veriyoruz.",
+    description: "Geniş kamyonet filomuzla büyük hacimli ürünlerinizi Türkiye'nin her yerine güvenle taşıyoruz. Demirci malzemelerinden müteahhit malzemelerine kadar her türlü ürün için hizmet veriyoruz.",
 
     features: [
 
-      { title: "Geniş tır filosu:", description: "15+ tır ile büyük hacimli taşımacılık." },
+      { title: "Geniş kamyonet filosu:", description: "15+ araç ile büyük hacimli taşımacılık." },
 
       { title: "Sektörel uzmanlık:", description: "Demirci, müteahhit ve endüstriyel ürün taşımacılığı." },
 
@@ -844,15 +846,15 @@ export const INDUSTRIES_DATA: IndustryData[] = [
 
     title: 'Demirci Malzemeleri Taşımacılığı',
 
-    description: 'Demirci malzemelerinizi güvenle ve profesyonelce taşıyoruz. Yılmaz Nakliyat olarak, kurucumuz Yılmaz Arslan önderliğinde demirci sektörünün tüm ihtiyaçlarına özel çözümler sunuyoruz. Demir profiller, çelik levhalar, borular, köşebentler ve tüm demirci malzemeleri için özel olarak tasarlanmış tırlarımızla hizmetinizdeyiz. Ağır yüklerin güvenli taşınması için özel ekipmanlar ve deneyimli ekibimizle, malzemelerinizin hasar görmeden ve zamanında teslim edilmesini garanti ediyoruz.',
+    description: 'Demirci malzemelerinizi güvenle ve profesyonelce taşıyoruz. Yılmaz Nakliyat olarak, kurucumuz Yılmaz Arslan önderliğinde demirci sektörünün tüm ihtiyaçlarına özel çözümler sunuyoruz. Demir profiller, çelik levhalar, borular, köşebentler, demir kapı taşıma ve tüm demirci malzemeleri için özel olarak tasarlanmış kamyonetlerimizle hizmetinizdeyiz. Ağır yüklerin güvenli taşınması için özel ekipmanlar ve deneyimli ekibimizle, malzemelerinizin hasar görmeden ve zamanında teslim edilmesini garanti ediyoruz.',
 
     imageUrl: '/araclar/insaat-demiri-nakliyesi-santiye.webp',
 
     features: [
 
-      'Ağır demir malzemeleri için özel tırlar (25 tona kadar)',
+      'Ağır demir malzemeleri için özel kamyonetler (yüksek kapasiteli)',
 
-      'Demir profiller, çelik levhalar, borular ve köşebentler taşımacılığı',
+      'Demir profiller, çelik levhalar, borular, köşebentler ve demir kapı taşımacılığı',
 
       'Özel vinç ve kaldırma ekipmanları ile güvenli yükleme',
 
@@ -872,7 +874,7 @@ export const INDUSTRIES_DATA: IndustryData[] = [
 
     title: 'Müteahhit ve İnşaat Malzemeleri Taşımacılığı',
 
-    description: 'İnşaat sektörü için güvenilir taşımacılık hizmetleri. Yılmaz Nakliyat, müteahhitlerin tüm malzemelerini şantiyelerine güvenle ulaştırıyor. Çimento, tuğla, kiremit, beton bloklar, hazır beton, demir çubuklar, çatı malzemeleri ve tüm inşaat malzemeleri için özel araçlarımızla hizmet veriyoruz. Şantiye teslimatlarında uzman ekibimiz, dar sokaklara ve zor erişimli alanlara da güvenle ulaşabiliyor. Proje bazlı taşımacılık çözümlerimizle, inşaat projelerinizin kesintisiz devam etmesini sağlıyoruz.',
+    description: 'İnşaat sektörü için güvenilir taşımacılık hizmetleri. Yılmaz Nakliyat, müteahhitlerin tüm malzemelerini şantiyelerine güvenle ulaştırıyor. Çimento, tuğla, kiremit, beton bloklar, hazır beton, demir çubuklar, çatı malzemeleri ve tüm inşaat malzemeleri taşımacılığı için özel araçlarımızla hizmet veriyoruz. Gaziantep ve çevresinde inşaat malzemeleri taşımacılığında uzman ekibimiz, dar sokaklara ve zor erişimli alanlara da güvenle ulaşabiliyor. Proje bazlı taşımacılık çözümlerimizle, inşaat projelerinizin kesintisiz devam etmesini sağlıyoruz.',
 
     imageUrl: '/araclar/insaat-demiri-indiren-isciler-santiye.webp',
 
@@ -900,7 +902,7 @@ export const INDUSTRIES_DATA: IndustryData[] = [
 
     title: 'Evden Eve Taşımacılık',
 
-    description: 'Ev eşyalarınızı özenle taşıyoruz. Yılmaz Nakliyat, 2+1 ve 3+1 evler için özel araçları ve profesyonel ekibiyle hizmetinizde. Eşyalarınızın güvenli taşınması için özel paketleme hizmeti sunuyoruz. Mobilyalar, elektronik eşyalar, mutfak gereçleri, yatak odası takımları ve tüm ev eşyalarınızı özenle paketleyip, özel koruma malzemeleriyle sararak taşıyoruz. Deneyimli taşıma ekibimiz, eşyalarınızı hasar görmeden yeni adresinize ulaştırıyor. 2+1 ve 3+1 evler için özel olarak tasarlanmış araçlarımızla, tek seferde tüm eşyalarınızı taşıyabiliyoruz.',
+    description: 'Ev eşyalarınızı özenle taşıyoruz. Yılmaz Nakliyat, 2+1 ve 3+1 evler için özel araçları ve profesyonel ekibiyle hizmetinizde. Gaziantep\'in tüm ilçelerine ev taşıma ve çeyiz taşıma hizmetleri sunuyoruz. Eşyalarınızın güvenli taşınması için özel paketleme hizmeti sunuyoruz. Mobilyalar, elektronik eşyalar, mutfak gereçleri, yatak odası takımları, çeyiz eşyaları ve tüm ev eşyalarınızı özenle paketleyip, özel koruma malzemeleriyle sararak taşıyoruz. Deneyimli taşıma ekibimiz, eşyalarınızı hasar görmeden yeni adresinize ulaştırıyor. 2+1 ve 3+1 evler için özel olarak tasarlanmış araçlarımızla, tek seferde tüm eşyalarınızı taşıyabiliyoruz.',
 
     imageUrl: '/araclar/beyaz-ford-transit-kamyonet-mobilya-panel-nakliyesi.webp',
 
@@ -956,7 +958,7 @@ export const INDUSTRIES_DATA: IndustryData[] = [
 
     title: 'Genel Yük Taşımacılığı',
 
-    description: 'Her türlü yükünüzü güvenle taşıyoruz. Yılmaz Nakliyat olarak, 30+ araçlık filomuzla genel yük taşımacılığında güvenilir çözümler sunuyoruz. Paletli yükler, koli yükleri, ambalajlı ürünler, makine parçaları, tekstil ürünleri ve her türlü genel yük için uygun araçlarımızla hizmet veriyoruz. Türkiye genelinde kapsamlı hizmet ağımızla, yüklerinizi güvenle ve zamanında teslim ediyoruz. Küçük yüklerden büyük tır yüklerine kadar her boyutta taşımacılık yapıyoruz. Sigortalı ve güvenli taşımacılık hizmetimizle, yüklerinizin güvenliğini garanti ediyoruz.',
+    description: 'Her türlü yükünüzü güvenle taşıyoruz. Yılmaz Nakliyat olarak, 30+ araçlık filomuzla genel yük taşımacılığında güvenilir çözümler sunuyoruz. Paletli yükler, koli yükleri, ambalajlı ürünler, makine parçaları, tekstil ürünleri ve her türlü genel yük için uygun araçlarımızla hizmet veriyoruz. Türkiye genelinde kapsamlı hizmet ağımızla, yüklerinizi güvenle ve zamanında teslim ediyoruz. Küçük yüklerden büyük hacimli yüklere kadar her boyutta taşımacılık yapıyoruz. Sigortalı ve güvenli taşımacılık hizmetimizle, yüklerinizin güvenliğini garanti ediyoruz.',
 
     imageUrl: '/yilmaz-nakliyat-guvenli-tasima-yuk-sabitleme.webp',
 
@@ -970,7 +972,7 @@ export const INDUSTRIES_DATA: IndustryData[] = [
 
       'Türkiye genelinde kapsamlı hizmet ağı',
 
-      'Küçük yüklerden büyük tır yüklerine kadar her boyutta hizmet',
+      'Küçük yüklerden büyük hacimli yüklere kadar her boyutta hizmet',
 
       'Sigortalı ve güvenli taşımacılık ile zamanında teslimat garantisi'
 

@@ -74,11 +74,11 @@ const services: ServiceItem[] = [
 
     number: '05',
 
-    title: 'Tırla Ürün Taşıma',
+    title: 'Ağır Yük Taşımacılığı',
 
-    imageUrl: '/yilmaz-nakliyat-tir-istanbul-bogaz-koprusu.webp',
+    imageUrl: '/yilmaz-nakliyat-kamyonet-metal-profil-yukleme.webp',
 
-    alt: 'Yılmaz Nakliyat tırı, İstanbul Boğaz Köprüsü\'nden geçerken uluslararası taşımacılık ve lojistik hizmetlerini temsil ediyor.'
+    alt: 'Yılmaz Nakliyat kamyoneti, metal profiller ve ağır yükler taşıyarak profesyonel taşımacılık hizmetlerini temsil ediyor.'
 
   }
 
@@ -124,7 +124,7 @@ export const ServicesSection: React.FC = () => {
 
               <p className="text-lg md:text-xl text-[#1C1817] leading-relaxed opacity-90 font-normal max-w-sm">
 
-                Yük taşıma, evden eve taşıma, canlı hayvan taşıma ve tekstil ürünleri taşıma — Yılmaz Nakliyat olarak her ihtiyaca özel çözümler sunuyoruz. Kurucumuz Yılmaz Arslan'ın önderliğinde, müşterilerimize güvenilir, kaliteli ve cana yakın hizmet sağlıyoruz. 30+ araçlık filomuzla Türkiye genelinde profesyonel taşımacılık hizmeti veriyoruz.
+                Yük taşıma, evden eve taşıma, çeyiz taşıma, canlı hayvan taşıma, tekstil ürünleri taşıma (Gaziantep tekstil kentinde kumaş taşıma, elbise taşıma), demir kapı taşıma, inşaat malzemeleri taşıma ve Gaziantep'in tüm ilçelerine (Başpınar dahil) yük götürme — Yılmaz Nakliyat olarak her ihtiyaca özel çözümler sunuyoruz. Kurucumuz Yılmaz Arslan'ın önderliğinde, müşterilerimize güvenilir, kaliteli ve cana yakın hizmet sağlıyoruz. 30+ araçlık filomuzla Türkiye genelinde profesyonel taşımacılık hizmeti veriyoruz.
 
               </p>
 

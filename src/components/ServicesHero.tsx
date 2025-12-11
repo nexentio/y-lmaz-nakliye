@@ -84,7 +84,7 @@ const ServicesHero: React.FC = () => {
 
         <img 
 
-          src="/yilmaz-nakliyat-lojistik-tir-kopru-gunbatimi.webp"
+          src="/yilmaz-nakliyat-yuk-tasima-araci.webp"
 
           alt="Yılmaz Nakliyat - Profesyonel Taşımacılık Hizmetleri ve Güvenilir Filo"
 

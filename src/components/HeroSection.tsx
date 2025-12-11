@@ -144,7 +144,7 @@ export const HeroSection: React.FC = () => {
 
           >
 
-            Yük taşımacılığından evden eve taşımacılığa, canlı hayvan taşımacılığından tekstil ürünleri taşımacılığına kadar Yılmaz Nakliyat, operasyonel başarınız için tasarlanmış esnek ve ölçeklenebilir taşımacılık çözümleri sunuyor. Gaziantep merkezli olarak faaliyet gösteren firmamız, İstanbul, İzmir, Ankara, Konya, Bursa, Antalya, Adana, Mersin, Kayseri, Samsun, Trabzon ve Türkiye'nin dört bir yanına düzenli olarak yük taşımacılığı yapmaktadır. Kurucumuz Yılmaz Arslan'ın önderliğinde, müşterilerimize güvenilir ve kaliteli hizmet sunmaktan gurur duyuyoruz.
+            Yük taşımacılığından evden eve taşımacılığa, çeyiz taşımacılığından canlı hayvan taşımacılığına, Gaziantep tekstil kentinde kumaş taşıma ve elbise taşımacılığından tekstil ürünleri taşımacılığına, demir kapı taşımacılığından inşaat malzemeleri taşımacılığına kadar Yılmaz Nakliyat, operasyonel başarınız için tasarlanmış esnek ve ölçeklenebilir taşımacılık çözümleri sunuyor. Gaziantep tekstil kenti merkezli olarak faaliyet gösteren firmamız, Gaziantep'in tüm ilçelerine (Başpınar dahil) yük götürme, çeyiz taşıma, ev taşıma hizmetleri sunarken, İstanbul, İzmir, Ankara, Konya, Bursa, Antalya, Adana, Mersin, Kayseri, Samsun, Trabzon ve Türkiye'nin dört bir yanına düzenli olarak yük taşımacılığı yapmaktadır. Kurucumuz Yılmaz Arslan'ın önderliğinde, müşterilerimize güvenilir ve kaliteli hizmet sunmaktan gurur duyuyoruz.
 
           </p>
 

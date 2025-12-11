@@ -2,11 +2,11 @@ Görsel Dosya Adları ve Alt Metinleri
 =====================================
 
 Dosya Adı: yilmaz-nakliyat-turkiye-dagitim-agi.avif
-Alt Metin: Yılmaz Nakliyat lojistik firmasının Türkiye haritası üzerinde tırlarla gösterilen geniş nakliye dağıtım ağı ve merkezi operasyon.
+Alt Metin: Yılmaz Nakliyat lojistik firmasının Türkiye haritası üzerinde kamyonetlerle gösterilen geniş nakliye dağıtım ağı ve merkezi operasyon.
 -------------------------------------
 
 Dosya Adı: yilmaz-nakliyat-genis-arac-filosu.avif
-Alt Metin: Yılmaz Nakliyat firmasına ait, beyaz renkli tır, kamyon ve ticari araçlardan oluşan geniş filonun açık hava görüntüsü.
+Alt Metin: Yılmaz Nakliyat firmasına ait, beyaz renkli kamyonet ve ticari araçlardan oluşan geniş filonun açık hava görüntüsü.
 -------------------------------------
 
 Dosya Adı: yilmaz-nakliyat-teslimat-takip-uygulamasi.avif
