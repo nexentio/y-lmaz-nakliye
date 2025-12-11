@@ -15,12 +15,12 @@ export const metadata: Metadata = {
   title: 'Hakkımızda',
   description: 'Yılmaz Nakliyat - Gaziantep tekstil kentinde 2010 yılından beri güvenilir taşımacılık hizmetleri. Yılmaz Arslan önderliğinde 30+ araçlık filomuzla Türkiye genelinde profesyonel hizmet.',
   alternates: {
-    canonical: 'https://www.yilmaz-nakliyat.com/about',
+    canonical: 'https://www.gaziantepnakliyeci.com/about',
   },
   openGraph: {
     title: 'Hakkımızda | Yılmaz Nakliyat',
     description: 'Gaziantep tekstil kentinde 2010 yılından beri güvenilir taşımacılık hizmetleri. 30+ araçlık filomuzla Türkiye genelinde profesyonel hizmet.',
-    url: 'https://www.yilmaz-nakliyat.com/about',
+    url: 'https://www.gaziantepnakliyeci.com/about',
     images: ['/yilmaz-nakliyat-filosu.webp'],
   },
 };
@@ -34,13 +34,13 @@ export default function AboutPage() {
         '@type': 'ListItem',
         position: 1,
         name: 'Ana Sayfa',
-        item: 'https://www.yilmaz-nakliyat.com',
+        item: 'https://www.gaziantepnakliyeci.com',
       },
       {
         '@type': 'ListItem',
         position: 2,
         name: 'Hakkımızda',
-        item: 'https://www.yilmaz-nakliyat.com/about',
+        item: 'https://www.gaziantepnakliyeci.com/about',
       },
     ],
   };

@@ -3,7 +3,7 @@ User-agent: *
 Allow: /
 
 # Sitemap
-Sitemap: https://www.yilmaz-nakliyat.com/sitemap.xml
+Sitemap: https://www.gaziantepnakliyeci.com/sitemap.xml
 
 # Disallow admin and private paths
 Disallow: /api/

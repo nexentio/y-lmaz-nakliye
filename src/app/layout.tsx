@@ -5,7 +5,7 @@ import NavbarWrapper from '../components/NavbarWrapper';
 import WhatsAppButton from '../components/WhatsAppButton';
 
 export const metadata: Metadata = {
-  metadataBase: new URL('https://www.yilmaz-nakliyat.com'),
+  metadataBase: new URL('https://www.gaziantepnakliyeci.com'),
   title: {
     default: 'Yılmaz Nakliyat | Güvenilir Taşımacılık Hizmetleri | Gaziantep Tekstil Kenti',
     template: '%s | Yılmaz Nakliyat'
@@ -34,7 +34,7 @@ export const metadata: Metadata = {
   openGraph: {
     type: 'website',
     locale: 'tr_TR',
-    url: 'https://www.yilmaz-nakliyat.com',
+    url: 'https://www.gaziantepnakliyeci.com',
     siteName: 'Yılmaz Nakliyat',
     title: 'Yılmaz Nakliyat | Gaziantep Tekstil Kenti Güvenilir Taşımacılık',
     description: 'Gaziantep tekstil kentinde kumaş taşıma, elbise taşıma, evden eve taşıma, çeyiz taşıma, demir kapı ve inşaat malzemeleri taşımacılığı. Başpınar ve tüm ilçelere hizmet. 0545 717 5150',
@@ -54,7 +54,7 @@ export const metadata: Metadata = {
     images: ['/yilmaz-nakliyat-yuk-tasima-araci.webp'],
   },
   alternates: {
-    canonical: 'https://www.yilmaz-nakliyat.com',
+    canonical: 'https://www.gaziantepnakliyeci.com',
   },
   verification: {
     google: 'google-site-verification-code-buraya', // Google Search Console'dan alın
@@ -69,13 +69,13 @@ export default function RootLayout({
   const localBusinessData = {
     '@context': 'https://schema.org',
     '@type': 'LocalBusiness',
-    '@id': 'https://www.yilmaz-nakliyat.com/#localbusiness',
+    '@id': 'https://www.gaziantepnakliyeci.com/#localbusiness',
     name: 'Yılmaz Nakliyat',
     alternateName: 'Yılmaz Nakliyat Gaziantep',
     description:
       "Gaziantep tekstil kentinde kumaş taşıma, elbise taşıma, yük taşıma, evden eve ve çeyiz taşıma, canlı hayvan, demir kapı ve inşaat malzemeleri taşımacılığı hizmetleri sunar. Gaziantep'in tüm ilçelerine (Başpınar dahil) ve Türkiye geneline güvenilir nakliyat.",
-    image: 'https://www.yilmaz-nakliyat.com/logo-yilmaz-nakliyat.png',
-    logo: 'https://www.yilmaz-nakliyat.com/logo-yilmaz-nakliyat.png',
+    image: 'https://www.gaziantepnakliyeci.com/logo-yilmaz-nakliyat.png',
+    logo: 'https://www.gaziantepnakliyeci.com/logo-yilmaz-nakliyat.png',
     telephone: '+905457175150',
     priceRange: '$$',
     address: {
@@ -89,7 +89,7 @@ export default function RootLayout({
       latitude: 37.0662,
       longitude: 37.3833,
     },
-    url: 'https://www.yilmaz-nakliyat.com',
+    url: 'https://www.gaziantepnakliyeci.com',
     sameAs: [
       'https://wa.me/905457175150',
     ],
@@ -187,9 +187,9 @@ export default function RootLayout({
   const organizationData = {
     '@context': 'https://schema.org',
     '@type': 'Organization',
-    '@id': 'https://www.yilmaz-nakliyat.com/#organization',
+    '@id': 'https://www.gaziantepnakliyeci.com/#organization',
     name: 'Yılmaz Nakliyat',
-    url: 'https://www.yilmaz-nakliyat.com',
+    url: 'https://www.gaziantepnakliyeci.com',
     logo: 'https://www.yilmaz-nakliyat.com/logo-yilmaz-nakliyat.png',
     description: 'Gaziantep tekstil kentinde güvenilir taşımacılık hizmetleri',
     founder: {
@@ -223,18 +223,18 @@ export default function RootLayout({
   const websiteData = {
     '@context': 'https://schema.org',
     '@type': 'WebSite',
-    '@id': 'https://www.yilmaz-nakliyat.com/#website',
-    url: 'https://www.yilmaz-nakliyat.com',
+    '@id': 'https://www.gaziantepnakliyeci.com/#website',
+    url: 'https://www.gaziantepnakliyeci.com',
     name: 'Yılmaz Nakliyat',
     description: 'Gaziantep tekstil kentinde profesyonel taşımacılık hizmetleri',
     publisher: {
-      '@id': 'https://www.yilmaz-nakliyat.com/#organization',
+      '@id': 'https://www.gaziantepnakliyeci.com/#organization',
     },
     potentialAction: {
       '@type': 'SearchAction',
       target: {
         '@type': 'EntryPoint',
-        urlTemplate: 'https://www.yilmaz-nakliyat.com/?s={search_term_string}',
+        urlTemplate: 'https://www.gaziantepnakliyeci.com/?s={search_term_string}',
       },
       'query-input': 'required name=search_term_string',
     },
@@ -243,7 +243,7 @@ export default function RootLayout({
   return (
     <html lang="tr">
       <head>
-        <link rel="canonical" href="https://www.yilmaz-nakliyat.com" />
+        <link rel="canonical" href="https://www.gaziantepnakliyeci.com" />
         <meta name="geo.region" content="TR-27" />
         <meta name="geo.placename" content="Gaziantep" />
         <meta name="geo.position" content="37.0662;37.3833" />

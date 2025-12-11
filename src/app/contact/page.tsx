@@ -27,13 +27,13 @@ export default function ContactPage() {
         '@type': 'ListItem',
         position: 1,
         name: 'Ana Sayfa',
-        item: 'https://www.yilmaz-nakliyat.com',
+        item: 'https://www.gaziantepnakliyeci.com',
       },
       {
         '@type': 'ListItem',
         position: 2,
         name: 'İletişim',
-        item: 'https://www.yilmaz-nakliyat.com/contact',
+        item: 'https://www.gaziantepnakliyeci.com/contact',
       },
     ],
   };
