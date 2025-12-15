@@ -18,7 +18,7 @@ export const FeaturesSection: React.FC = () => {
 
         <img
 
-          src="https://framerusercontent.com/images/RWfhGa3bv1AiOKKGCnBsOVGJcDE.webp?width=2400&height=3600"
+          src="/arkaplan-lojistik-ozellikler-section.webp"
 
           alt="Logistics background"
 

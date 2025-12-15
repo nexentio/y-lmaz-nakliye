@@ -345,6 +345,39 @@ const Footer: React.FC = () => {
 
       </div>
 
+      {/* Bottom Bar - Copyright & Design Credit */}
+      <div className="border-t border-white/5">
+        <div className="container mx-auto px-6 md:px-12 py-6">
+          <div className="flex flex-col md:flex-row items-center justify-between gap-4">
+            <p className="text-white/60 text-sm font-mono">
+              © {new Date().getFullYear()} Yılmaz Nakliyat. Tüm hakları saklıdır.
+            </p>
+            <a 
+              href="https://www.nexentio.com" 
+              target="_blank" 
+              rel="noopener noreferrer"
+              className="group inline-flex items-center gap-3 text-white/60 hover:text-white transition-all duration-300"
+              title="Nexentio - Web Tasarım ve Dijital Çözümler"
+            >
+              <div className="flex items-center gap-3">
+                {/* Nexentio Logo Placeholder - Logo dosyası eklendiğinde buraya img tag'i eklenebilir */}
+                <div className="w-6 h-6 bg-white/10 rounded flex items-center justify-center group-hover:bg-white/20 transition-colors">
+                  <span className="text-white/80 text-xs font-bold">N</span>
+                </div>
+                <p className="text-sm font-mono">
+                  Bu web sitesi{' '}
+                  <span className="text-white font-semibold group-hover:text-[#F94006] transition-colors">
+                    Nexentio
+                  </span>{' '}
+                  firması tarafından geliştirilmiş ve desteklenmektedir.
+                </p>
+              </div>
+              <ArrowUpRight size={14} className="group-hover:translate-x-0.5 group-hover:-translate-y-0.5 transition-transform text-[#F94006] opacity-70 group-hover:opacity-100" />
+            </a>
+          </div>
+        </div>
+      </div>
+
     </footer>
 
   );

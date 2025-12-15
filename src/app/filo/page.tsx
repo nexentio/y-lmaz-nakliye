@@ -191,7 +191,7 @@ export default function FleetPage() {
 
             <img 
 
-              src="https://framerusercontent.com/images/mwoDPtIBBxKDpcf82lXns9s41K4.webp?width=2240&height=1640" 
+              src="/yilmaz-nakliyat-filo-hareket-halinde.webp" 
 
               alt="Yılmaz Nakliyat - Hareket Halindeki Taşımacılık Filosu" 
 

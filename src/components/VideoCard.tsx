@@ -12,9 +12,9 @@ const VideoCard: React.FC = () => {
 
       <video
 
-        src="https://framerusercontent.com/assets/ajQnC0cVGtvBPJpqCCRM9zbQy7c.mp4"
+        src="/video-musteri-yorumlari-testimonials.mp4"
 
-        poster="https://framerusercontent.com/images/DypsTNmxrRW7PqSF2Maw0oUSz4.webp"
+        poster="/video-poster-musteri-yorumlari.webp"
 
         autoPlay
 

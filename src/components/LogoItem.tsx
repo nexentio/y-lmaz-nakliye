@@ -26,7 +26,7 @@ export const LogoItem: React.FC<LogoItemProps> = ({ logo }) => {
 
       <img
 
-        src={`${logo.src}?width=${logo.width}&height=${logo.height}`}
+        src={logo.src}
 
         alt={logo.alt}
 

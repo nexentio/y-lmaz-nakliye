@@ -96,7 +96,7 @@ export const HeroSection: React.FC = () => {
 
           <video
 
-            src="https://framerusercontent.com/assets/H3u2CEnGOEeHabr3QiOEYbZnkHA.mp4"
+            src="/video-hakkimizda-hero-section.mp4"
 
             autoPlay
 

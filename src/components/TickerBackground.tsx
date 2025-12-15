@@ -42,7 +42,7 @@ export const TickerBackground: React.FC = () => {
 
              <img 
 
-                src="https://framerusercontent.com/images/RGdOr09TcFhR32WEis2HVsQ1FAU.jpg" 
+                src="/arkaplan-depo-lojistik-ticker.jpg" 
 
                 alt="Background Warehouse" 
 

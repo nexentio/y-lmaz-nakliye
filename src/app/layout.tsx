@@ -198,6 +198,12 @@ export default function RootLayout({
       '@type': 'Person',
       name: 'Yılmaz Arslan',
     },
+    creator: {
+      '@type': 'Organization',
+      name: 'Nexentio',
+      url: 'https://nexentio.com',
+      description: 'Web Tasarım ve Dijital Çözümler',
+    },
     contactPoint: [
       {
         '@type': 'ContactPoint',

@@ -24,9 +24,9 @@ export const CLIENT_LOGOS: LogoData[] = [
 
     id: 1,
 
-    src: "https://framerusercontent.com/images/0hEyP0wwW89T2DSLT3xi5NIwmC8.svg",
+    src: "/musteri-logosu-1.svg",
 
-    alt: "Client 1",
+    alt: "Müşteri Logosu 1",
 
     width: 36,
 
@@ -38,9 +38,9 @@ export const CLIENT_LOGOS: LogoData[] = [
 
     id: 2,
 
-    src: "https://framerusercontent.com/images/ud1s4Rt4P4XwdQtnHmWxuz8bc.svg",
+    src: "/musteri-logosu-2.svg",
 
-    alt: "Client 2",
+    alt: "Müşteri Logosu 2",
 
     width: 44,
 
@@ -52,9 +52,9 @@ export const CLIENT_LOGOS: LogoData[] = [
 
     id: 3,
 
-    src: "https://framerusercontent.com/images/9BpEOg3xXRUNtoNld1gFuLoMas4.svg",
+    src: "/musteri-logosu-3.svg",
 
-    alt: "Client 3",
+    alt: "Müşteri Logosu 3",
 
     width: 70,
 
@@ -66,9 +66,9 @@ export const CLIENT_LOGOS: LogoData[] = [
 
     id: 4,
 
-    src: "https://framerusercontent.com/images/t91NdGaZLeC9zr7ONnvUXJedAsg.svg",
+    src: "/musteri-logosu-4.svg",
 
-    alt: "Client 4",
+    alt: "Müşteri Logosu 4",
 
     width: 49,
 
@@ -80,9 +80,9 @@ export const CLIENT_LOGOS: LogoData[] = [
 
     id: 5,
 
-    src: "https://framerusercontent.com/images/mZEOKbi91uOuBQi8bfLtFC7ZDg.svg",
+    src: "/musteri-logosu-5.svg",
 
-    alt: "Client 5",
+    alt: "Müşteri Logosu 5",
 
     width: 59,
 
@@ -94,9 +94,9 @@ export const CLIENT_LOGOS: LogoData[] = [
 
     id: 6,
 
-    src: "https://framerusercontent.com/images/0AujqWc17HJiD5KnGjCjUNAG1g.svg",
+    src: "/musteri-logosu-6.svg",
 
-    alt: "Client 6",
+    alt: "Müşteri Logosu 6",
 
     width: 60,
 
@@ -108,9 +108,9 @@ export const CLIENT_LOGOS: LogoData[] = [
 
     id: 7,
 
-    src: "https://framerusercontent.com/images/WLPKtH14Ct7v2NfwWdkFssnvloU.svg",
+    src: "/musteri-logosu-7.svg",
 
-    alt: "Client 7",
+    alt: "Müşteri Logosu 7",
 
     width: 59,
 
@@ -122,9 +122,9 @@ export const CLIENT_LOGOS: LogoData[] = [
 
     id: 8,
 
-    src: "https://framerusercontent.com/images/qi7HDA6siEBSXPQeZwWVXJFgeXQ.svg",
+    src: "/musteri-logosu-8.svg",
 
-    alt: "Client 8",
+    alt: "Müşteri Logosu 8",
 
     width: 51,
 
@@ -136,9 +136,9 @@ export const CLIENT_LOGOS: LogoData[] = [
 
     id: 9,
 
-    src: "https://framerusercontent.com/images/VupYCtGJrCh5eRfyPUT8SDxXzpM.svg",
+    src: "/musteri-logosu-9.svg",
 
-    alt: "Client 9",
+    alt: "Müşteri Logosu 9",
 
     width: 40,
 
@@ -150,9 +150,9 @@ export const CLIENT_LOGOS: LogoData[] = [
 
     id: 10,
 
-    src: "https://framerusercontent.com/images/gyGelDBjFsPktRVTnY5XTtI94.svg",
+    src: "/musteri-logosu-10.svg",
 
-    alt: "Client 10",
+    alt: "Müşteri Logosu 10",
 
     width: 71,
 
@@ -164,9 +164,9 @@ export const CLIENT_LOGOS: LogoData[] = [
 
     id: 11,
 
-    src: "https://framerusercontent.com/images/wNHDTsV2Z2xrq4haVKSiXy2XE.svg",
+    src: "/musteri-logosu-11.svg",
 
-    alt: "Client 11",
+    alt: "Müşteri Logosu 11",
 
     width: 29,
 
@@ -398,7 +398,7 @@ export const STANDARDS: StandardItem[] = [
 
     id: 1,
 
-    iconSrc: "https://framerusercontent.com/images/rkWr4LxNKhYA7mIbUN436Q8264.svg?width=59&height=36",
+    iconSrc: "/ikon-sigortali-tasimacilik.svg",
 
     title: "Sigortalı Taşımacılık",
 
@@ -414,7 +414,7 @@ export const STANDARDS: StandardItem[] = [
 
     id: 2,
 
-    iconSrc: "https://framerusercontent.com/images/YojkX4pmmDTitKmvFG2xERdo.svg?width=51&height=40",
+    iconSrc: "/ikon-guvenli-ozenli-tasimacilik.svg",
 
     title: "Güvenli ve Özenli Taşımacılık",
 
@@ -430,7 +430,7 @@ export const STANDARDS: StandardItem[] = [
 
     id: 3,
 
-    iconSrc: "https://framerusercontent.com/images/eLNWAzqL6G7tJSxbylXqaxnc9VU.svg?width=37&height=41",
+    iconSrc: "/ikon-zamaninda-teslimat-garantisi.svg",
 
     title: "Zamanında Teslimat Garantisi",
 
@@ -574,7 +574,7 @@ export const FEATURES: FeatureItem[] = [
 
     description: 'Kaliteli süreçler ve zamanında teslimat garantisi.',
 
-    icon: 'https://framerusercontent.com/images/9evVzCTgnvOhSapzBMvHCFEFTqs.svg',
+    icon: '/ikon-guvenilir-hizmet.svg',
 
   },
 
@@ -586,7 +586,7 @@ export const FEATURES: FeatureItem[] = [
 
     description: 'Tutarlı teslimat için esneklik ve kontrol.',
 
-    icon: 'https://framerusercontent.com/images/nNxIxSslCuOx4gx4QYOH0qVUlEY.svg',
+    icon: '/ikon-genis-arac-filosu.svg',
 
   },
 
@@ -598,7 +598,7 @@ export const FEATURES: FeatureItem[] = [
 
     description: 'Türkiye genelinde kapsamlı hizmet ağı ile güvenilir taşımacılık.',
 
-    icon: 'https://framerusercontent.com/images/gaR0VwBnC0N4APFwe98Wh6FNzA.svg',
+    icon: '/ikon-turkiye-genelinde-hizmet.svg',
 
   },
 
@@ -610,7 +610,7 @@ export const FEATURES: FeatureItem[] = [
 
     description: 'Profesyonel takip, sipariş yönetimi ve müşteri desteği.',
 
-    icon: 'https://framerusercontent.com/images/ewowPWKy313pFX3YtxCqcFjFxg.svg',
+    icon: '/ikon-musteri-odakli-hizmet.svg',
 
   },
 
@@ -622,7 +622,7 @@ export const FEATURES: FeatureItem[] = [
 
     description: 'Gelişen iş ihtiyaçlarınız için modüler hizmet planları.',
 
-    icon: 'https://framerusercontent.com/images/xfwVeEi5Q4ThoeqAvKoLkDEGjM.svg',
+    icon: '/ikon-buyumeye-uygun.svg',
 
   },
 
