@@ -9,11 +9,11 @@ import { GoogleAnalytics } from '../components/GoogleAnalytics';
 export const metadata: Metadata = {
   metadataBase: new URL('https://www.gaziantepnakliyeci.com'),
   title: {
-    default: 'Yılmaz Nakliyat | Güvenilir Taşımacılık Hizmetleri | Gaziantep Tekstil Kenti',
-    template: '%s | Yılmaz Nakliyat'
+    default: 'Gaziantep Nakliyeci | Yılmaz Nakliyat - Güvenilir Taşımacılık Hizmetleri',
+    template: '%s | Gaziantep Nakliyeci - Yılmaz Nakliyat'
   },
-  description: 'Yılmaz Nakliyat olarak Gaziantep tekstil kentinde kumaş taşıma, elbise taşıma, yük taşıma, evden eve taşıma, çeyiz taşıma, canlı hayvan taşıma, tekstil ürünleri taşıma, demir kapı taşıma, inşaat malzemeleri taşıma ve ağır yük taşımacılığı hizmetleri sunuyoruz. Gaziantep\'in tüm ilçelerine (Başpınar dahil) yük götürme hizmeti veriyoruz. Yılmaz Arslan önderliğinde, 30+ araçlık filomuzla Türkiye genelinde profesyonel taşımacılık hizmeti veriyoruz. İletişim: 0545 717 5150 - 0543 391 9863',
-  keywords: 'yılmaz nakliyat, gaziantep nakliyat, gaziantep tekstil kent, kumaş taşıma gaziantep, elbise taşıma, yük taşıma gaziantep, evden eve taşıma gaziantep, çeyiz taşıma, canlı hayvan taşıma, tekstil taşıma, demir kapı taşıma, inşaat malzemeleri taşıma, başpınar yük götürme, ağır yük taşımacılığı, nakliyat firması gaziantep, taşımacılık gaziantep, lojistik gaziantep, demirci malzemeleri taşıma, müteahhit malzemeleri taşıma, yılmaz arslan, güvenilir nakliyat, gaziantep nakliye firmaları',
+  description: 'Gaziantep Nakliyeci - Yılmaz Nakliyat olarak Gaziantep tekstil kentinde kumaş taşıma, elbise taşıma, yük taşıma, evden eve taşıma, çeyiz taşıma, canlı hayvan taşıma, tekstil ürünleri taşıma, demir kapı taşıma, inşaat malzemeleri taşıma ve ağır yük taşımacılığı hizmetleri sunuyoruz. Gaziantep\'in tüm ilçelerine (Başpınar dahil) yük götürme hizmeti veriyoruz. Yılmaz Arslan önderliğinde, 30+ araçlık filomuzla Türkiye genelinde profesyonel taşımacılık hizmeti veriyoruz. İletişim: 0545 717 5150 - 0543 391 9863',
+  keywords: 'gaziantep nakliyeci, gaziantepnakliyeci, yılmaz nakliyat, gaziantep nakliyat, gaziantep tekstil kent, kumaş taşıma gaziantep, elbise taşıma, yük taşıma gaziantep, evden eve taşıma gaziantep, çeyiz taşıma, canlı hayvan taşıma, tekstil taşıma, demir kapı taşıma, inşaat malzemeleri taşıma, başpınar yük götürme, ağır yük taşımacılığı, nakliyat firması gaziantep, taşımacılık gaziantep, lojistik gaziantep, demirci malzemeleri taşıma, müteahhit malzemeleri taşıma, yılmaz arslan, güvenilir nakliyat, gaziantep nakliye firmaları',
   authors: [{ name: 'Yılmaz Nakliyat' }],
   creator: 'Yılmaz Nakliyat',
   publisher: 'Yılmaz Nakliyat',
@@ -38,8 +38,8 @@ export const metadata: Metadata = {
     locale: 'tr_TR',
     url: 'https://www.gaziantepnakliyeci.com',
     siteName: 'Yılmaz Nakliyat',
-    title: 'Yılmaz Nakliyat | Gaziantep Tekstil Kenti Güvenilir Taşımacılık',
-    description: 'Gaziantep tekstil kentinde kumaş taşıma, elbise taşıma, evden eve taşıma, çeyiz taşıma, demir kapı ve inşaat malzemeleri taşımacılığı. Başpınar ve tüm ilçelere hizmet. 0545 717 5150',
+    title: 'Gaziantep Nakliyeci | Yılmaz Nakliyat - Gaziantep Tekstil Kenti Güvenilir Taşımacılık',
+    description: 'Gaziantep Nakliyeci - Gaziantep tekstil kentinde kumaş taşıma, elbise taşıma, evden eve taşıma, çeyiz taşıma, demir kapı ve inşaat malzemeleri taşımacılığı. Başpınar ve tüm ilçelere hizmet. 0545 717 5150',
     images: [
       {
         url: '/yilmaz-nakliyat-yuk-tasima-araci.webp',
@@ -51,8 +51,8 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Yılmaz Nakliyat | Gaziantep Tekstil Kenti Güvenilir Taşımacılık',
-    description: 'Gaziantep tekstil kentinde kumaş taşıma, elbise taşıma, evden eve taşıma, çeyiz taşıma, demir kapı ve inşaat malzemeleri taşımacılığı.',
+    title: 'Gaziantep Nakliyeci | Yılmaz Nakliyat - Gaziantep Tekstil Kenti Güvenilir Taşımacılık',
+    description: 'Gaziantep Nakliyeci - Gaziantep tekstil kentinde kumaş taşıma, elbise taşıma, evden eve taşıma, çeyiz taşıma, demir kapı ve inşaat malzemeleri taşımacılığı.',
     images: ['/yilmaz-nakliyat-yuk-tasima-araci.webp'],
   },
   alternates: {
@@ -68,12 +68,13 @@ export default function RootLayout({
 }: Readonly<{
   children: React.ReactNode;
 }>) {
-  const localBusinessData = {
+  // MovingCompany Schema - Ana işletme bilgisi (Sitelinks için kritik)
+  const movingCompanyData = {
     '@context': 'https://schema.org',
-    '@type': 'LocalBusiness',
-    '@id': 'https://www.gaziantepnakliyeci.com/#localbusiness',
+    '@type': 'MovingCompany',
+    '@id': 'https://www.gaziantepnakliyeci.com/#movingcompany',
     name: 'Yılmaz Nakliyat',
-    alternateName: 'Yılmaz Nakliyat Gaziantep',
+    alternateName: 'Gaziantep Nakliyeci - Yılmaz Nakliyat Gaziantep',
     description:
       "Gaziantep tekstil kentinde kumaş taşıma, elbise taşıma, yük taşıma, evden eve ve çeyiz taşıma, canlı hayvan, demir kapı ve inşaat malzemeleri taşımacılığı hizmetleri sunar. Gaziantep'in tüm ilçelerine (Başpınar dahil) ve Türkiye geneline güvenilir nakliyat.",
     image: 'https://www.gaziantepnakliyeci.com/logo-yilmaz-nakliyat.png',
@@ -97,8 +98,7 @@ export default function RootLayout({
     ],
     areaServed: [
       { '@type': 'City', name: 'Gaziantep' },
-      { '@type': 'City', name: 'Başpınar' },
-      { '@type': 'Country', name: 'Türkiye' },
+      { '@type': 'Country', name: 'Turkey' },
     ],
     hasOfferCatalog: {
       '@type': 'OfferCatalog',
@@ -191,9 +191,10 @@ export default function RootLayout({
     '@type': 'Organization',
     '@id': 'https://www.gaziantepnakliyeci.com/#organization',
     name: 'Yılmaz Nakliyat',
+    alternateName: 'Gaziantep Nakliyeci',
     url: 'https://www.gaziantepnakliyeci.com',
     logo: 'https://www.gaziantepnakliyeci.com/logo-yilmaz-nakliyat.png',
-    description: 'Gaziantep tekstil kentinde güvenilir taşımacılık hizmetleri',
+    description: 'Gaziantep Nakliyeci - Gaziantep tekstil kentinde güvenilir taşımacılık hizmetleri',
     founder: {
       '@type': 'Person',
       name: 'Yılmaz Arslan',
@@ -234,9 +235,13 @@ export default function RootLayout({
     '@id': 'https://www.gaziantepnakliyeci.com/#website',
     url: 'https://www.gaziantepnakliyeci.com',
     name: 'Yılmaz Nakliyat',
-    description: 'Gaziantep tekstil kentinde profesyonel taşımacılık hizmetleri',
+    alternateName: 'Gaziantep Nakliyeci',
+    description: 'Gaziantep Nakliyeci - Gaziantep tekstil kentinde profesyonel taşımacılık hizmetleri',
     publisher: {
       '@id': 'https://www.gaziantepnakliyeci.com/#organization',
+    },
+    mainEntity: {
+      '@id': 'https://www.gaziantepnakliyeci.com/#movingcompany',
     },
     potentialAction: {
       '@type': 'SearchAction',
@@ -248,6 +253,63 @@ export default function RootLayout({
     },
   };
 
+  // SiteNavigationElement Schema - Google Sitelinks için KRİTİK
+  // Bu schema, Google'a sitenin ana navigasyon sayfalarını tanıtır
+  const siteNavigationData = {
+    '@context': 'https://schema.org',
+    '@type': 'SiteNavigationElement',
+    '@id': 'https://www.gaziantepnakliyeci.com/#sitenavigation',
+    name: 'Ana Navigasyon',
+    url: 'https://www.gaziantepnakliyeci.com',
+    hasPart: [
+      {
+        '@type': 'SiteNavigationElement',
+        name: 'Hakkımızda',
+        url: 'https://www.gaziantepnakliyeci.com/hakkimizda',
+        description: 'Yılmaz Nakliyat kurumsal kimliği ve tecrübesi.',
+      },
+      {
+        '@type': 'SiteNavigationElement',
+        name: 'Hizmetlerimiz',
+        url: 'https://www.gaziantepnakliyeci.com/hizmetler',
+        description: 'Evden eve, tekstil ve parça eşya taşıma hizmetleri.',
+      },
+      {
+        '@type': 'SiteNavigationElement',
+        name: 'Araç Filosu',
+        url: 'https://www.gaziantepnakliyeci.com/filo',
+        description: 'Geniş ve modern nakliye araç filomuz.',
+      },
+      {
+        '@type': 'SiteNavigationElement',
+        name: 'Sektörler',
+        url: 'https://www.gaziantepnakliyeci.com/sektorler',
+        description: 'Hizmet verdiğimiz taşımacılık sektörleri.',
+      },
+      {
+        '@type': 'SiteNavigationElement',
+        name: 'İletişim',
+        url: 'https://www.gaziantepnakliyeci.com/iletisim',
+        description: 'Bize ulaşın, fiyat teklifi alın.',
+      },
+    ],
+  };
+
+  // BreadcrumbList Schema - Sayfa hiyerarşisi için
+  const breadcrumbListData = {
+    '@context': 'https://schema.org',
+    '@type': 'BreadcrumbList',
+    '@id': 'https://www.gaziantepnakliyeci.com/#breadcrumb',
+    itemListElement: [
+      {
+        '@type': 'ListItem',
+        position: 1,
+        name: 'Ana Sayfa',
+        item: 'https://www.gaziantepnakliyeci.com',
+      },
+    ],
+  };
+
   return (
     <html lang="tr">
       <head>
@@ -256,20 +318,35 @@ export default function RootLayout({
         <meta name="geo.placename" content="Gaziantep" />
         <meta name="geo.position" content="37.0662;37.3833" />
         <meta name="ICBM" content="37.0662, 37.3833" />
+        {/* MovingCompany Schema - Ana işletme bilgisi */}
         <script
-          id="structured-data-localbusiness"
+          id="structured-data-movingcompany"
           type="application/ld+json"
-          dangerouslySetInnerHTML={{ __html: JSON.stringify(localBusinessData) }}
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(movingCompanyData) }}
         />
+        {/* Organization Schema - Kurumsal bilgi */}
         <script
           id="structured-data-organization"
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(organizationData) }}
         />
+        {/* WebSite Schema - Site bilgisi */}
         <script
           id="structured-data-website"
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(websiteData) }}
+        />
+        {/* SiteNavigationElement Schema - Google Sitelinks için KRİTİK */}
+        <script
+          id="structured-data-sitenavigation"
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(siteNavigationData) }}
+        />
+        {/* BreadcrumbList Schema - Sayfa hiyerarşisi */}
+        <script
+          id="structured-data-breadcrumb"
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbListData) }}
         />
       </head>
       <body>

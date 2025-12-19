@@ -36,7 +36,7 @@ export default function Hero() {
 
         <p className="text-lg md:text-xl text-white/90 font-normal">
 
-          Türkiye Genelinde Profesyonel Taşımacılık.
+          Gaziantep Nakliyeci - Türkiye Genelinde Profesyonel Taşımacılık.
 
         </p>
 
@@ -52,7 +52,7 @@ export default function Hero() {
 
         <p className="text-lg md:text-xl text-white/80 max-w-md leading-relaxed font-light">
 
-          Güvenilir taşımacılık. Profesyonel hizmet.<br />
+          Gaziantep Nakliyeci olarak güvenilir taşımacılık. Profesyonel hizmet.<br />
 
           Her türlü yük ve eşya taşımacılığı. Yılmaz Arslan önderliğinde, sizin için buradayız.
 

@@ -12,14 +12,15 @@ import TestimonialsSection from '../components/TestimonialsSection';
 import Footer from '../components/Footer';
 
 export const metadata: Metadata = {
-  title: 'Ana Sayfa',
-  description: 'Yılmaz Nakliyat - Gaziantep tekstil kentinde kumaş taşıma, elbise taşıma, evden eve taşıma, çeyiz taşıma, demir kapı taşıma, inşaat malzemeleri taşıma. Başpınar ve tüm ilçelere hizmet.',
+  title: 'Gaziantep Nakliyeci | Yılmaz Nakliyat - Güvenilir Taşımacılık Hizmetleri',
+  description: 'Gaziantep Nakliyeci - Yılmaz Nakliyat olarak Gaziantep tekstil kentinde kumaş taşıma, elbise taşıma, evden eve taşıma, çeyiz taşıma, demir kapı taşıma, inşaat malzemeleri taşıma. Başpınar ve tüm ilçelere hizmet. Gaziantep nakliyeci firması olarak profesyonel taşımacılık.',
+  keywords: 'gaziantep nakliyeci, gaziantepnakliyeci, gaziantep nakliyat, yılmaz nakliyat, gaziantep tekstil kent, kumaş taşıma gaziantep, elbise taşıma, yük taşıma gaziantep, evden eve taşıma gaziantep, çeyiz taşıma, demir kapı taşıma, inşaat malzemeleri taşıma, başpınar yük götürme, nakliyat firması gaziantep, taşımacılık gaziantep',
   alternates: {
     canonical: 'https://www.gaziantepnakliyeci.com',
   },
   openGraph: {
-    title: 'Yılmaz Nakliyat | Gaziantep Tekstil Kenti Taşımacılık',
-    description: 'Gaziantep tekstil kentinde profesyonel taşımacılık hizmetleri. Kumaş, elbise, ev eşyası, çeyiz, demir kapı ve inşaat malzemeleri taşıma.',
+    title: 'Gaziantep Nakliyeci | Yılmaz Nakliyat - Gaziantep Tekstil Kenti Taşımacılık',
+    description: 'Gaziantep Nakliyeci - Gaziantep tekstil kentinde profesyonel taşımacılık hizmetleri. Kumaş, elbise, ev eşyası, çeyiz, demir kapı ve inşaat malzemeleri taşıma. Gaziantep nakliyeci firması.',
     url: 'https://www.gaziantepnakliyeci.com',
     images: ['/yilmaz-nakliyat-yuk-tasima-araci.webp'],
   },
